@@ -22,14 +22,16 @@ export default function Page({
 
   return (
     <>
-      <div className="container rounded-xl border bg-gradient-to-t from-primary/30 to-50% py-12 md:px-8">
+      <div className="container-x rounded-xl border bg-gradient-to-t from-primary/30 to-50% py-12 ">
         <h1 className="mb-2 text-3xl font-bold">{page.data.title}</h1>
         <p className="mb-4 text-muted-foreground">{page.data.description}</p>
       </div>
-      <article className="container grid grid-cols-1 px-0 py-8 lg:grid-cols-[2fr_1fr] lg:px-4">
-        <div className="prose p-4">
+      <article className="container-x  grid grid-cols-1 px-0 py-8 lg:grid-cols-[2fr_1fr] lg:px-4">
+        <div className="prose prose-zinc p-4  dark:prose-invert">
           <InlineTOC items={page.data.exports.toc} />
-          <page.data.exports.default />
+          <div className="mt-10">
+            <page.data.exports.default />
+          </div>
         </div>
         <div className="flex flex-col gap-4 border-l p-4">
           <div>

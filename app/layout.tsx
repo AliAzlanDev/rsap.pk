@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/providers/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 import { ProgressBar } from "@/components/global/progress-bar";
 import { TooltipProvider } from "@radix-ui/react-tooltip";
+import { Header } from "@/components/global/header";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -34,6 +35,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <ProgressBar className="fixed top-0 h-1 z-40 dark:h-0.5 bg-primary">
+            <Header />
             {children}
             <Toaster />
           </ProgressBar>

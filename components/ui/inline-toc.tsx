@@ -32,7 +32,7 @@ export function InlineTOC({
             <a
               key={item.url}
               href={item.url}
-              className="border-l py-1.5 hover:text-accent-foreground"
+              className="py-1.5 hover:text-accent-foreground"
               style={{
                 paddingLeft: 12 * Math.max(item.depth - 1, 0),
               }}

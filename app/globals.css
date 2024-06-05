@@ -24,6 +24,7 @@
     --input: 220 13% 91%;
     --ring: 262.1 83.3% 57.8%;
     --radius: 0.5rem;
+    --rsap: 247.24 46.77% 24.31%;
   }
 
   .dark {
@@ -46,6 +47,7 @@
     --border: 215 27.9% 16.9%;
     --input: 215 27.9% 16.9%;
     --ring: 263.4 70% 50.4%;
+    --rsap: 210 20% 98%;
   }
 }
 
@@ -55,5 +57,13 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+  .container-x {
+    @apply px-4 sm:px-6 lg:px-8 w-full mx-auto max-w-[85rem];
+  }
+  @media (min-width: 1400px) {
+    .container-x {
+      max-width: 1400px;
+    }
   }
 }
