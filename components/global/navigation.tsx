@@ -12,10 +12,13 @@ import {
   GlobeIcon,
   InfoCircledIcon,
   PersonIcon,
+  QuestionMarkCircledIcon,
+  RocketIcon,
 } from "@radix-ui/react-icons";
 import { ProgressBarLink } from "./progress-bar";
 import MicroscopeIcon from "../icons/microscope";
 import GraduationCapIcon from "../icons/graduation-cap";
+import RSAPLogo from "../icons/logo";
 
 type IconMenu = {
   title: string;
@@ -68,22 +71,24 @@ const association: IconMenu[] = [
 
 export const membership: IconMenu[] = [
   {
-    title: "Benefits",
-    href: "/membership/about",
-    description: "Benefits of Membership",
-    icon: <InfoCircledIcon />,
-  },
-  {
-    title: "Eligibility",
-    href: "/membership/board-of-directors",
-    description: "Are you eligible for membership?",
-    icon: <PersonIcon />,
-  },
-  {
     title: "Join RSAP",
-    href: "/membership/bylaws",
+    href: "/join",
     description: "Become RSAP member today",
-    icon: <FileIcon />,
+    icon: (
+      <RSAPLogo className="size-4 fill-muted-foreground group-hover:fill-white" />
+    ),
+  },
+  {
+    title: "Benefits",
+    href: "/membership/benefits",
+    description: "Perks of RSAP membership",
+    icon: <RocketIcon />,
+  },
+  {
+    title: "FAQs",
+    href: "/membership/faqs",
+    description: "Are you eligible for membership?",
+    icon: <QuestionMarkCircledIcon />,
   },
 ];
 

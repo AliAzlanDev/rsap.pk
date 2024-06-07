@@ -43,7 +43,9 @@ export function Header() {
         </SheetContent>
       </Sheet>
       <div className="flex gap-2 items-center">
-        <Button text="Join RSAP" className="w-fit" />
+        <ProgressBarLink href={"/join"}>
+          <Button text="Join RSAP" className="w-fit" />
+        </ProgressBarLink>
         <ModeToggle />
       </div>
 
