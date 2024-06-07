@@ -1,6 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import MicroscopeIcon from "../icons/microscope";
+import { cn } from "@/utils/shadcn";
+import GraduationCapIcon from "../icons/graduation-cap";
+import { GlobeIcon } from "@radix-ui/react-icons";
 
 /* eslint-disable @next/next/no-img-element */
 export default function Committees() {
@@ -16,7 +20,7 @@ export default function Committees() {
         <div className="relative p-6 md:p-16">
           <div className="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
             <div className="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
-              <h2 className="text-2xl text-gray-800 font-bold sm:text-3xl dark:text-gray-200">
+              <h2 className="text-2xl text-foreground font-bold sm:text-3xl ">
                 The committees of RSAP
               </h2>
 
@@ -28,8 +32,9 @@ export default function Committees() {
                 <button
                   type="button"
                   className={cn(
-                    "text-start hover:bg-gray-200 p-4 md:p-5 rounded-xl",
-                    activeTab === 1 && "bg-white shadow-md hover:bg-white"
+                    "text-start hover:bg-accent p-4 md:p-5 rounded-xl",
+                    activeTab === 1 &&
+                      "bg-background shadow-md hover:bg-background"
                   )}
                   id="tabs-with-card-item-1"
                   data-hs-tab="#tabs-with-card-1"
@@ -38,12 +43,12 @@ export default function Committees() {
                   onClick={() => handleTabClick(1)}
                 >
                   <span className="flex">
-                    <IconMicroscope className="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 " />
+                    <MicroscopeIcon className="flex-shrink-0 mt-2 size-6 md:size-7 text-foreground" />
                     <span className="grow ms-6">
-                      <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                      <span className="block text-lg font-semibold text-foreground">
                         Research and Publications
                       </span>
-                      <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                      <span className="block mt-1 text-muted-foreground">
                         Facilitates research endeavours, and committed to the
                         publication of insightful research articles to
                         contribute to radiology.
@@ -55,8 +60,9 @@ export default function Committees() {
                 <button
                   type="button"
                   className={cn(
-                    "text-start hover:bg-gray-200 p-4 md:p-5 rounded-xl",
-                    activeTab === 2 && "bg-white shadow-md hover:bg-white"
+                    "text-start hover:bg-accent p-4 md:p-5 rounded-xl",
+                    activeTab === 2 &&
+                      "bg-background shadow-md hover:bg-background"
                   )}
                   id="tabs-with-card-item-2"
                   data-hs-tab="#tabs-with-card-2"
@@ -65,12 +71,12 @@ export default function Committees() {
                   onClick={() => handleTabClick(2)}
                 >
                   <span className="flex">
-                    <IconSchool className="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200" />
+                    <GraduationCapIcon className="flex-shrink-0 mt-2 size-6 md:size-7 text-foreground" />
                     <span className="grow ms-6">
-                      <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                      <span className="block text-lg font-semibold text-foreground">
                         Mentorship & Education
                       </span>
-                      <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                      <span className="block mt-1 text-muted-foreground">
                         Offers aspiring radiologists a unique one-on-one
                         opportunity to connect with seasoned professionals.
                       </span>
@@ -81,8 +87,9 @@ export default function Committees() {
                 <button
                   type="button"
                   className={cn(
-                    "text-start hover:bg-gray-200 p-4 md:p-5 rounded-xl",
-                    activeTab === 3 && "bg-white shadow-md hover:bg-white"
+                    "text-start hover:bg-accent p-4 md:p-5 rounded-xl",
+                    activeTab === 3 &&
+                      "bg-background shadow-md hover:bg-background"
                   )}
                   id="tabs-with-card-item-3"
                   data-hs-tab="#tabs-with-card-3"
@@ -91,12 +98,12 @@ export default function Committees() {
                   onClick={() => handleTabClick(3)}
                 >
                   <span className="flex">
-                    <IconUsersGroup className="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200" />
+                    <GlobeIcon className="flex-shrink-0 mt-2 size-6 md:size-7 text-foreground" />
                     <span className="grow ms-6">
-                      <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                      <span className="block text-lg font-semibold text-foreground">
                         Advocacy & Networking
                       </span>
-                      <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                      <span className="block mt-1 text-muted-foreground">
                         Fosters collaboration, ensuring radiology students have
                         a strong support system and opportunities.
                       </span>

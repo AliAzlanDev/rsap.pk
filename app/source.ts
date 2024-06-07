@@ -15,3 +15,9 @@ export const news = loader({
     },
   }),
 });
+
+export const bylaws = loader({
+  baseUrl: "/bylaws",
+  rootDir: "bylaws",
+  source: createMDXSource(map),
+});
