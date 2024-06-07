@@ -6,7 +6,7 @@ export const siteConfig = {
   name: "Radiological Students' Asscoation of Pakistan",
   shortName: "RSAP",
   url: "https://rsap.org.pk",
-  ogImage: "/og.jpg",
+  ogImage: "https://rsap.vercel.app/og.jpg",
   description: "Connecting radiological students and trainees nationwide!",
   links: {
     twitter: "https://twitter.com/radsapakistan",
