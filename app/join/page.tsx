@@ -4,7 +4,7 @@ export default function Join() {
   return (
     <div className="container-x py-20">
       <div className=" prose dark:prose-invert prose-zinc mx-auto">
-        <h1>Join RSAP</h1>
+        <h1 className=" !text-rsap">Join RSAP</h1>
         <h2>Benefits of Membership</h2>
         <ul>
           <li>
