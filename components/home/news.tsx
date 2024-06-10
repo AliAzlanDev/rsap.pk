@@ -15,8 +15,12 @@ export function News() {
       <div className=" mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {posts.map((p) => (
           <div className=" p-4 border " key={p.slugs[0]}>
-            <img src={p.data.banner} />
-            <p className="font-medium mt-5"> {p.data.title}</p>
+            <ProgressBarLink href={`/news/${p.slugs[0]}`}>
+              <img src={p.data.banner} className=" cursor-pointer" />
+            </ProgressBarLink>
+            <ProgressBarLink href={`/news/${p.slugs[0]}`}>
+              <p className="font-medium mt-5"> {p.data.title}</p>
+            </ProgressBarLink>
             <p className=" mt-2 mb-2 text-muted-foreground text-sm">
               {p.data.description}
             </p>
