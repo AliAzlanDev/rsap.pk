@@ -4,11 +4,11 @@ export default function BoardOfAdvisors() {
   return (
     <div className="py-20  container-x ">
       <div className="container-x py-10 ">
-        <h1 className="text-2xl font-semibold text-center lg:text-3xl">
+        <h1 className="text-3xl font-semibold text-center lg:text-4xl">
           Our Board of Advisors
         </h1>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8 xl:mt-16 md:grid-cols-3   ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8 xl:mt-16 lg:grid-cols-3   ">
           {boa.map((item, index) => (
             <div
               key={index}

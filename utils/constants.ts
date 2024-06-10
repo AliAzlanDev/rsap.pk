@@ -203,4 +203,58 @@ export const boa = [
       "Mid-Atlantic Permanente Group, Kaiser Permanente",
     ],
   },
+  {
+    name: "Dr. Faheem Ullah Khan, M.B.B.S., M.D.",
+    position: "Advisor",
+    image: "faheem.jpg",
+    affiliation: [
+      "Clinical Fellow, Cardiovascular Imaging",
+      "Cleveland Clinic",
+    ],
+  },
+  {
+    name: "Dr. Wali Badar, M.D.",
+    position: "Advisor",
+    image: "wali.jpg",
+    affiliation: [
+      "PGY-4 Integrated Interventional & Diagnostic Radiology",
+      "University of Illinois Chicago",
+    ],
+  },
+  {
+    name: "Dr. Aamir Ali, M.B.B.S., M.D.",
+    position: "Advisor",
+    image: "aamir.jpg",
+    affiliation: [
+      "PGY-3 Integrated Interventional Radiology",
+      "University of Texas Health Science Center at Houston",
+    ],
+  },
+  {
+    name: "Dr. Hammad Malik, M.B.B.S., M.D.",
+    position: "Advisor",
+    image: "hammad.jpg",
+    affiliation: [
+      "Interventional Radiology Resident",
+      "Dartmouth Hitchcock Medical Center, Lebanon, New Hampshire",
+    ],
+  },
+  {
+    name: "Dr. Ra'ana Kanwal, M.B.B.S.",
+    position: "Advisor",
+    image: "raana.jpg",
+    affiliation: [
+      "Consultant Radiologist",
+      "National Hospital and Medical Center, Lahore, Pakistan",
+    ],
+  },
+  {
+    name: "Dr. Khurram Khaliq Bhinder, M.B.B.S.",
+    position: "Advisor",
+    image: "khurram.jpg",
+    affiliation: [
+      "R3 Resident, Radiology Department",
+      "Shifa International Hospital",
+    ],
+  },
 ];
