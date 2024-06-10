@@ -7,7 +7,7 @@ export default function BoardOfDirectors() {
     <section>
       <div className="container-x py-10 ">
         <h1 className="text-2xl font-semibold text-center lg:text-3xl">
-          Our <span className="text-primary">Board of Directors</span>
+          Our Board of Directors
         </h1>
 
         <p className="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300">
@@ -32,23 +32,23 @@ export default function BoardOfDirectors() {
                   />
 
                   <div className="mt-4 sm:mx-4 sm:mt-0">
-                    <h2 className="text-xl font-semibold  capitalize md:text-2xl  group-hover:text-white">
+                    <h2 className="text-xl font-semibold  capitalize md:text-2xl  group-hover:!text-white">
                       {item.name}
-
-                      <a
-                        href={`mailto:${item.email}`}
-                        className=" inline-flex ml-3"
-                      >
-                        <EnvelopeOpenIcon />
-                      </a>
                     </h2>
 
                     <p className="mt-2 font-medium  text-muted-foreground group-hover:text-zinc-300">
                       {item.position}
                     </p>
-                    <p className="mt-1 text-sm  text-muted-foreground  group-hover:text-zinc-300">
+                    <p className="mt-1 mb-1 text-sm  text-muted-foreground  group-hover:text-zinc-300">
                       {item.description}
                     </p>
+
+                    <a
+                      className=" underline font-medium text-sm text-muted-foreground group-hover:text-zinc-300"
+                      href={`mailto:${item.email}`}
+                    >
+                      {item.email}
+                    </a>
                   </div>
                 </div>
               </div>

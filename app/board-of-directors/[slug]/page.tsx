@@ -13,7 +13,7 @@ export default function BoardOfDirector({
     notFound();
   }
   return (
-    <div className=" py-20 container-x flex flex-col-reverse md:flex-row gap-8 justify-between">
+    <div className=" py-20 container-x flex flex-col-reverse md:flex-row gap-8 justify-between items-center md:items-start">
       <div>
         <h1 className="text-3xl font-bold">{bodMember.name}</h1>
         <p className="mt-1 font-medium">{bodMember.position}</p>
@@ -21,7 +21,7 @@ export default function BoardOfDirector({
         <p className="mt-8 text-muted-foreground">{bodMember.bio}</p>
       </div>
       <img
-        className=" max-w-md rounded-xl shadow-lg"
+        className=" max-w-md rounded-xl shadow-lg flex-shrink-0 object-cover size-96 ring-4 ring-muted"
         src={bodMember.image}
         alt={bodMember.name}
       />

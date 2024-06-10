@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import { Suspense } from "react";
 
 export default function Join() {
@@ -21,28 +22,14 @@ export default function Join() {
           <li>Access to numerous other valuable opportunities</li>
         </ul>
         <h2>Membership Form</h2>
-        <p>
-          Fill out the following form to become member of RSAP. If the form does
-          not appear correctly,{" "}
-          <a
-            target="_blank"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfKtiCXOGflGEZF_S8szCwpJNDXzqAMeOQvhc5qLAtb6gBGqg/viewform"
-          >
-            click here
-          </a>{" "}
-          to open the form.
-        </p>
-      </div>
-      <Suspense fallback={<div>Loading…</div>}>
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfKtiCXOGflGEZF_S8szCwpJNDXzqAMeOQvhc5qLAtb6gBGqg/viewform?embedded=true"
-          width="640"
-          height="800"
-          className="mx-auto w-full"
+        <p>Fill out the following form to become member of RSAP.</p>
+        <a
+          target="_blank"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfKtiCXOGflGEZF_S8szCwpJNDXzqAMeOQvhc5qLAtb6gBGqg/viewform"
         >
-          Loading…
-        </iframe>
-      </Suspense>
+          <Button text="Membership Form" />
+        </a>
+      </div>
     </div>
   );
 }

@@ -1,9 +1,11 @@
+import { cn } from "@/utils/shadcn";
 import { EnvelopeClosedIcon } from "@radix-ui/react-icons";
 
 type Props = {
   title: string;
   description: string;
   image: string;
+  color: string;
   lead: {
     name: string;
     position: string;
@@ -14,10 +16,18 @@ type Props = {
 };
 
 export function CommitteePage(props: Props) {
-  const { title, description, image, lead } = props;
+  const { title, description, image, lead, color } = props;
   return (
     <div className="container-x py-20">
-      <h1 className="text-center text-4xl font-bold">{title}</h1>
+      <div
+        className={cn(
+          `text-center text-4xl font-bold`,
+
+          color !== "text-[#0e0021]" && color
+        )}
+      >
+        {title}
+      </div>
       <div className="flex gap-10  items-center md:items-start md:justify-between flex-col-reverse md:flex-row mt-10">
         <div>
           <p className="prose dark:prose-invert mx-auto">{description}</p>
@@ -35,8 +45,10 @@ export function CommitteePage(props: Props) {
           alt={lead.name}
         />
         <div className=" text-center sm:text-left">
-          <h2 className="font-bold text-2xl ">{lead.position}</h2>
-          <h3 className="font-semibold text-xl mt-5">{lead.name}</h3>
+          <div className={cn("font-bold text-2xl ", color)}>
+            {lead.position}
+          </div>
+          <h3 className="font-semibold text-xl mt-3">{lead.name}</h3>
           <p className="mt-1 mb-2 text-sm text-muted-foreground">
             {lead.affiliation}
           </p>

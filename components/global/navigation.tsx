@@ -92,6 +92,27 @@ export const membership: IconMenu[] = [
   },
 ];
 
+export const network: IconMenu[] = [
+  {
+    title: "Ambassador Program",
+    href: "/network/ambassador-program",
+    description: "Become an Ambassador for RSAP",
+    icon: <RocketIcon />,
+  },
+  {
+    title: "Benefits",
+    href: "/membership/benefits",
+    description: "Perks of RSAP Membership",
+    icon: <RocketIcon />,
+  },
+  {
+    title: "FAQs",
+    href: "/membership/faqs",
+    description: "Are you eligible for membership?",
+    icon: <QuestionMarkCircledIcon />,
+  },
+];
+
 export function Navigation() {
   return (
     <NavigationMenu>
