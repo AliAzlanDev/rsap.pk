@@ -38,12 +38,12 @@ export default function Page({
             <p className="font-medium">{page.data.author}</p>
           </div>
           <div>
-            <p className="mb-1 text-sm text-muted-foreground">At</p>
+            <p className="mb-1 text-sm text-muted-foreground">On</p>
             <p className="font-medium">
               {new Date(page.data.date ?? page.file.name).toDateString()}
             </p>
           </div>
-          <Control url={page.url} />
+          {/* <Control url={page.url} /> */}
         </div>
       </article>
     </>
