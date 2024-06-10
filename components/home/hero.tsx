@@ -1,6 +1,6 @@
 "use client";
 
-import { siteMetadata } from "@/utils/constants";
+import { siteConfig, siteMetadata } from "@/utils/constants";
 
 function Hero() {
   return (
@@ -9,7 +9,7 @@ function Hero() {
         <div className="flex justify-center">
           <a
             className="inline-flex items-center gap-x-2  border hover:border-foreground bg-background text-muted-foreground text-xs  p-2 px-3 rounded-full transition  "
-            href="#"
+            href="/about"
           >
             What we do?
             <span className="flex items-center gap-x-1">
@@ -35,7 +35,7 @@ function Hero() {
         </div>
         <div className="mt-5 max-w-3xl text-center mx-auto">
           <h1 className="block font-bold text-foreground text-4xl md:text-5xl lg:text-6xl ">
-            {siteMetadata.title}
+            {siteConfig.name}
           </h1>
         </div>
 

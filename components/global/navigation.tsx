@@ -52,19 +52,19 @@ const association: IconMenu[] = [
   {
     title: "About Us",
     href: "/about",
-    description: "More about RSAP",
+    description: "Learn more about RSAP",
     icon: <InfoCircledIcon />,
   },
   {
     title: "Board of Directors",
     href: "/board-of-directors",
-    description: "The leadership",
+    description: "RSAP Leadership",
     icon: <PersonIcon />,
   },
   {
-    title: "Bylaws",
+    title: "Constitutional Bylaws",
     href: "/bylaws",
-    description: "Read RSAP Bylaws",
+    description: "Read the RSAP Bylaws",
     icon: <FileIcon />,
   },
 ];
@@ -73,7 +73,7 @@ export const membership: IconMenu[] = [
   {
     title: "Join RSAP",
     href: "/join",
-    description: "Become RSAP member today",
+    description: "Become an RSAP Member today",
     icon: (
       <RSAPLogo className="size-4 fill-muted-foreground group-hover:fill-white" />
     ),
@@ -81,7 +81,7 @@ export const membership: IconMenu[] = [
   {
     title: "Benefits",
     href: "/membership/benefits",
-    description: "Perks of RSAP membership",
+    description: "Perks of RSAP Membership",
     icon: <RocketIcon />,
   },
   {
@@ -103,7 +103,7 @@ export function Navigation() {
           <NavigationMenuContent>
             <div className=" w-[300px]  p-3 bg-background">
               <h5 className=" text-sm py-2 px-3 font-normal text-muted-foreground">
-                Become RSAP Member
+                Become an RSAP Member
               </h5>
               <ul className="">
                 {membership.map((c) => (

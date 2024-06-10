@@ -3,7 +3,7 @@ export const siteMetadata = {
 };
 
 export const siteConfig = {
-  name: "Radiological Students' Asscoation of Pakistan",
+  name: "Radiological Students' Association of Pakistan",
   shortName: "RSAP",
   url: "https://rsap.org.pk",
   ogImage: "https://rsap.vercel.app/og.jpg",
@@ -30,7 +30,7 @@ export const committees = {
   mentorshipAndEducation: {
     title: "Mentorship and Education Committee",
     description:
-      "The RSAP Mentorship and Education Committee (MEC) is dedicated to fostering a more supportive environment for aspiring radiologists. The mentorship program offers aspiring radiologists a unique one-on-one opportunity to connect with seasoned professionals.. It's a chance for them to gain valuable insights and stand on the shoulders of field experts. Simultaneously, education wing plays a pivotal role in our mission by disseminating valuable educational content related to radiology. They design immersive, hands-on learning workshops that actively engage students. Through these workshops, medical students can gain a genuine understanding of what it means to be a radiologist, offering them a firsthand experience of the profession.",
+      "The RSAP Mentorship and Education Committee (MEC) is dedicated to fostering a more supportive environment for aspiring radiologists. The mentorship program offers aspiring radiologists a unique one-on-one opportunity to connect with seasoned professionals. It's a chance for them to gain valuable insights and stand on the shoulders of field experts. Simultaneously, education wing plays a pivotal role in our mission by disseminating valuable educational content related to radiology. They design immersive, hands-on learning workshops that actively engage students. Through these workshops, medical students can gain a genuine understanding of what it means to be a radiologist, offering them a firsthand experience of the profession.",
     image: "/image/mec-home.jpg",
     lead: {
       name: "Dr. Zohaa Faiz",

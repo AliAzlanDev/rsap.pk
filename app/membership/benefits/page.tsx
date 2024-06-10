@@ -1,3 +1,4 @@
+import { ProgressBarLink } from "@/components/global/progress-bar";
 import { Button } from "@/components/ui/button";
 
 export default function Benefits() {
@@ -17,7 +18,9 @@ export default function Benefits() {
         <li>Access to numerous other valuable opportunities</li>
       </ul>
       <h2>Membership Form</h2>
-      <Button text="Join RSAP" />
+      <ProgressBarLink href={`/join`}>
+        <Button text="Join RSAP" />
+      </ProgressBarLink>
     </div>
   );
 }
