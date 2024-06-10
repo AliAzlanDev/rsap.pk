@@ -22,9 +22,9 @@ export default function Footer() {
       <div className="max-w-2xl sm:mx-auto sm:text-center">
         <RSAPLogo className="fill-rsap size-10 mx-auto" />
         <p className="leading-relaxed mt-5 text-[15px]">
-          Radiological Students Association of Pakistan (RSAP) unites aspiring
-          radiological students and trainees, fostering collaborations to
-          provide opportunities and enhance radiology in Pakistan.
+          Radiological Students&apos; Association of Pakistan (RSAP) unites
+          aspiring radiological students and trainees, fostering collaborations
+          to provide opportunities and enhance radiology in Pakistan.
         </p>
       </div>
       <ul className="items-center justify-center mt-8 space-y-3 sm:flex sm:space-x-4 sm:space-y-0">

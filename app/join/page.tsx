@@ -26,6 +26,7 @@ export default function Join() {
         <a
           target="_blank"
           href="https://docs.google.com/forms/d/e/1FAIpQLSfKtiCXOGflGEZF_S8szCwpJNDXzqAMeOQvhc5qLAtb6gBGqg/viewform"
+          className=" not-prose"
         >
           <Button text="Membership Form" />
         </a>

@@ -18,7 +18,7 @@ export default function Benefits() {
         <li>Access to numerous other valuable opportunities</li>
       </ul>
       <h2>Membership Form</h2>
-      <ProgressBarLink href={`/join`}>
+      <ProgressBarLink href={`/join`} className=" not-prose">
         <Button text="Join RSAP" />
       </ProgressBarLink>
     </div>

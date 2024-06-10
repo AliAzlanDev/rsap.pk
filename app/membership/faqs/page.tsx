@@ -72,7 +72,6 @@ export default function Benefits() {
             Graduates/trainees pursuing a radiology pathway within Pakistan or
             abroad.
           </li>
-          <li>Individuals without a criminal record.</li>
         </ul>
       </div>
       <h3>What are the benefits of RSAP membership?</h3>
@@ -94,14 +93,6 @@ export default function Benefits() {
         Membership is approved by the Secretary-Treasurer and, in special cases,
         by the Board of Directors after ensuring the membership fee is paid and
         the form is filled out accurately.
-      </p>
-
-      <h3>Can RSAP membership be terminated?</h3>
-
-      <p>
-        Yes, membership may be terminated for misbehavior causing harm to the
-        Association, decided by a 2/3rd majority of the Board of Directors after
-        a thorough investigation.
       </p>
 
       <h4>For further inquiries, you can contact: </h4>
