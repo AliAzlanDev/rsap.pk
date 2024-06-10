@@ -1,6 +1,5 @@
 import { ProgressBarLink } from "@/components/global/progress-bar";
 import { bod } from "@/utils/constants";
-import { EnvelopeOpenIcon } from "@radix-ui/react-icons";
 
 export default function BoardOfDirectors() {
   return (
@@ -10,7 +9,7 @@ export default function BoardOfDirectors() {
           Our Board of Directors
         </h1>
 
-        <p className="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300">
+        <p className="max-w-2xl mx-auto my-6 text-center text-muted-foreground">
           The RSAP Board of Directors consists of 9 officials. The members of
           the board are responsible for the management of the Association.
         </p>

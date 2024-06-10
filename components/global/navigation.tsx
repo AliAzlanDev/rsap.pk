@@ -19,6 +19,7 @@ import { ProgressBarLink } from "./progress-bar";
 import MicroscopeIcon from "../icons/microscope";
 import GraduationCapIcon from "../icons/graduation-cap";
 import RSAPLogo from "../icons/logo";
+import UsersIcon from "../icons/users";
 
 type IconMenu = {
   title: string;
@@ -95,21 +96,15 @@ export const membership: IconMenu[] = [
 export const network: IconMenu[] = [
   {
     title: "Ambassador Program",
-    href: "/network/ambassador-program",
+    href: "/ambassador-program",
     description: "Become an Ambassador for RSAP",
     icon: <RocketIcon />,
   },
   {
-    title: "Benefits",
-    href: "/membership/benefits",
-    description: "Perks of RSAP Membership",
-    icon: <RocketIcon />,
-  },
-  {
-    title: "FAQs",
-    href: "/membership/faqs",
-    description: "Are you eligible for membership?",
-    icon: <QuestionMarkCircledIcon />,
+    title: "Radiology Interest Groups",
+    href: "/radiology-interest-groups",
+    description: "RSAP-affiliated Radiology Interest Groups (RIGs)",
+    icon: <UsersIcon />,
   },
 ];
 

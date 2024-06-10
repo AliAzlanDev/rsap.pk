@@ -142,3 +142,65 @@ export const bod = [
     bio: "Zohaa Faiz, a 2023 graduate of Aga Khan University, developed an interest in radiology unexpectedly after medical school. Despite her great clinical education, she found that radiology was often sidelined during  clinical years, leading to a delayed appreciation. Recognizing this gap in medical education, she is now driven to bridge this divide. By fostering mentorship and creating educational opportunities, she aims to cultivate a robust understanding of radiology among future medical students, ensuring they receive the guidance and knowledge she once lacked.",
   },
 ];
+
+export const boa = [
+  {
+    name: "Dr. Junaid Raja, M.D., MSPH, MS",
+    position: "Senior Advisor",
+    image: "junaid.jpg",
+    affiliation: [
+      "Assistant Program Director for Integrated Interventional Radiology Residency",
+      "Assistant Professor for Interventional Radiology",
+      "Unversity of Alabama at Birmingham",
+    ],
+  },
+  // {
+  //   name: "Dr. Haris Iqbal Sair, M.D.",
+  //   position: "Senior Advisor",
+  //   image: "haris.jpg",
+  //   affiliation: [
+  //     "Director of Neuroradiology",
+  //     "Associate Professor of Radiology & Radiological Science",
+  //     "Johns Hopkins Medicine",
+  //   ],
+  // },
+  {
+    name: "Dr. Muhammad Umair, M.B.B.S., M.D.",
+    position: "Senior Advisor",
+    image: "umair.jpg",
+    affiliation: [
+      "Assistant Professor of Radiology and Radiological Science",
+      "Johns Hopkins Medicine",
+    ],
+  },
+  {
+    name: "Dr. Umar Shafique Chaudhry, M.B.B.S., M.D.",
+    position: "Senior Advisor",
+    image: "umar.jpg",
+    affiliation: [
+      "Director of Neuroradiology Fellowship",
+      "Assistant Professor of Radiology",
+      "Unviersity of Texas Medical Branch",
+    ],
+  },
+  {
+    name: "Dr. Saima Muzahir, M.B.B.S., M.D., FCPS, FRCPE",
+    position: "Advisor",
+    image: "saima.jpg",
+    affiliation: [
+      "Assistant Professor for Radiology",
+      "Enterprise Theranostics Lead of the Division of Nuclear Medicine & Molecular Imaging",
+      "Associate Program Director for Molecular Imaging & Therapy (MIT) Fellowship",
+      "Emory University Hospital & School of Medicine",
+    ],
+  },
+  {
+    name: "Dr. Mohammed Faisal Loya, M.D.",
+    position: "Advisor",
+    image: "faisal.jpg",
+    affiliation: [
+      "Vascular & Interventional Radiologist",
+      "Mid-Atlantic Permanente Group, Kaiser Permanente",
+    ],
+  },
+];
