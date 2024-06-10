@@ -11,8 +11,8 @@ export default function BoardOfDirectors() {
         </h1>
 
         <p className="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300">
-          The Board of Directors of RSAP has 9 positions. The boards members are
-          responsible for the management of the association.
+          The RSAP Board of Directors consists of 9 officials. The members of
+          the board are responsible for the management of the Association.
         </p>
 
         <img src="https://scontent.flhe41-1.fna.fbcdn.net/v/t39.30808-6/444975993_348204351624676_4178348965915902093_n.jpg?stp=dst-webp_e15_q70_s2410x1700_tt1_u&efg=eyJ1cmxnZW4iOiJ1cmxnZW5fZnJvbV91cmwifQ&_nc_eui2=AeE1mADHEydc_ZHvxH2mlUdg7OlSNY8TJBHs6VI1jxMkEW-0_x3UwBc5f8zU0qDA1HQ05INow48ZB-Rg4aHxkWx6&_nc_cid=0&_nc_ad=z-m&_nc_rml=0&_nc_ht=scontent.flhe41-1.fna&_nc_cat=106&_nc_ohc=Q3zkt09itwoQ7kNvgHlwV_A&ccb=1-7&_nc_sid=5f2048&oh=00_AYDEhfMLWpXASmos-mxzuSx--769hAs7Ohmm9_ub7kiOuw&oe=6668CDBD" />
@@ -43,10 +43,10 @@ export default function BoardOfDirectors() {
                       </a>
                     </h2>
 
-                    <p className="mt-2 font-medium  text-muted-foreground capitalize group-hover:text-zinc-300">
+                    <p className="mt-2 font-medium  text-muted-foreground group-hover:text-zinc-300">
                       {item.position}
                     </p>
-                    <p className="mt-1 text-sm  text-muted-foreground capitalize group-hover:text-zinc-300">
+                    <p className="mt-1 text-sm  text-muted-foreground  group-hover:text-zinc-300">
                       {item.description}
                     </p>
                   </div>
