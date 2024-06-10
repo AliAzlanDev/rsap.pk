@@ -21,7 +21,7 @@ export default function Committees() {
           <div className="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
             <div className="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
               <h2 className="text-2xl text-foreground font-bold sm:text-3xl ">
-                The committees of RSAP
+                RSAP Working Committees
               </h2>
 
               <nav
