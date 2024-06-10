@@ -11,6 +11,7 @@ export const news = loader({
       frontmatter: defaultSchemas.frontmatter.extend({
         author: z.string(),
         date: z.string().date().or(z.date()).optional(),
+        banner: z.string().optional(),
       }),
     },
   }),
