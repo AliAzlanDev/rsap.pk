@@ -32,7 +32,7 @@ export default function Benefits() {
           </li>
           <li>
             Take a screenshot of the payment receipt and rename it as your full
-            name followed by your institute's abbreviation (e.g., Armeen
+            name followed by your institute&apos;s abbreviation (e.g., Armeen
             Masood_SMDC).
           </li>
           <li>
