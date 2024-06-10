@@ -22,13 +22,13 @@ export default function Join() {
           <li>Access to numerous other valuable opportunities</li>
         </ul>
         <h2>Membership Form</h2>
-        <p>Fill out the following form to become member of RSAP.</p>
+        <p>Fill out the following form to join RSAP today!</p>
         <a
           target="_blank"
           href="https://docs.google.com/forms/d/e/1FAIpQLSfKtiCXOGflGEZF_S8szCwpJNDXzqAMeOQvhc5qLAtb6gBGqg/viewform"
           className=" not-prose"
         >
-          <Button text="Membership Form" />
+          <Button text="Join RSAP" />
         </a>
       </div>
     </div>
