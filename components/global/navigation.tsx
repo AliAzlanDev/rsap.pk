@@ -20,6 +20,7 @@ import MicroscopeIcon from "../icons/microscope";
 import GraduationCapIcon from "../icons/graduation-cap";
 import RSAPLogo from "../icons/logo";
 import UsersIcon from "../icons/users";
+import UserScreenIcon from "../icons/user-screen";
 
 type IconMenu = {
   title: string;
@@ -60,7 +61,13 @@ const association: IconMenu[] = [
     title: "Board of Directors",
     href: "/board-of-directors",
     description: "RSAP Leadership",
-    icon: <PersonIcon />,
+    icon: <UsersIcon className="size-3.5" />,
+  },
+  {
+    title: "Board of Advisors",
+    href: "/board-of-advisors",
+    description: "RSAP Advisors",
+    icon: <UserScreenIcon className="size-3.5" />,
   },
   {
     title: "Constitutional Bylaws",
