@@ -67,7 +67,6 @@ export default async function EducationDrOmerAwan() {
             />
             <div className="prose dark:prose-invert prose-zinc max-w-full">
               <p>
-                {" "}
                 Dr. Awan currently serves as a Professor in Diagnostic Radiology
                 and Nuclear Medicine at the University of Maryland School of
                 Medicine. In addition to his professorship, he holds key
