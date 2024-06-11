@@ -3,6 +3,7 @@ import InstagramIcon from "../icons/instagram";
 import LinkedInIcon from "../icons/linkedin";
 import RSAPLogo from "../icons/logo";
 import XIcon from "../icons/x";
+import YoutubeIcon from "../icons/youtube";
 
 export default function Footer() {
   const footerNavs = [
@@ -69,11 +70,16 @@ export default function Footer() {
                 <FacebookIcon className="size-8" />
               </a>
             </li>
+            <li>
+              <a href="https://www.youtube.com/@radsapakistan" target="_blank">
+                <YoutubeIcon className="size-8" />
+              </a>
+            </li>
           </ul>
         </div>
         <div className="mt-4 md:mt-0 text-sm">
-          &copy; 2024 Radiological Students&apos; Association of the Pakistan.
-          All rights reserved. Developed by Ali Azlan.
+          &copy; 2024 Radiological Students&apos; Association of Pakistan. All
+          rights reserved. Developed by Ali Azlan.
         </div>
       </div>
     </footer>
