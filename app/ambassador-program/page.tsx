@@ -1,5 +1,9 @@
 import { Button } from "@/components/ui/button";
 
+export const metadata = {
+  title: "Become an RSAP Ambassador",
+};
+
 export default function AmbassadorProgram() {
   return (
     <div className="py-20  container-x prose dark:prose-invert prose-zinc">
@@ -58,6 +62,41 @@ export default function AmbassadorProgram() {
       >
         <Button text="Apply Now" />
       </a>
+      <h2>RSAP Ambassadors</h2>
+      <div className=" not-prose">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {ambassadors.map((ambassador) => (
+            <div key={ambassador.name} className="p-4 rounded-lg border">
+              <img
+                src={`/images/ambassadors/${ambassador.image}`}
+                alt={ambassador.name}
+              />
+              <p className="mt-3 font-bold text-lg">{ambassador.name}</p>
+              <p className=" mt-1 font-medium text-sm">
+                {ambassador.affiliation}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
+
+const ambassadors = [
+  {
+    name: "Farooq Ahmad",
+    affiliation: "Allama Iqbal Medical College",
+    image: "farooq.jpg",
+  },
+  {
+    name: "Ibrahim Tahir",
+    affiliation: "Lahore Medical and Dental College",
+    image: "ibrahim.jpg",
+  },
+  {
+    name: "Rubab Zahra",
+    affiliation: "Allama Iqbal Medical College",
+    image: "rubab.jpg",
+  },
+];

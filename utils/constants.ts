@@ -148,6 +148,7 @@ export const boa = [
     name: "Dr. Junaid Raja, M.D., MSPH, MS",
     position: "Senior Advisor",
     image: "junaid.jpg",
+    slug: "dr-junaid-raja",
     affiliation: [
       "Assistant Program Director for Integrated Interventional Radiology Residency",
       "Assistant Professor for Interventional Radiology",
@@ -168,6 +169,7 @@ export const boa = [
     name: "Dr. Muhammad Umair, M.B.B.S., M.D.",
     position: "Senior Advisor",
     image: "umair.jpg",
+    slug: "dr-muhammad-umair",
     affiliation: [
       "Assistant Professor of Radiology and Radiological Science",
       "Johns Hopkins Medicine",
@@ -177,6 +179,7 @@ export const boa = [
     name: "Dr. Umar Shafique Chaudhry, M.B.B.S., M.D.",
     position: "Senior Advisor",
     image: "umar.jpg",
+    slug: "dr-umar-shafique-chaudhry",
     affiliation: [
       "Director of Neuroradiology Fellowship",
       "Assistant Professor of Radiology",
@@ -187,6 +190,7 @@ export const boa = [
     name: "Dr. Saima Muzahir, M.B.B.S., M.D., FCPS, FRCPE",
     position: "Advisor",
     image: "saima.jpg",
+    slug: "dr-saima-muzahir",
     affiliation: [
       "Assistant Professor for Radiology",
       "Enterprise Theranostics Lead of the Division of Nuclear Medicine & Molecular Imaging",
@@ -198,6 +202,7 @@ export const boa = [
     name: "Dr. Mohammed Faisal Loya, M.D.",
     position: "Advisor",
     image: "faisal.jpg",
+    slug: "dr-mohammed-faisal-loya",
     affiliation: [
       "Vascular & Interventional Radiologist",
       "Mid-Atlantic Permanente Group, Kaiser Permanente",
@@ -207,6 +212,7 @@ export const boa = [
     name: "Dr. Faheem Ullah Khan, M.B.B.S., M.D.",
     position: "Advisor",
     image: "faheem.jpg",
+    slug: "dr-faheem-ullah-khan",
     affiliation: [
       "Clinical Fellow, Cardiovascular Imaging",
       "Cleveland Clinic",
@@ -216,6 +222,7 @@ export const boa = [
     name: "Dr. Wali Badar, M.D.",
     position: "Advisor",
     image: "wali.jpg",
+    slug: "dr-wali-badar",
     affiliation: [
       "PGY-4 Integrated Interventional & Diagnostic Radiology",
       "University of Illinois Chicago",
@@ -225,6 +232,7 @@ export const boa = [
     name: "Dr. Aamir Ali, M.B.B.S., M.D.",
     position: "Advisor",
     image: "aamir.jpg",
+    slug: "dr-aamir-ali",
     affiliation: [
       "PGY-3 Integrated Interventional Radiology",
       "University of Texas Health Science Center at Houston",
@@ -234,6 +242,7 @@ export const boa = [
     name: "Dr. Hammad Malik, M.B.B.S., M.D.",
     position: "Advisor",
     image: "hammad.jpg",
+    slug: "dr-hammad-malik",
     affiliation: [
       "Interventional Radiology Resident",
       "Dartmouth Hitchcock Medical Center, Lebanon, New Hampshire",
@@ -243,6 +252,7 @@ export const boa = [
     name: "Dr. Ra'ana Kanwal, M.B.B.S.",
     position: "Advisor",
     image: "raana.jpg",
+    slug: "dr-raana-kanwal",
     affiliation: [
       "Consultant Radiologist",
       "National Hospital and Medical Center, Lahore, Pakistan",
@@ -252,6 +262,7 @@ export const boa = [
     name: "Dr. Khurram Khaliq Bhinder, M.B.B.S.",
     position: "Advisor",
     image: "khurram.jpg",
+    slug: "dr-khurram-khaliq-bhinder",
     affiliation: [
       "R3 Resident, Radiology Department",
       "Shifa International Hospital",

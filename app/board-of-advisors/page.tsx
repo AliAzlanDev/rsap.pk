@@ -1,4 +1,9 @@
+import { ProgressBarLink } from "@/components/global/progress-bar";
 import { boa, bod } from "@/utils/constants";
+
+export const metadata = {
+  title: "Board of Advisors",
+};
 
 export default function BoardOfAdvisors() {
   return (
@@ -8,38 +13,41 @@ export default function BoardOfAdvisors() {
           Our Board of Advisors
         </h1>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8 xl:mt-16 lg:grid-cols-3   ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8 xl:mt-16 lg:grid-cols-4   ">
           {boa.map((item, index) => (
-            <div
+            <ProgressBarLink
+              href={`/board-of-advisors/${item.slug}`}
               key={index}
               className="transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-primary dark:hover:border-transparent"
             >
-              <div className="flex flex-col ">
-                <img
-                  className="flex-shrink-0 object-cover  rounded-t-xl "
-                  src={`/images/boa/${item.image}`}
-                  alt=""
-                />
+              <div>
+                <div className="flex flex-col ">
+                  <img
+                    className="flex-shrink-0 object-cover  rounded-t-xl "
+                    src={`/images/boa/${item.image}`}
+                    alt=""
+                  />
 
-                <div className="mt-4 sm:mt-0 p-4 sm:p-6">
-                  <h2 className="text-xl font-semibold  capitalize md:text-2xl  group-hover:!text-white">
-                    {item.name}
-                  </h2>
+                  <div className="mt-4 sm:mt-0 p-4 sm:p-6">
+                    <h2 className="text-xl font-semibold  capitalize md:text-2xl  group-hover:!text-white">
+                      {item.name}
+                    </h2>
 
-                  <p className="mt-2 font-medium  group-hover:text-zinc-300">
-                    {item.position}
-                  </p>
-                  <p className="mt-1  text-sm flex flex-col gap-1  text-muted-foreground  group-hover:text-zinc-300">
-                    {item.affiliation.map((item, index) => (
-                      <span key={index}>
-                        {item}
-                        <br />
-                      </span>
-                    ))}
-                  </p>
+                    <p className="mt-2 font-medium  group-hover:text-zinc-300">
+                      {item.position}
+                    </p>
+                    <p className="mt-1  text-sm flex flex-col gap-1  text-muted-foreground  group-hover:text-zinc-300">
+                      {item.affiliation.map((item, index) => (
+                        <span key={index}>
+                          {item}
+                          <br />
+                        </span>
+                      ))}
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </ProgressBarLink>
           ))}
         </div>
       </div>

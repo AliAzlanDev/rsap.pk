@@ -1,6 +1,10 @@
 import { ProgressBarLink } from "@/components/global/progress-bar";
 import { bod } from "@/utils/constants";
 
+export const metadata = {
+  title: "Board of Directors",
+};
+
 export default function BoardOfDirectors() {
   return (
     <section>
