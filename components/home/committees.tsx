@@ -139,6 +139,7 @@ export default function Committees() {
                       className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
                       src="/image/mec-home.jpg"
                       alt="MEC"
+                      loading="lazy"
                     />
                   </div>
 
@@ -152,6 +153,7 @@ export default function Committees() {
                       className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
                       src="/image/anc-home.jpg"
                       alt="Image Description"
+                      loading="lazy"
                     />
                   </div>
                 </div>
