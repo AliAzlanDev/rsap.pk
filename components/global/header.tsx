@@ -22,26 +22,7 @@ export function Header() {
         <Navigation />
       </nav>
 
-      <Sheet>
-        <SheetTrigger asChild>
-          <button className="shrink-0 md:hidden">
-            <HamburgerMenuIcon className="h-5 w-5" />
-            <span className="sr-only">Toggle navigation menu</span>
-          </button>
-        </SheetTrigger>
-        <SheetContent side="left" className=" overflow-y-auto">
-          <nav className="grid gap-6 text-lg font-medium">
-            <ProgressBarLink
-              href="/"
-              className="flex items-center gap-2 text-lg font-semibold"
-            >
-              <RSAPLogo className="size-8 fill-rsap" />
-              <span className="sr-only">{siteMetadata.title}</span>
-            </ProgressBarLink>
-            <MobileNavigation />
-          </nav>
-        </SheetContent>
-      </Sheet>
+      <MobileNavigation />
       <div className="flex gap-2 items-center">
         <ProgressBarLink href={"/join"}>
           <Button text="Join RSAP" className="w-fit" />

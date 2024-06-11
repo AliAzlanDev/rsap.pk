@@ -49,9 +49,9 @@ export default function Committees() {
                         Research and Publications
                       </span>
                       <span className="block mt-1 text-muted-foreground">
-                        Facilitates research endeavours, and committed to the
-                        publication of insightful research articles to
-                        contribute to radiology.
+                        Facilitates aspiring radiology researchers by providing
+                        robust publishing and learning opportunities, fostering
+                        innovativon.
                       </span>
                     </span>
                   </span>

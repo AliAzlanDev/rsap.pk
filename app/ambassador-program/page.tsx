@@ -7,9 +7,11 @@ export const metadata = {
 export default function AmbassadorProgram() {
   return (
     <div className="py-20 mx-auto  prose dark:prose-invert prose-zinc max-w-full ">
-      <h1 className=" text-center container-x ">Our Ambassadors</h1>
+      <h1 className=" container-x not-prose text-3xl font-semibold text-center lg:text-4xl ">
+        Our Ambassadors
+      </h1>
 
-      <div className="grid container-x  not-prose w-full grid-cols-1 mx-auto sm:grid-cols-2  lg:grid-cols-4 gap-4">
+      <div className=" mt-10 grid container-x  not-prose w-full grid-cols-1 mx-auto sm:grid-cols-2  lg:grid-cols-4 gap-4">
         {ambassadors.map((ambassador) => (
           <div key={ambassador.name} className="p-4 rounded-lg border">
             <img
@@ -17,7 +19,7 @@ export default function AmbassadorProgram() {
               alt={ambassador.name}
               className=" aspect-square rounded-lg"
             />
-            <h3 className="mt-3 font-bold text-lg">{ambassador.name}</h3>
+            <h3 className="mt-2 font-bold text-lg">{ambassador.name}</h3>
             <p className=" mt-1 font-medium text-sm">
               {ambassador.affiliation}
             </p>

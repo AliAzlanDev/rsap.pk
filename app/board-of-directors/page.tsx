@@ -9,7 +9,7 @@ export default function BoardOfDirectors() {
   return (
     <section>
       <div className="container-x py-10 ">
-        <h1 className="text-2xl font-semibold text-center lg:text-3xl">
+        <h1 className=" text-3xl font-semibold text-center lg:text-4xl">
           Our Board of Directors
         </h1>
 

@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function BoardOfAdvisors() {
   return (
-    <div className="py-20  container-x ">
+    <div className="py-10  container-x ">
       <div className="container-x py-10 ">
         <h1 className="text-3xl font-semibold text-center lg:text-4xl">
           Our Board of Advisors
