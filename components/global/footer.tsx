@@ -1,4 +1,8 @@
+import FacebookIcon from "../icons/facebook";
+import InstagramIcon from "../icons/instagram";
+import LinkedInIcon from "../icons/linkedin";
 import RSAPLogo from "../icons/logo";
+import XIcon from "../icons/x";
 
 export default function Footer() {
   const footerNavs = [
@@ -39,13 +43,37 @@ export default function Footer() {
           </li>
         ))}
       </ul>
-      <div className="mt-8 items-center justify-between sm:flex">
-        <div className="mt-4 sm:mt-0 text-sm">
+      <div className="mt-8 items-center justify-between md:flex md:flex-row-reverse gap-5">
+        <div className="mt-6 md:mt-0">
+          <ul className="flex items-center space-x-4">
+            <li>
+              <a href="https://www.instagram.com/radsapakistan" target="_blank">
+                <InstagramIcon className="size-8" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.x.com/radsapakistan" target="_blank">
+                <XIcon className="size-7 fill-foreground" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/company/radsapakistan"
+                target="_blank"
+              >
+                <LinkedInIcon className="size-7 " />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/radsapakistan" target="_blank">
+                <FacebookIcon className="size-8" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="mt-4 md:mt-0 text-sm">
           &copy; 2024 Radiological Students&apos; Association of the Pakistan.
           All rights reserved. Developed by Ali Azlan.
-        </div>
-        <div className="mt-6 sm:mt-0">
-          <ul className="flex items-center space-x-4">Social Media Icosn</ul>
         </div>
       </div>
     </footer>

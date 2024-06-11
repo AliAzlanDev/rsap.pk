@@ -211,7 +211,7 @@ export function MobileNavigation() {
       <div>
         <h4 className=" text-lg   font-medium">Membership</h4>
         <h5 className=" text-sm py-1  font-normal text-muted-foreground">
-          Become RSAP Member
+          Become an RSAP Member
         </h5>
         <ul>
           {membership.map((c) => (
