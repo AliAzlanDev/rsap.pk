@@ -4,8 +4,6 @@ export default function Contact() {
       <h1>Contact Us</h1>
       <p>
         We are here to assist you with any inquiries or support you may need.
-        Please feel free to reach out to the appropriate department or
-        individual based on your requirements.
       </p>
 
       <p>

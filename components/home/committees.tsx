@@ -77,8 +77,9 @@ export default function Committees() {
                         Mentorship & Education
                       </span>
                       <span className="block mt-1 text-muted-foreground">
-                        Offers aspiring radiologists a unique one-on-one
-                        opportunity to connect with seasoned professionals.
+                        Empowers radiology students with expert mentorship,
+                        innovative resources, and professional growth
+                        opportunities.
                       </span>
                     </span>
                   </span>
@@ -104,8 +105,9 @@ export default function Committees() {
                         Advocacy & Networking
                       </span>
                       <span className="block mt-1 text-muted-foreground">
-                        Fosters collaboration, ensuring radiology students have
-                        a strong support system and opportunities.
+                        Connects with organizations, radiology interest groups,
+                        and advocacy initiatives, establishing a hub for
+                        opportunities.
                       </span>
                     </span>
                   </span>

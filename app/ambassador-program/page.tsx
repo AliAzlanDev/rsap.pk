@@ -7,7 +7,7 @@ export const metadata = {
 export default function AmbassadorProgram() {
   return (
     <div className="py-20 mx-auto  prose dark:prose-invert prose-zinc max-w-full ">
-      <h1 className=" text-center container-x ">RSAP Ambassador Program</h1>
+      <h1 className=" text-center container-x ">Our Ambassadors</h1>
 
       <div className="grid container-x  not-prose w-full grid-cols-1 mx-auto sm:grid-cols-2  lg:grid-cols-4 gap-4">
         {ambassadors.map((ambassador) => (
@@ -26,6 +26,7 @@ export default function AmbassadorProgram() {
       </div>
 
       <div className=" max-w-[65ch] pt-20 mx-auto">
+        <h2>RSAP Ambassador Program</h2>
         <p>
           In your role as the official RSAP Ambassador for your institute, you
           are entrusted with the responsibility of representing and championing
@@ -102,7 +103,7 @@ const ambassadors = [
     image: "rubab.jpg",
   },
   {
-    name: "Shahroze ",
+    name: "Shahroze Ahmed",
     affiliation: "college name",
     image: "shahroze.jpg",
   },

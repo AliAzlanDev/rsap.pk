@@ -29,7 +29,7 @@ export default function BoardOfAdvisors() {
                   />
 
                   <div className="mt-4 sm:mt-0 p-4 sm:p-6">
-                    <h2 className="text-xl font-semibold  capitalize md:text-2xl  group-hover:!text-white">
+                    <h2 className="text-lg font-semibold  capitalize md:text-xl  group-hover:!text-white">
                       {item.name}
                     </h2>
 
