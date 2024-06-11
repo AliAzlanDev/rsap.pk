@@ -103,13 +103,13 @@ export default async function EducationDrOmerAwan() {
                 className="p-3 hover:bg-muted rounded-xl"
                 target="_blank"
               >
-                <div className="flex items-center gap-4">
-                  <div className="font-medium text-muted-foreground">
+                <div className="flex flex-col sm:flex-row items-center gap-4">
+                  <div className="font-medium text-muted-foreground hidden sm:block">
                     {index + 1}
                   </div>
                   <img
                     src={item.snippet.thumbnails.medium.url}
-                    className=" max-w-44 h-auto flex-shrink-0 rounded-lg"
+                    className=" sm:max-w-44 h-auto flex-shrink-0 rounded-lg"
                   />
                   <p className="font-semibold">{item.snippet.title}</p>
                 </div>
@@ -142,13 +142,13 @@ export default async function EducationDrOmerAwan() {
                 className="p-3 hover:bg-muted rounded-xl"
                 target="_blank"
               >
-                <div className="flex items-center gap-4">
-                  <div className="font-medium text-muted-foreground">
+                <div className="flex flex-col sm:flex-row items-center gap-4">
+                  <div className="font-medium text-muted-foreground hidden sm:block">
                     {index + 1}
                   </div>
                   <img
                     src={item.snippet.thumbnails.medium.url}
-                    className=" max-w-44 h-auto flex-shrink-0 rounded-lg"
+                    className=" sm:max-w-44 h-auto flex-shrink-0 rounded-lg"
                   />
                   <p className="font-semibold">{item.snippet.title}</p>
                 </div>
