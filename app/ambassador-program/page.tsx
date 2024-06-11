@@ -27,7 +27,7 @@ export default function AmbassadorProgram() {
         ))}
       </div>
 
-      <div className=" max-w-[65ch] pt-20 mx-auto">
+      <div className=" container-x max-w-[65ch] pt-20 mx-auto">
         <h2>RSAP Ambassador Program</h2>
         <p>
           In your role as the official RSAP Ambassador for your institute, you

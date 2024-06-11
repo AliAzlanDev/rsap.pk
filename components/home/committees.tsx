@@ -49,9 +49,9 @@ export default function Committees() {
                         Research and Publications
                       </span>
                       <span className="block mt-1 text-muted-foreground">
-                        Facilitates aspiring radiology researchers by providing
-                        robust publishing and learning opportunities, fostering
-                        innovativon.
+                        Facilitates aspiring radiology researchers through
+                        projects and learning opportunities, fostering
+                        innovative contributions to the field.
                       </span>
                     </span>
                   </span>

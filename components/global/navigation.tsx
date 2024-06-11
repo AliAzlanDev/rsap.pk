@@ -295,20 +295,22 @@ export function MobileNavigation() {
               </ul>
             </div>
             <div>
-              <h4 className=" text-lg   font-medium">Updates</h4>
+              <h4 className=" text-lg   font-medium">Association</h4>
               <h5 className=" text-sm py-1  font-normal text-muted-foreground">
-                Latest updates from RSAP
+                About RSAP
               </h5>
               <ul>
-                <li>
-                  <IconMenu
-                    title="News"
-                    href="/news"
-                    icon={<IdCardIcon className="size-4" />}
-                    description="Read the latest news from RSAP"
-                    onClick={() => setOpen(false)}
-                  />
-                </li>
+                {association.map((c) => (
+                  <li key={c.href}>
+                    <IconMenu
+                      title={c.title}
+                      href={c.href}
+                      icon={c.icon}
+                      description={c.description}
+                      onClick={() => setOpen(false)}
+                    />
+                  </li>
+                ))}
               </ul>
             </div>
             <div>
@@ -368,23 +370,22 @@ export function MobileNavigation() {
                 ))}
               </ul>
             </div>
+
             <div>
-              <h4 className=" text-lg   font-medium">Association</h4>
+              <h4 className=" text-lg   font-medium">Updates</h4>
               <h5 className=" text-sm py-1  font-normal text-muted-foreground">
-                About RSAP
+                Latest updates from RSAP
               </h5>
               <ul>
-                {association.map((c) => (
-                  <li key={c.href}>
-                    <IconMenu
-                      title={c.title}
-                      href={c.href}
-                      icon={c.icon}
-                      description={c.description}
-                      onClick={() => setOpen(false)}
-                    />
-                  </li>
-                ))}
+                <li>
+                  <IconMenu
+                    title="News"
+                    href="/news"
+                    icon={<IdCardIcon className="size-4" />}
+                    description="Read the latest news from RSAP"
+                    onClick={() => setOpen(false)}
+                  />
+                </li>
               </ul>
             </div>
           </div>
