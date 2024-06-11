@@ -145,7 +145,7 @@ export const bod = [
 
 export const boa = [
   {
-    name: "Dr. Omer Awan, MD, MPH, CIIP",
+    name: "Dr. Omer A. Awan, MD, MPH, CIIP",
     position: "Senior Advisor",
     image: "omer.jpg",
     slug: "dr-omer-awan",
@@ -168,28 +168,28 @@ export const boa = [
   //   ],
   // },
   {
-    name: "Dr. Muhammad Umair, M.B.B.S., M.D.",
+    name: "Dr. Muhammad Umair, MBBS, MD",
     position: "Senior Advisor",
     image: "umair.jpg",
     slug: "dr-muhammad-umair",
     affiliation: [
       "Assistant Professor of Radiology and Radiological Science",
-      "Johns Hopkins Medicine",
+      "Johns Hopkins University",
     ],
   },
   {
-    name: "Dr. Umar Shafique Chaudhry, M.B.B.S., M.D.",
+    name: "Dr. Umar Shafique Chaudhry, MBBS, MD",
     position: "Senior Advisor",
     image: "umar.jpg",
     slug: "dr-umar-shafique-chaudhry",
     affiliation: [
       "Director of Neuroradiology Fellowship",
       "Assistant Professor of Radiology",
-      "John Hopkins University",
+      "Unviersity of Texas Medical Branch",
     ],
   },
   {
-    name: "Dr. Junaid Raja, M.D., MSPH, MS",
+    name: "Dr. Junaid Raja, MD, MSPH, MS",
     position: "Senior Advisor",
     image: "junaid.jpg",
     slug: "dr-junaid-raja",
@@ -200,7 +200,7 @@ export const boa = [
     ],
   },
   {
-    name: "Dr. Saima Muzahir, M.B.B.S., M.D., FCPS, FRCPE",
+    name: "Dr. Saima Muzahir, MBBS, MD, FCPS, FRCPE",
     position: "Advisor",
     image: "saima.jpg",
     slug: "dr-saima-muzahir",
@@ -212,7 +212,7 @@ export const boa = [
     ],
   },
   {
-    name: "Dr. Mohammed Faisal Loya, M.D.",
+    name: "Dr. Mohammed Faisal Loya, MD",
     position: "Advisor",
     image: "faisal.jpg",
     slug: "dr-mohammed-faisal-loya",
@@ -222,7 +222,7 @@ export const boa = [
     ],
   },
   {
-    name: "Dr. Faheem Ullah Khan, M.B.B.S., M.D.",
+    name: "Dr. Faheem Ullah Khan, MBBS, MD",
     position: "Advisor",
     image: "faheem.jpg",
     slug: "dr-faheem-ullah-khan",
@@ -232,7 +232,7 @@ export const boa = [
     ],
   },
   {
-    name: "Dr. Wali Badar, M.D.",
+    name: "Dr. Wali Badar, MD",
     position: "Advisor",
     image: "wali.jpg",
     slug: "dr-wali-badar",
@@ -242,7 +242,7 @@ export const boa = [
     ],
   },
   {
-    name: "Dr. Aamir Ali, M.B.B.S., M.D.",
+    name: "Dr. Aamir Ali, MBBS, MD",
     position: "Advisor",
     image: "aamir.jpg",
     slug: "dr-aamir-ali",
@@ -252,7 +252,7 @@ export const boa = [
     ],
   },
   {
-    name: "Dr. Hammad Malik, M.B.B.S., M.D.",
+    name: "Dr. Hammad Malik, MBBS, MD",
     position: "Advisor",
     image: "hammad.jpg",
     slug: "dr-hammad-malik",
@@ -262,7 +262,7 @@ export const boa = [
     ],
   },
   {
-    name: "Dr. Ra'ana Kanwal, M.B.B.S.",
+    name: "Dr. Ra'ana Kanwal, MBBS",
     position: "Advisor",
     image: "raana.jpg",
     slug: "dr-raana-kanwal",
@@ -272,7 +272,7 @@ export const boa = [
     ],
   },
   {
-    name: "Dr. Khurram Khaliq Bhinder, M.B.B.S.",
+    name: "Dr. Khurram Khaliq Bhinder, MBBS",
     position: "Advisor",
     image: "khurram.jpg",
     slug: "dr-khurram-khaliq-bhinder",

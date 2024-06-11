@@ -6,6 +6,7 @@ import FacebookIcon from "@/components/icons/facebook";
 import { OpenInNewWindowIcon, PlayIcon } from "@radix-ui/react-icons";
 import { Button } from "@/components/ui/button";
 import YoutubeIcon from "@/components/icons/youtube";
+import ForbesIcon from "@/components/icons/forbes";
 
 export default async function EducationDrOmerAwan() {
   const data = await getVideo("UCV_WMc6wSrrYvCio1J7VwIg");
@@ -54,56 +55,63 @@ export default async function EducationDrOmerAwan() {
             >
               <FacebookIcon className="size-8" />
             </a>
+            <a href="https://www.forbes.com/sites/omerawan/" target="_blank">
+              <ForbesIcon className="h-5 fill-foreground" />
+            </a>
           </div>
-          <div className="prose dark:prose-dark prose-zinc mt-5">
-            <p>
-              {" "}
-              Dr. Awan currently serves as a Professor in Diagnostic Radiology
-              and Nuclear Medicine at the University of Maryland School of
-              Medicine. In addition to his professorship, he holds key
-              leadership roles including Vice Chair in Education, Associate
-              Program Director of the Diagnostic Radiology Residency, and
-              Co-Director of the Medical Student Radiology Clerkship. Dr. Awan
-              also contributes as a member of the Teaching Faculty at the
-              Harvard Macy Institute.
-            </p>
-            <p>
-              Beyond his academic and clinical commitments, Dr. Awan is a
-              prolific contributor to public discourse on healthcare and public
-              health. He is a Medical Contributor for the Scripps News&apos;
-              &quot;America Tonight Show,&quot; where he discusses pressing
-              health issues facing America. Additionally, he writes insightful
-              articles as a Healthcare and Public Health Contribute for Forbes.
-            </p>
-            <p>
-              Dr. Awan earned his Medical Doctor (MD) degree from the George
-              Washington University School of Medicine and Health Sciences and a
-              Master in Public Health (MPH) degree from Harvard University. His
-              expertise spans medicine, public health, and medical education. In
-              recognition of his contributions to medical education, PubMed
-              named him a World Expert in Teaching in 2022.
-            </p>
-            <p>
-              Dr. Awan is passionate about using innovative teaching methods to
-              educate both the public and medical students on important
-              healthcare topics. He actively engages with aspiring International
-              Medical Graduates (IMGs) and students through his YouTube channel,
-              &quot;MedEdPage,&quot; where he shares invaluable videos and
-              radiology cases.
-            </p>
-            <p>
-              RSAP is honored to work under the guidance of Dr. Awan, a leader
-              in radiology education and a dedicated advocate for public health.
-              His contributions are invaluable to the advancement of medical
-              knowledge and practice, both in the United States and globally.
-            </p>
+          <div className="mt-10 ">
+            <img
+              src="/images/boa/omer.jpg"
+              alt="Dr. Omer Awan"
+              className="rounded-md size-96  object-cover float-left mr-8 mb-8"
+            />
+            <div className="prose dark:prose-invert prose-zinc max-w-full">
+              <p>
+                {" "}
+                Dr. Awan currently serves as a Professor in Diagnostic Radiology
+                and Nuclear Medicine at the University of Maryland School of
+                Medicine. In addition to his professorship, he holds key
+                leadership roles including Vice Chair in Education, Associate
+                Program Director of the Diagnostic Radiology Residency, and
+                Co-Director of the Medical Student Radiology Clerkship. Dr. Awan
+                also contributes as a member of the Teaching Faculty at the
+                Harvard Macy Institute.
+              </p>
+              <p>
+                Beyond his academic and clinical commitments, Dr. Awan is a
+                prolific contributor to public discourse on healthcare and
+                public health. He is a Medical Contributor for the Scripps
+                News&apos; &quot;America Tonight Show,&quot; where he discusses
+                pressing health issues facing America. Additionally, he writes
+                insightful articles as a Healthcare and Public Health Contribute
+                for Forbes.
+              </p>
+              <p>
+                Dr. Awan earned his Medical Doctor (MD) degree from the George
+                Washington University School of Medicine and Health Sciences and
+                a Master in Public Health (MPH) degree from Harvard University.
+                His expertise spans medicine, public health, and medical
+                education. In recognition of his contributions to medical
+                education, PubMed named him a World Expert in Teaching in 2022.
+              </p>
+              <p>
+                Dr. Awan is passionate about using innovative teaching methods
+                to educate both the public and medical students on important
+                healthcare topics. He actively engages with aspiring
+                International Medical Graduates (IMGs) and students through his
+                YouTube channel, &quot;MedEdPage,&quot; where he shares
+                invaluable videos and radiology cases.
+              </p>
+              <p>
+                RSAP is honored to work under the guidance of Dr. Awan, a leader
+                in radiology education and a dedicated advocate for public
+                health. His contributions are invaluable to the advancement of
+                medical knowledge and practice, both in the United States and
+                globally.
+              </p>
+            </div>
           </div>
         </div>
-        <img
-          src="/images/boa/omer-ed.jpg"
-          alt="Dr. Omer Awan"
-          className="rounded-md size-96  object-cover"
-        />
       </div>
       <h2 className="text-4xl font-semibold mt-16 hover:underline hover:underline-offset-4">
         <a href="https://www.youtube.com/@AwanRad" target="_blank">
