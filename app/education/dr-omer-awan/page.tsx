@@ -25,38 +25,84 @@ export default async function EducationDrOmerAwan() {
   const playlist2 = await getPlaylist(playlists.playlist2.id);
 
   return (
-    <div className="py-20 container-x ">
+    <div className="py-10 container-x ">
       <div className="border p-6 flex flex-col-reverse md:flex-row items-center md:items-start justify-between rounded-xl shadow">
         <div>
-          <h1 className="text-4xl font-bold mt-5 md:mt-0">
+          <h1 className="text-4xl font-bold mt-8 md:mt-0">
             Dr. Omer A. Awan, MD MPH CIIP
           </h1>
           <div className="flex gap-4 items-center mt-5">
             <a href="https://www.youtube.com/@AwanRad" target="_blank">
               <YoutubeIcon className="size-8" />
             </a>
-            <a href={`http://twitter.com/AwanRad`}>
+            <a href={`http://twitter.com/AwanRad`} target="_blank">
               <XIcon className="size-7 fill-foreground" />
             </a>
-            <a href="https://www.linkedin.com/in/omer-awan-md-mph-ciip-6243556b/">
+            <a
+              href="https://www.linkedin.com/in/omer-awan-md-mph-ciip-6243556b/"
+              target="_blank"
+            >
               <LinkedInIcon className="size-7" />
             </a>
-            <a href={`http://instagram.com/omerawanmd`}>
+            <a href={`http://instagram.com/omerawanmd`} target="_blank">
               <InstagramIcon className="size-8" />
             </a>
 
-            <a href="https://www.facebook.com/profile.php?id=100072542480638">
+            <a
+              href="https://www.facebook.com/profile.php?id=100072542480638"
+              target="_blank"
+            >
               <FacebookIcon className="size-8" />
             </a>
           </div>
           <div className="prose dark:prose-dark prose-zinc mt-5">
-            <p>Bio here</p>
+            <p>
+              {" "}
+              Dr. Awan currently serves as a Professor in Diagnostic Radiology
+              and Nuclear Medicine at the University of Maryland School of
+              Medicine. In addition to his professorship, he holds key
+              leadership roles including Vice Chair in Education, Associate
+              Program Director of the Diagnostic Radiology Residency, and
+              Co-Director of the Medical Student Radiology Clerkship. Dr. Awan
+              also contributes as a member of the Teaching Faculty at the
+              Harvard Macy Institute.
+            </p>
+            <p>
+              Beyond his academic and clinical commitments, Dr. Awan is a
+              prolific contributor to public discourse on healthcare and public
+              health. He is a Medical Contributor for the Scripps News&apos;
+              &quot;America Tonight Show,&quot; where he discusses pressing
+              health issues facing America. Additionally, he writes insightful
+              articles as a Healthcare and Public Health Contribute for Forbes.
+            </p>
+            <p>
+              Dr. Awan earned his Medical Doctor (MD) degree from the George
+              Washington University School of Medicine and Health Sciences and a
+              Master in Public Health (MPH) degree from Harvard University. His
+              expertise spans medicine, public health, and medical education. In
+              recognition of his contributions to medical education, PubMed
+              named him a World Expert in Teaching in 2022.
+            </p>
+            <p>
+              Dr. Awan is passionate about using innovative teaching methods to
+              educate both the public and medical students on important
+              healthcare topics. He actively engages with aspiring International
+              Medical Graduates (IMGs) and students through his YouTube channel,
+              &quot;MedEdPage,&quot; where he shares invaluable videos and
+              radiology cases.
+            </p>
+            <p>
+              RSAP is honored to work under the guidance of Dr. Awan, a leader
+              in radiology education and a dedicated advocate for public health.
+              His contributions are invaluable to the advancement of medical
+              knowledge and practice, both in the United States and globally.
+            </p>
           </div>
         </div>
         <img
-          src="/images/boa/junaid.jpg"
+          src="/images/boa/omer-ed.jpg"
           alt="Dr. Omer Awan"
-          className="rounded-md size-96 object-cover"
+          className="rounded-md size-96  object-cover"
         />
       </div>
       <h2 className="text-4xl font-semibold mt-16 hover:underline hover:underline-offset-4">

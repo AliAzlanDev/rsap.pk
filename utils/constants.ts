@@ -145,16 +145,18 @@ export const bod = [
 
 export const boa = [
   {
-    name: "Dr. Junaid Raja, M.D., MSPH, MS",
+    name: "Dr. Omer Awan, MD, MPH, CIIP",
     position: "Senior Advisor",
-    image: "junaid.jpg",
-    slug: "dr-junaid-raja",
+    image: "omer.jpg",
+    slug: "dr-omer-awan",
     affiliation: [
-      "Assistant Program Director for Integrated Interventional Radiology Residency",
-      "Assistant Professor for Interventional Radiology",
-      "Unversity of Alabama at Birmingham",
+      "Professor, Diagnostic Radiology and Nuclear Medicine",
+      "Vice Chair in Education",
+      "Associate Program Director, Diagnostic Radiology Residency; Co-Director, Medical Student Radiology Clerkship",
+      "University of Maryland School of Medicine",
     ],
   },
+
   // {
   //   name: "Dr. Haris Iqbal Sair, M.D.",
   //   position: "Senior Advisor",
@@ -183,7 +185,18 @@ export const boa = [
     affiliation: [
       "Director of Neuroradiology Fellowship",
       "Assistant Professor of Radiology",
-      "Unviersity of Texas Medical Branch",
+      "John Hopkins University",
+    ],
+  },
+  {
+    name: "Dr. Junaid Raja, M.D., MSPH, MS",
+    position: "Senior Advisor",
+    image: "junaid.jpg",
+    slug: "dr-junaid-raja",
+    affiliation: [
+      "Assistant Program Director for Integrated Interventional Radiology Residency",
+      "Assistant Professor for Interventional Radiology",
+      "Unversity of Alabama at Birmingham",
     ],
   },
   {

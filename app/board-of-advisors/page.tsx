@@ -13,7 +13,7 @@ export default function BoardOfAdvisors() {
           Our Board of Advisors
         </h1>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8 xl:mt-16 lg:grid-cols-4   ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-8 xl:mt-16 lg:grid-cols-4 xl:grid-cols-5   ">
           {boa.map((item, index) => (
             <ProgressBarLink
               href={`/board-of-advisors/${item.slug}`}
@@ -23,7 +23,7 @@ export default function BoardOfAdvisors() {
               <div>
                 <div className="flex flex-col ">
                   <img
-                    className="flex-shrink-0 object-cover  rounded-t-xl "
+                    className="flex-shrink-0 object-cover aspect-square  rounded-t-xl "
                     src={`/images/boa/${item.image}`}
                     alt=""
                   />

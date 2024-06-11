@@ -49,12 +49,12 @@ export default function Footer() {
           <ul className="flex items-center space-x-4">
             <li>
               <a href="https://www.instagram.com/radsapakistan" target="_blank">
-                <InstagramIcon className="size-8" />
+                <InstagramIcon className="size-6" />
               </a>
             </li>
             <li>
               <a href="https://www.x.com/radsapakistan" target="_blank">
-                <XIcon className="size-7 fill-foreground" />
+                <XIcon className="size-5 fill-foreground" />
               </a>
             </li>
             <li>
@@ -62,17 +62,17 @@ export default function Footer() {
                 href="https://www.linkedin.com/company/radsapakistan"
                 target="_blank"
               >
-                <LinkedInIcon className="size-7 " />
+                <LinkedInIcon className="size-5 " />
               </a>
             </li>
             <li>
               <a href="https://www.facebook.com/radsapakistan" target="_blank">
-                <FacebookIcon className="size-8" />
+                <FacebookIcon className="size-6" />
               </a>
             </li>
             <li>
               <a href="https://www.youtube.com/@radsapakistan" target="_blank">
-                <YoutubeIcon className="size-8" />
+                <YoutubeIcon className="size-6" />
               </a>
             </li>
           </ul>

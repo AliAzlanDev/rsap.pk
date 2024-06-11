@@ -110,11 +110,19 @@ export const network: IconMenu[] = [
   {
     title: "Radiology Interest Groups",
     href: "/radiology-interest-groups",
-    description: "RSAP-affiliated Radiology Interest Groups (RIGs)",
-    icon: <UsersIcon />,
+    description: "RSAP-affiliated RIGs",
+    icon: <UsersIcon className="size-3.5" />,
   },
 ];
 
+export const education: IconMenu[] = [
+  {
+    title: "Dr. Omer Awan",
+    href: "/education/dr-omer-awan",
+    description: "Dr. Omer Awan",
+    icon: <PersonIcon className="size-3.5" />,
+  },
+];
 export function Navigation() {
   return (
     <NavigationMenu>
@@ -170,25 +178,61 @@ export function Navigation() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuTrigger className="text-sm rounded-full border-0 px-3 py-1.5 text-muted-foreground font-normal">
-            Committees
+            Explore
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <div className=" w-[300px]  p-3">
-              <h5 className=" text-sm py-2 px-3 font-normal text-muted-foreground">
-                RSAP Committees
-              </h5>
-              <ul className="">
-                {committees.map((c) => (
-                  <li key={c.href}>
-                    <IconMenu
-                      title={c.title}
-                      href={c.href}
-                      icon={c.icon}
-                      description={c.description}
-                    />
-                  </li>
-                ))}
-              </ul>
+            <div className="grid grid-cols-3 min-w-[850px]">
+              <div className=" w-[300px]  p-3">
+                <h5 className=" text-sm py-2 px-3 font-normal text-muted-foreground">
+                  RSAP Committees
+                </h5>
+                <ul className="">
+                  {committees.map((c) => (
+                    <li key={c.href}>
+                      <IconMenu
+                        title={c.title}
+                        href={c.href}
+                        icon={c.icon}
+                        description={c.description}
+                      />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className=" w-[250px]  p-3">
+                <h5 className=" text-sm py-2 px-3 font-normal text-muted-foreground">
+                  Networking in RSAP
+                </h5>
+                <ul className="">
+                  {network.map((c) => (
+                    <li key={c.href}>
+                      <IconMenu
+                        title={c.title}
+                        href={c.href}
+                        icon={c.icon}
+                        description={c.description}
+                      />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className=" w-[250px]  p-3">
+                <h5 className=" text-sm py-2 px-3 font-normal text-muted-foreground">
+                  Education
+                </h5>
+                <ul className="">
+                  {education.map((c) => (
+                    <li key={c.href}>
+                      <IconMenu
+                        title={c.title}
+                        href={c.href}
+                        icon={c.icon}
+                        description={c.description}
+                      />
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </NavigationMenuContent>
         </NavigationMenuItem>
@@ -272,14 +316,14 @@ function IconMenu({ title, description, icon, href }: IconMenu) {
       href={href}
       className="flex hover:cursor-pointer group items-center gap-3 outline-none select-none text-sm  p-3 rounded-[6px]"
     >
-      <div className=" size-8 border rounded grid place-items-center text-muted-foreground group-hover:bg-primary group-hover:border-primary group-hover:text-white">
+      <div className=" size-8 border flex-shrink-0 rounded grid place-items-center text-muted-foreground group-hover:bg-primary group-hover:border-primary group-hover:text-white">
         {icon}
       </div>
       <div className="flex flex-col">
         <div className="flex items-center gap-8 font-medium mb-0.5 whitespace-nowrap">
           {title}
         </div>
-        <p className=" text-xs font-normal text-muted-foreground group-hover:text-foreground whitespace-nowrap transition-colors">
+        <p className=" text-xs truncate font-normal text-muted-foreground group-hover:text-foreground whitespace-nowrap transition-colors">
           {description}
         </p>
       </div>
