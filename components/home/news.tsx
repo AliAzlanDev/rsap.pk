@@ -16,7 +16,11 @@ export function News() {
         {posts.map((p) => (
           <div className=" p-4 border " key={p.slugs[0]}>
             <ProgressBarLink href={`/news/${p.slugs[0]}`}>
-              <img src={p.data.banner} className=" cursor-pointer" />
+              <img
+                src={p.data.banner}
+                className=" cursor-pointer"
+                loading="lazy"
+              />
             </ProgressBarLink>
             <ProgressBarLink href={`/news/${p.slugs[0]}`}>
               <p className="font-medium mt-5"> {p.data.title}</p>
