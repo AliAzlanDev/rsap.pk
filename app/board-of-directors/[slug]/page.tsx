@@ -1,4 +1,6 @@
 import { bod } from "@/utils/constants";
+import { createMetadata } from "@/utils/create-metadata";
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 export default function BoardOfDirector({
@@ -27,4 +29,24 @@ export default function BoardOfDirector({
       />
     </div>
   );
+}
+
+export function generateMetadata({ params }: { params: Param }): Metadata {
+  const page = bod.find((member) => member.slug === params.slug);
+
+  if (!page) notFound();
+
+  return createMetadata({
+    title: page.name,
+  });
+}
+
+interface Param {
+  slug: string;
+}
+
+export function generateStaticParams(): Param[] {
+  return bod.map((member) => ({
+    slug: member.slug,
+  }));
 }

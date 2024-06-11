@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { InlineTOC } from "@/components/ui/inline-toc";
-import { Control } from "./page.client";
 import { news } from "@/app/source";
 import { createMetadata } from "@/utils/create-metadata";
 
