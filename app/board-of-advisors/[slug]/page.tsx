@@ -24,7 +24,11 @@ export default function BoardOfAdivsor({
             <span key={index}>{a}</span>
           ))}
         </p>
-        <p className="mt-8 text-muted-foreground">Bio</p>
+        <div className="mt-8 prose dark:prose-invert prose-zinc">
+          {bodMember.bio?.map((b, index) => (
+            <p key={index}>{b}</p>
+          ))}
+        </div>
       </div>
       <img
         className=" max-w-md rounded-xl shadow-lg flex-shrink-0 object-cover size-96 ring-4 ring-muted"
