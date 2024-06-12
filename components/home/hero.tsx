@@ -76,7 +76,7 @@ export function Hero2({ title, link }: { title: string; link: string }) {
           }}
         ></div>
       </div>
-      <div className="mx-auto max-w-2xl py-32 ">
+      <div className="mx-auto max-w-2xl py-16 md:py-32 ">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           <div className="relative flex items-center gap-x-2 rounded-full px-3 py-1 text-sm leading-6  text-muted-foreground ring-1 ring-ring/10 hover:ring-ring/20">
             <span>{title}</span>
