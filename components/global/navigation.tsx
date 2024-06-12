@@ -244,7 +244,7 @@ export function Navigation() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <ProgressBarLink
-            className="inline-flex h-9 w-max items-center justify-center bg-background transition-colors hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 text-sm rounded-full border-0 px-3 py-1.5 text-muted-foreground font-normal hover:bg-accent"
+            className="inline-flex h-9 w-max items-center justify-center transition-colors hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 text-sm rounded-full border-0 px-3 py-1.5 text-muted-foreground font-normal hover:bg-accent"
             href={"/news"}
           >
             News
