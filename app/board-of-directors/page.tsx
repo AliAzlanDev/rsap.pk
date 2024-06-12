@@ -3,6 +3,8 @@ import { bod } from "@/utils/constants";
 
 export const metadata = {
   title: "Board of Directors",
+  description:
+    "Meet the Board of Directors of Radiological Students’ Association of Pakistan",
 };
 
 export default function BoardOfDirectors() {

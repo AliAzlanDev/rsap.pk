@@ -1,6 +1,10 @@
 import { ProgressBarLink } from "@/components/global/progress-bar";
 import { Button } from "@/components/ui/button";
 
+export const metadata = {
+  title: "Benefits of RSAP Membership",
+};
+
 export default function Benefits() {
   return (
     <div className=" container-x py-20 prose dark:prose-invert prose-zinc mx-auto">

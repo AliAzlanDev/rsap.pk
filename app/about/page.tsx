@@ -49,6 +49,10 @@ const objectives = [
   },
 ];
 
+export const metadata = {
+  title: "About RSAP",
+};
+
 export default function About() {
   return (
     <div className="container-x prose-zinc prose dark:prose-invert py-20">

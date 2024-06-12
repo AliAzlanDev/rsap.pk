@@ -1,6 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Suspense } from "react";
 
+export const metadata = {
+  title: "Join RSAP",
+  description:
+    "Become part of the Radiological Students’ Association of Pakistan",
+};
+
 export default function Join() {
   return (
     <div className="container-x py-20">

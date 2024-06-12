@@ -46,6 +46,7 @@ export function generateMetadata({ params }: { params: Param }): Metadata {
 
   return createMetadata({
     title: `${page.name} - Board of Advisors`,
+    description: `Member of the Board of Advisors of Radiological Students’ Association of Pakistan`,
   });
 }
 

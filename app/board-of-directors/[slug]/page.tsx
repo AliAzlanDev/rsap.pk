@@ -38,6 +38,7 @@ export function generateMetadata({ params }: { params: Param }): Metadata {
 
   return createMetadata({
     title: `${page.name} - Board of Directors`,
+    description: `Member of the Board of Directors of Radiological Students’ Association of Pakistan`,
   });
 }
 

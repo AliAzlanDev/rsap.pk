@@ -3,6 +3,8 @@ import { boa, bod } from "@/utils/constants";
 
 export const metadata = {
   title: "Board of Advisors",
+  description:
+    "Meet the Board of Advisors of Radiological Students’ Association of Pakistan",
 };
 
 export default function BoardOfAdvisors() {

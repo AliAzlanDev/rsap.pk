@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { news } from "../source";
 
+export const metadata = {
+  title: "Latest News",
+  description: "Get latest updates from RSAP.",
+};
+
 export default function Page(): React.ReactElement {
   const posts = [...news.getPages()].sort(
     (a, b) =>

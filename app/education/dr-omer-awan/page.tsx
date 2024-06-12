@@ -8,6 +8,12 @@ import { Button } from "@/components/ui/button";
 import YoutubeIcon from "@/components/icons/youtube";
 import ForbesIcon from "@/components/icons/forbes";
 
+export const metadata = {
+  title: "Dr. Omer A. Awan, MD MPH CIIP",
+  description:
+    "Member of the Board of Advisors of Radiological Students’ Association of Pakistan",
+};
+
 export default async function EducationDrOmerAwan() {
   const data = await getVideo("UCV_WMc6wSrrYvCio1J7VwIg");
   const playlists = {

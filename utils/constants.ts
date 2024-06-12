@@ -304,7 +304,7 @@ export const boa = [
       "National Hospital and Medical Center, Lahore, Pakistan",
     ],
     bio: [
-      "Dr. Kanwal's graduated from Ayub Teaching Complex, Abbottabad, before embarking on her radiology residency at Shifa International Hospital in Islamabad. Currently, Dr. Kanwal serves as a Consultant Radiologist at the National Hospital and Medical Center in Lahore, where she is dedicated to establishing a Breast Center under the leadership of Dr. Ammar Sarwar. Additionally, she is the Research Lead at the Basildon Research Group, NHS UK, contributing to the advancement of medical research on an international level.",
+      "Dr. Kanwal graduated from Ayub Teaching Complex, Abbottabad, before embarking on her radiology residency at Shifa International Hospital in Islamabad. Currently, Dr. Kanwal serves as a Consultant Radiologist at the National Hospital and Medical Center in Lahore, where she is dedicated to establishing a Breast Center under the leadership of Dr. Ammar Sarwar. Additionally, she is the Research Lead at the Basildon Research Group, NHS UK, contributing to the advancement of medical research on an international level.",
 
       "Dr. Kanwal also serves as the Representative for the Radiology Resident Forum (RRF), NHS UK, Punjab/KPK Chapter, where she mentors and guides aspiring radiologists in their professional journey. She actively supervises audits and research conducted by UK residents and registrars. With a passion for advancing her field, Dr. Kanwal aspires to pursue an Interventional Radiology fellowship in the future.",
     ],

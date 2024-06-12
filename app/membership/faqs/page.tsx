@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Got questions about RSAP Membership?",
+  description: "Check out our FAQs to answer your questions",
+};
+
 export default function Benefits() {
   return (
     <div className=" container-x py-20 prose dark:prose-invert prose-zinc mx-auto">
