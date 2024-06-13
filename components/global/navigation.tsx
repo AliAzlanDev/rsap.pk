@@ -187,7 +187,7 @@ export function Navigation() {
             Explore
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <div className="grid grid-cols-3 min-w-[850px]">
+            <div className="grid grid-cols-2 lg:grid-cols-3 min-w-[600px] lg:min-w-[850px]">
               <div className=" w-[300px]  p-3">
                 <h5 className=" text-sm py-2 px-3 font-normal text-muted-foreground">
                   RSAP Committees

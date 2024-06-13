@@ -89,7 +89,7 @@ export function Hero2({ title, link }: { title: string; link: string }) {
         transition={{ duration: 0.2, type: "tween" }}
       >
         <Particles
-          className="absolute inset-0"
+          className="absolute inset-0 overflow-x-hidden"
           quantity={matches ? 60 : 30}
           ease={80}
           color={color}
@@ -108,7 +108,7 @@ export function Hero2({ title, link }: { title: string; link: string }) {
           ></div>
         </div>
         <motion.div
-          className="mx-auto max-w-2xl py-16 md:py-32 md:max-w-4xl xl:max-w-5xl "
+          className="mx-auto max-w-2xl pt-16 pb-10 md:pt-32 md:pb-24 md:max-w-4xl xl:max-w-5xl "
           variants={{
             show: {
               transition: {
@@ -197,7 +197,7 @@ export function Hero2({ title, link }: { title: string; link: string }) {
           </div>
         </motion.div>
         <div
-          className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+          className="absolute inset-x-0 top-[calc(100%-20rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-40rem)]"
           aria-hidden="true"
         >
           <div
