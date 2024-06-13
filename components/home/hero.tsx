@@ -63,8 +63,8 @@ function Hero() {
 export default Hero;
 
 export const STAGGER_CHILD_VARIANTS = {
-  hidden: { opacity: 0, y: 20 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.2, type: "fade" } },
+  hidden: { opacity: 0, y: 0 },
+  show: { opacity: 1, y: 5, transition: { duration: 0.2, type: "keyframes" } },
 };
 
 export function Hero2({ title, link }: { title: string; link: string }) {
@@ -73,7 +73,7 @@ export function Hero2({ title, link }: { title: string; link: string }) {
       <motion.div
         className="relative isolate px-6  lg:px-8"
         exit={{ opacity: 0, scale: 0.95 }}
-        transition={{ duration: 0.2, type: "spring" }}
+        transition={{ duration: 0.2, type: "tween" }}
       >
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -92,7 +92,7 @@ export function Hero2({ title, link }: { title: string; link: string }) {
           variants={{
             show: {
               transition: {
-                staggerChildren: 0.2,
+                staggerChildren: 0.3,
               },
             },
           }}
