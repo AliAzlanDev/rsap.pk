@@ -19,7 +19,13 @@ export default function BoardOfDirector({
       <div>
         <h1 className="text-3xl font-bold">{bodMember.name}</h1>
         <p className="mt-1 font-medium">{bodMember.position}</p>
-        <p className="mt-1 text-muted-foreground">{bodMember.description}</p>
+        <p className="mt-1 text-muted-foreground">
+          {bodMember.description.map((item, index) => (
+            <span key={index} className="block">
+              {item}
+            </span>
+          ))}
+        </p>
         <p className="mt-8 text-muted-foreground">{bodMember.bio}</p>
       </div>
       <img

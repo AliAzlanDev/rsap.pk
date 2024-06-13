@@ -38,10 +38,12 @@ export default function Page(): React.ReactElement {
           ].join(", "),
         }}
       >
-        <h1 className="mb-4 border-b-4 border-foreground pb-2 text-4xl font-bold md:text-5xl">
+        <h1 className="mb-4 border-b-4 border-rsap pb-2 text-4xl font-bold md:text-5xl">
           Latest News
         </h1>
-        <p className="text-sm md:text-base">Get latest updates from RSAP.</p>
+        <p className="text-sm md:text-base text-rsap">
+          Get the latest updates from RSAP.
+        </p>
       </div>
       <div className="grid grid-cols-1 border md:grid-cols-2 lg:grid-cols-3">
         {posts.map((post) => (

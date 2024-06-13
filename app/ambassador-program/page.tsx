@@ -21,7 +21,11 @@ export default function AmbassadorProgram() {
             />
             <h3 className="mt-2 font-bold text-lg">{ambassador.name}</h3>
             <p className=" mt-1 font-medium text-sm">
-              {ambassador.affiliation}
+              {ambassador.affiliation.map((a, index) => (
+                <span className="block" key={index}>
+                  {a}
+                </span>
+              ))}
             </p>
           </div>
         ))}
@@ -91,23 +95,30 @@ export default function AmbassadorProgram() {
 const ambassadors = [
   {
     name: "Shahroze Ahmed",
-    affiliation:
-      "PGY-1, Diagnostic Radiology, Shaukat Khanum Memorial Cancer Hospital & Research Centre, Lahore, Pakistan",
+    affiliation: [
+      "PGY-1, Diagnostic Radiology",
+      "Shaukat Khanum Memorial Cancer Hospital & Research Centre",
+      "Lahore, Pakistan",
+    ],
     image: "shahroze.jpg",
   },
   {
     name: "Farooq Ahmad",
-    affiliation: "MS5, Allama Iqbal Medical College, Lahore, Pakistan",
+    affiliation: ["MS5", "Allama Iqbal Medical College", "Lahore, Pakistan"],
     image: "farooq.jpg",
   },
   {
     name: "Ibrahim Tahir",
-    affiliation: "MS5, Lahore Medical and Dental College, Lahore, Pakistan",
+    affiliation: [
+      "MS5",
+      "Lahore Medical and Dental College",
+      "Lahore, Pakistan",
+    ],
     image: "ibrahim.jpg",
   },
   {
     name: "Rubab Zahra",
-    affiliation: "MS4, Allama Iqbal Medical College, Lahore, Pakistan",
+    affiliation: ["MS4", "Allama Iqbal Medical College", "Lahore, Pakistan"],
     image: "rubab.jpg",
   },
 ];

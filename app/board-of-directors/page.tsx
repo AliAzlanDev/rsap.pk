@@ -45,7 +45,7 @@ export default function BoardOfDirectors() {
                       {item.position}
                     </p>
                     <p className="mt-1 mb-1 text-sm  text-muted-foreground  group-hover:text-zinc-300">
-                      {item.description}
+                      {item.description.join(", ")}
                     </p>
 
                     <a
