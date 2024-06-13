@@ -265,7 +265,7 @@ export function MobileNavigation() {
           <span className="sr-only">Toggle navigation menu</span>
         </button>
       </SheetTrigger>
-      <SheetContent side="left" className=" overflow-y-auto">
+      <SheetContent side="left" className=" overflow-y-auto w-[90%]">
         <nav className="grid gap-6 text-lg font-medium">
           <ProgressBarLink
             href="/"
