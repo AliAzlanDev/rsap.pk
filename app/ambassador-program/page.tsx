@@ -13,11 +13,11 @@ export default function AmbassadorProgram() {
 
       <div className=" mt-10 grid container-x  not-prose w-full grid-cols-1 mx-auto sm:grid-cols-2  lg:grid-cols-4 gap-4">
         {ambassadors.map((ambassador) => (
-          <div key={ambassador.name} className="p-4 rounded-lg border">
+          <div key={ambassador.name} className="p-4 rounded-lg border ">
             <img
               src={`/images/ambassadors/${ambassador.image}`}
               alt={ambassador.name}
-              className=" aspect-square rounded-lg"
+              className=" aspect-square rounded-lg mx-auto"
             />
             <h3 className="mt-2 font-bold text-lg">{ambassador.name}</h3>
             <p className=" mt-1 font-medium text-sm">
@@ -90,23 +90,24 @@ export default function AmbassadorProgram() {
 
 const ambassadors = [
   {
+    name: "Shahroze Ahmed",
+    affiliation:
+      "PGY-1, Diagnostic Radiology, Shaukat Khanum Memorial Cancer Hospital & Research Centre, Lahore, Pakistan",
+    image: "shahroze.jpg",
+  },
+  {
     name: "Farooq Ahmad",
-    affiliation: "MS5, Allama Iqbal Medical College",
+    affiliation: "MS5, Allama Iqbal Medical College, Lahore, Pakistan",
     image: "farooq.jpg",
   },
   {
     name: "Ibrahim Tahir",
-    affiliation: "MS5, Lahore Medical and Dental College",
+    affiliation: "MS5, Lahore Medical and Dental College, Lahore, Pakistan",
     image: "ibrahim.jpg",
   },
   {
     name: "Rubab Zahra",
-    affiliation: "MS4, Allama Iqbal Medical College",
+    affiliation: "MS4, Allama Iqbal Medical College, Lahore, Pakistan",
     image: "rubab.jpg",
-  },
-  {
-    name: "Shahroze Ahmed",
-    affiliation: "college name",
-    image: "shahroze.jpg",
   },
 ];

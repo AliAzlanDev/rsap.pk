@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { bylaws } from "../source";
 import { notFound } from "next/navigation";
+import { ComingSoon } from "@/components/global/coming-soon";
 
 export const metadata: Metadata = {
   title: "RSAP Constitutional Bylaws",
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Bylaws() {
   const page = bylaws.getPage([""]);
-  if (!page) return notFound();
+  if (!page) return <ComingSoon />;
   return (
     <div className="container-x py-20 mx-auto">
       <div className="prose prose-zinc dark:prose-invert mx-auto">
