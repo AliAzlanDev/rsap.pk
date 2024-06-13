@@ -133,13 +133,13 @@ export function Hero2({ title, link }: { title: string; link: string }) {
           <div className="text-center">
             <motion.div
               variants={STAGGER_CHILD_VARIANTS}
-              className="text-4xl font-bold xl:font-semibold tracking-tight  sm:text-6xl lg:text-7xl xl:text-8xl"
+              className="text-4xl font-bold tracking-tight  sm:text-6xl lg:text-7xl"
             >
               Radiological Students&apos; Association of Pakistan
             </motion.div>
             <motion.p
               variants={STAGGER_CHILD_VARIANTS}
-              className="mt-6 text-lg leading-8 text-muted-foreground lg:text-xl xl:text-2xl"
+              className="mt-6 text-lg leading-8 text-muted-foreground lg:text-xl "
             >
               Connecting radiological students and trainees nationwide!
             </motion.p>
