@@ -5,6 +5,7 @@ import MicroscopeIcon from "../icons/microscope";
 import { cn } from "@/utils/shadcn";
 import GraduationCapIcon from "../icons/graduation-cap";
 import { GlobeIcon } from "@radix-ui/react-icons";
+import LinearGradient from "../ui/linear-gradient";
 
 /* eslint-disable @next/next/no-img-element */
 export default function Committees() {
@@ -15,7 +16,8 @@ export default function Committees() {
   };
 
   return (
-    <div className="mb-20 mt-10">
+    <div className="mb-20 relative">
+      <LinearGradient direction="top" transitionPoint="40%" />
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div className="relative p-6 md:p-16">
           <div className="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">

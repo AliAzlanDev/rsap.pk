@@ -8,6 +8,7 @@ import Particles from "../ui/particles";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import { useMediaQuery } from "@/utils/hooks/use-media-query";
+import LinearGradient from "../ui/linear-gradient";
 
 function Hero() {
   return (
@@ -88,6 +89,7 @@ export function Hero2({ title, link }: { title: string; link: string }) {
         exit={{ opacity: 0, scale: 0.95 }}
         transition={{ duration: 0.2, type: "tween" }}
       >
+        <LinearGradient />
         <Particles
           className="absolute inset-0 overflow-x-hidden"
           quantity={matches ? 60 : 30}
