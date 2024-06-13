@@ -1,8 +1,9 @@
 "use client";
 
-import { siteConfig, siteMetadata } from "@/utils/constants";
+import { siteConfig } from "@/utils/constants";
 import { Button } from "../ui/button";
 import { ProgressBarLink } from "../global/progress-bar";
+import { AnimatePresence, motion } from "framer-motion";
 
 function Hero() {
   return (
@@ -61,98 +62,133 @@ function Hero() {
 }
 export default Hero;
 
+export const STAGGER_CHILD_VARIANTS = {
+  hidden: { opacity: 0, y: 20 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.2, type: "fade" } },
+};
+
 export function Hero2({ title, link }: { title: string; link: string }) {
   return (
-    <div className="relative isolate px-6  lg:px-8">
-      <div
-        className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-        aria-hidden="true"
+    <AnimatePresence>
+      <motion.div
+        className="relative isolate px-6  lg:px-8"
+        exit={{ opacity: 0, scale: 0.95 }}
+        transition={{ duration: 0.2, type: "spring" }}
       >
         <div
-          className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-          style={{
-            clipPath:
-              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+          className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+          aria-hidden="true"
+        >
+          <div
+            className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+            style={{
+              clipPath:
+                "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+            }}
+          ></div>
+        </div>
+        <motion.div
+          className="mx-auto max-w-2xl py-16 md:py-32 md:max-w-4xl xl:max-w-5xl "
+          variants={{
+            show: {
+              transition: {
+                staggerChildren: 0.2,
+              },
+            },
           }}
-        ></div>
-      </div>
-      <div className="mx-auto max-w-2xl py-16 md:py-32 ">
-        <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-          <div className="relative flex items-center gap-x-2 rounded-full px-3 py-1 text-sm leading-6  text-muted-foreground ring-1 ring-ring/10 hover:ring-ring/20">
-            <span>{title}</span>
+          initial="hidden"
+          animate="show"
+        >
+          <motion.div
+            variants={STAGGER_CHILD_VARIANTS}
+            className="hidden sm:mb-8 sm:flex sm:justify-center"
+          >
+            <div className="relative flex items-center gap-x-2 rounded-full px-3 py-1 text-sm leading-6  text-muted-foreground ring-1 ring-ring/10 hover:ring-ring/20">
+              <span>{title}</span>
 
-            <ProgressBarLink
-              href={link}
-              className="font-semibold text-primary flex items-center gap-x-0.5"
+              <ProgressBarLink
+                href={link}
+                className="font-semibold text-primary flex items-center gap-x-0.5"
+              >
+                <span> Read more</span>
+                <span aria-hidden="true">
+                  <svg
+                    className="flex-shrink-0 size-4 text-primary"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="m9 18 6-6-6-6" />
+                  </svg>
+                </span>
+              </ProgressBarLink>
+            </div>
+          </motion.div>
+          <div className="text-center">
+            <motion.div
+              variants={STAGGER_CHILD_VARIANTS}
+              className="text-4xl font-bold xl:font-semibold tracking-tight  sm:text-6xl lg:text-7xl xl:text-8xl"
             >
-              <span> Read more</span>
-              <span aria-hidden="true">
-                <svg
-                  className="flex-shrink-0 size-4 text-primary"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="m9 18 6-6-6-6" />
-                </svg>
-              </span>
-            </ProgressBarLink>
-          </div>
-        </div>
-        <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-tight  sm:text-6xl">
-            Radiological Students&apos; Association of Pakistan
-          </h1>
-          <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            Connecting radiological students and trainees nationwide!
-          </p>
-          <div className="mt-10 flex items-center justify-center gap-x-6">
-            <ProgressBarLink href="/join">
-              <Button text="Get Started" className="" />
-            </ProgressBarLink>
-            <ProgressBarLink
-              href="/about"
-              className="text-sm font-semibold leading-6 "
+              Radiological Students&apos; Association of Pakistan
+            </motion.div>
+            <motion.p
+              variants={STAGGER_CHILD_VARIANTS}
+              className="mt-6 text-lg leading-8 text-muted-foreground lg:text-xl xl:text-2xl"
             >
-              Learn more{" "}
-              <span aria-hidden="true">
-                <svg
-                  className="flex-shrink-0 size-4 inline-flex"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
+              Connecting radiological students and trainees nationwide!
+            </motion.p>
+            <div className="mt-10 flex items-center justify-center gap-x-6 xl:mt-20">
+              <motion.div variants={STAGGER_CHILD_VARIANTS}>
+                <ProgressBarLink href="/join">
+                  <Button text="Get Started" className="" />
+                </ProgressBarLink>
+              </motion.div>
+              <motion.div variants={STAGGER_CHILD_VARIANTS}>
+                <ProgressBarLink
+                  href="/about"
+                  className="text-sm font-semibold leading-6 "
                 >
-                  <path d="m9 18 6-6-6-6" />
-                </svg>
-              </span>
-            </ProgressBarLink>
+                  Learn more{" "}
+                  <span aria-hidden="true">
+                    <svg
+                      className="flex-shrink-0 size-4 inline-flex"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="m9 18 6-6-6-6" />
+                    </svg>
+                  </span>
+                </ProgressBarLink>
+              </motion.div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div
-        className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-        aria-hidden="true"
-      >
+        </motion.div>
         <div
-          className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
-          style={{
-            clipPath:
-              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-          }}
-        ></div>
-      </div>
-    </div>
+          className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+          aria-hidden="true"
+        >
+          <div
+            className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+            style={{
+              clipPath:
+                "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+            }}
+          ></div>
+        </div>
+      </motion.div>
+    </AnimatePresence>
   );
 }
