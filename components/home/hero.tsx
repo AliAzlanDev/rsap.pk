@@ -64,7 +64,7 @@ export default Hero;
 
 export const STAGGER_CHILD_VARIANTS = {
   hidden: { opacity: 0, y: 0 },
-  show: { opacity: 1, y: 5, transition: { duration: 0.2, type: "keyframes" } },
+  show: { opacity: 1, y: 5, transition: { duration: 0.2, type: "tween" } },
 };
 
 export function Hero2({ title, link }: { title: string; link: string }) {
