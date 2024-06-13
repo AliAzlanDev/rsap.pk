@@ -4,6 +4,7 @@ import LinkedInIcon from "../icons/linkedin";
 import RSAPLogo from "../icons/logo";
 import XIcon from "../icons/x";
 import YoutubeIcon from "../icons/youtube";
+import { ProgressBarLink } from "./progress-bar";
 
 export default function Footer() {
   const footerNavs = [
@@ -38,9 +39,9 @@ export default function Footer() {
             key={idx}
             className=" text-primary hover:underline hover:underline-offset-2"
           >
-            <a key={idx} href={item.href}>
+            <ProgressBarLink key={idx} href={item.href}>
               {item.name}
-            </a>
+            </ProgressBarLink>
           </li>
         ))}
       </ul>
