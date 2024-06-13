@@ -26,6 +26,7 @@ import UsersIcon from "../icons/users";
 import UserScreenIcon from "../icons/user-screen";
 import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
 import { siteConfig } from "@/utils/constants";
+import { usePathname } from "next/navigation";
 
 type IconMenu = {
   title: string;
@@ -257,6 +258,7 @@ export function Navigation() {
 
 export function MobileNavigation() {
   const [open, setOpen] = useState(false);
+  const path = usePathname();
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
@@ -265,6 +267,7 @@ export function MobileNavigation() {
           <span className="sr-only">Toggle navigation menu</span>
         </button>
       </SheetTrigger>
+
       <SheetContent side="left" className=" overflow-y-auto w-[90%]">
         <nav className="grid gap-6 text-lg font-medium">
           <ProgressBarLink
@@ -275,6 +278,11 @@ export function MobileNavigation() {
             <span className="sr-only">{siteConfig.name}</span>
           </ProgressBarLink>
           <div className="flex flex-col gap-6">
+            {path !== "/" && (
+              <ProgressBarLink href="/" onClick={() => setOpen(false)}>
+                <h4 className=" text-lg   font-medium">Home</h4>
+              </ProgressBarLink>
+            )}
             <div>
               <h4 className=" text-lg   font-medium">Membership</h4>
               <h5 className=" text-sm py-1  font-normal text-muted-foreground">

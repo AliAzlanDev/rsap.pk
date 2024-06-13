@@ -31,8 +31,12 @@ export function Header() {
 
         <Navigation />
       </nav>
-
-      <MobileNavigation />
+      <div className="flex items-center gap-5 md:hidden">
+        <MobileNavigation />
+        <ProgressBarLink href="/">
+          <RSAPLogo className="size-7 fill-rsap" />
+        </ProgressBarLink>
+      </div>
       <div className="flex gap-2 items-center">
         <ProgressBarLink href={"/join"}>
           <Button text="Join RSAP" className="w-fit" />
