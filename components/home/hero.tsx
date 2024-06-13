@@ -4,6 +4,10 @@ import { siteConfig } from "@/utils/constants";
 import { Button } from "../ui/button";
 import { ProgressBarLink } from "../global/progress-bar";
 import { AnimatePresence, motion } from "framer-motion";
+import Particles from "../ui/particles";
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
+import { useMediaQuery } from "@/utils/hooks/use-media-query";
 
 function Hero() {
   return (
@@ -68,6 +72,15 @@ export const STAGGER_CHILD_VARIANTS = {
 };
 
 export function Hero2({ title, link }: { title: string; link: string }) {
+  const { theme } = useTheme();
+  const [color, setColor] = useState("#ffffff");
+
+  // View port is atleast 768px
+  const matches = useMediaQuery("(min-width: 768px)");
+
+  useEffect(() => {
+    setColor(theme === "dark" ? "#ffffff" : "#28215B");
+  }, [theme]);
   return (
     <AnimatePresence>
       <motion.div
@@ -75,6 +88,13 @@ export function Hero2({ title, link }: { title: string; link: string }) {
         exit={{ opacity: 0, scale: 0.95 }}
         transition={{ duration: 0.2, type: "tween" }}
       >
+        <Particles
+          className="absolute inset-0"
+          quantity={matches ? 60 : 30}
+          ease={80}
+          color={color}
+          refresh
+        />
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -133,7 +153,7 @@ export function Hero2({ title, link }: { title: string; link: string }) {
           <div className="text-center">
             <motion.div
               variants={STAGGER_CHILD_VARIANTS}
-              className="text-4xl font-bold tracking-tight  sm:text-6xl lg:text-7xl"
+              className="text-4xl font-bold tracking-tight  sm:text-6xl lg:text-7xl text-rsap"
             >
               Radiological Students&apos; Association of Pakistan
             </motion.div>

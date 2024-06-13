@@ -5,7 +5,7 @@ export const siteMetadata = {
 export const siteConfig = {
   name: "Radiological Students' Association of Pakistan",
   shortName: "RSAP",
-  url: "https://wwww.rsap.pk",
+  url: "https://www.rsap.pk",
   ogImage: "https://rsap.pk/og.jpg",
   description: "Connecting radiological students and trainees nationwide!",
   links: {
