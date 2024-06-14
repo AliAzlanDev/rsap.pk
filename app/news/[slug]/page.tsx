@@ -20,7 +20,7 @@ export default function Page({
 
   return (
     <>
-      <div className="container-x rounded-xl border bg-gradient-to-b from-primary/30 to-50% py-12 ">
+      <div className="container-x rounded-xl border bg-gradient-to-b from-indigo-600/20 to-50% py-8 ">
         <h1 className="mb-2 text-3xl font-bold">{page.data.title}</h1>
         <p className="mb-4 text-muted-foreground">{page.data.description}</p>
       </div>
