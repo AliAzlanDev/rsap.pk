@@ -70,7 +70,7 @@ export const bod = [
     ],
     slug: "arsalan-nadeem",
     email: "radsapakistan@gmail.com",
-    bio: "",
+    bio: "'Success is not final, failure is not fatal; it's the courage to continue that counts' – is a belief that I embody. I am a graduate of Allama Iqbal Medical College, Class of 2023, and an aspiring interventional radiologist with a passion for global health. My passion for radiology was ignited during my final year of medical school, leading me to establish AIMCRad, my institution's first interest group. This initiative laid the groundwork for RSAP, a platform dedicated to supporting and empowering aspiring radiologists in Pakistan. I founded RSAP to address the lack of structured support and networking opportunities for aspiring radiologists in Pakistan, aiming to create a community that fosters collaboration, education, and professional growth. I am honored to currently serve as the Membership Chair on the 2024-25 Governing Council of the Society of Interventional Radiology (SIR) Residents, Fellows, and Students section, where I actively support the professional development of young radiologists. My commitment to the field is reflected in my research, resulting in over 25 PubMed-indexed publications. My academic journey has included enriching experiences during electives in radiology at esteemed institutions such as the University of Alabama at Birmingham. On an international scale, I have represented Pakistan at prestigious forums, including the AMEE Conference 2023 Student Task Force. Currently, as the Regional Lead for the AMEE Students & New Health Professionals Panel, as well as a member of the Advisory Council of Medical Students for Climate Action Pakistan, I am dedicated to advocating for medical education and climate-related health challenges within the country.",
   },
   {
     name: "Dr. Ali Husnain, MD",
@@ -142,7 +142,7 @@ export const bod = [
     name: "Ahmed Abdullah",
     position: "Liaison for Advocacy & Networking",
     image: "/images/bod/ahmed.jpg",
-    description: ["MS2", "Khyber Medical University", "Peshawar, Pakistan"],
+    description: ["MS2", "Khyber Medical College", "Peshawar, Pakistan"],
     slug: "ahmed-abdullah",
     email: "lan.radsapakistan@gmail.com",
     bio: "My journey in medicine began with a touch of uncertainty. However, as a second-year student at Khyber Medical College, I've found my passion and a strong foothold in radiology. This newfound enthusiasm has led me to actively participate in various organisations and societies, even taking on leadership roles. One such example is my role as the founding General Secretary of the Radiology Interest Group, KMC. Here, my dedication lies in fostering a vibrant community for students who share my fascination with radiology. Building a space for like-minded individuals to connect and explore this exciting field is incredibly rewarding. Beyond academics, I find enjoyment in the world of video games, particularly the Far Cry series. Looking forward to an amazing year ahead.",

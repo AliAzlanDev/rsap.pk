@@ -72,7 +72,14 @@ function AuthorCard({
         alt={lead.name}
       />
       <div className=" text-center sm:text-left">
-        <div className={cn("font-bold text-2xl ", color)}>{lead.position}</div>
+        <div
+          className={cn(
+            "font-bold text-2xl ",
+            color !== "text-[#0e0021]" && color
+          )}
+        >
+          {lead.position}
+        </div>
         <h3 className="font-semibold text-xl mt-3">{lead.name}</h3>
         <p className="mt-1 mb-2 text-sm text-muted-foreground">
           {lead.affiliation}

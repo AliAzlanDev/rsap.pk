@@ -1,5 +1,8 @@
 import TargetIcon from "@/components/icons/target";
 import CheckedCircleIcon from "@/components/icons/checked-circle";
+import { RadiologyIcon } from "@/components/icons/radiology";
+import { MriIcon } from "@/components/icons/mri";
+import { XRayIcon } from "@/components/icons/x-ray";
 
 const objectives = [
   {
@@ -62,7 +65,7 @@ export default function About() {
       <h1>About RSAP</h1>
       <h2 className="flex items-center">
         <div className=" size-9 border flex items-center justify-center rounded-md bg-accent">
-          <TargetIcon className="" />
+          <RadiologyIcon className="" />
         </div>
         <span className="ml-2">Our Vision</span>
       </h2>
@@ -73,7 +76,7 @@ export default function About() {
 
       <h2 className="flex items-center">
         <div className=" size-9 border flex items-center justify-center rounded-md bg-accent">
-          <TargetIcon className="" />
+          <MriIcon className="" />
         </div>
         <span className="ml-2">Our Mission</span>
       </h2>
@@ -85,7 +88,7 @@ export default function About() {
       </p>
       <h2 className="flex items-center">
         <div className=" size-9 border flex items-center justify-center rounded-md bg-accent">
-          <CheckedCircleIcon className="" />
+          <XRayIcon className="" />
         </div>
         <span className="ml-2">Our Objectives</span>
       </h2>

@@ -14,18 +14,39 @@ export default function Join() {
         <h1 className=" !text-rsap">Join RSAP</h1>
         <h2>Benefits of Membership</h2>
         <ul>
+          <li>Official RSAP Membership Certificate & Letter in your name.</li>
           <li>
-            Free access to RSAP webinars, seminars, and resources catalogue
+            Welcome Package, which includes the RSAP Introduction Manual,
+            Roadmap, and Contact Database.
           </li>
           <li>
-            Quarterly newsletters keeping you updated on RSAP’s activities and
-            opportunities
+            Free access to our webinars, seminars, and the RSAP Resources’
+            Catalogue.
           </li>
           <li>
-            Participation in RSAP’s Mentorship Program and research projects
+            Access to a community of aspiring radiologists and enthusiasts in
+            Pakistan, along with our Advisors who are certified radiologists
+            across the world.
           </li>
-          <li>Official RSAP Membership Letter & Certificate</li>
-          <li>Access to numerous other valuable opportunities</li>
+          <li>
+            Newsletters keeping you updated on our activities and opportunities.
+          </li>
+          <li>
+            Participation in RSAP Research Projects and the Mentorship Program.
+          </li>
+          <li>
+            Exclusive discounts, including reduced prices for our annual
+            meetings and workshops.
+          </li>
+          <li>
+            Subscriptions for exceptional educational resources through our
+            partners.
+          </li>
+          <li>
+            Access to leadership opportunities, including applying as an RSAP
+            Ambassador or Official!
+          </li>
+          <li>A platform to collectively celebrate radiology!</li>
         </ul>
         <h2>Membership Form</h2>
         <p>Fill out the following form to join RSAP today!</p>

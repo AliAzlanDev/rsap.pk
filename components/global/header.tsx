@@ -6,14 +6,16 @@ import { Button } from "../ui/button";
 import { ModeToggle } from "./mode-toggle";
 import { useScrollPosition } from "@/utils/hooks/use-scroll-position";
 import { cn } from "@/utils/shadcn";
+import { usePathname } from "next/navigation";
 
 export function Header() {
   const scroll = useScrollPosition();
+  const path = usePathname();
   return (
     <header
       className={cn(
         "sticky -top-1 z-[11] flex justify-between h-16 items-center gap-4  container-x",
-        scroll > 50 ? "bg-background" : ""
+        path !== "/" || scroll > 50 ? "bg-background" : ""
       )}
     >
       <nav
