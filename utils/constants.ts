@@ -70,7 +70,15 @@ export const bod = [
     ],
     slug: "arsalan-nadeem",
     email: "radsapakistan@gmail.com",
-    bio: "'Success is not final, failure is not fatal; it's the courage to continue that counts' – is a belief that I embody. I am a graduate of Allama Iqbal Medical College, Class of 2023, and an aspiring interventional radiologist with a passion for global health. My passion for radiology was ignited during my final year of medical school, leading me to establish AIMCRad, my institution's first interest group. This initiative laid the groundwork for RSAP, a platform dedicated to supporting and empowering aspiring radiologists in Pakistan. I founded RSAP to address the lack of structured support and networking opportunities for aspiring radiologists in Pakistan, aiming to create a community that fosters collaboration, education, and professional growth. I am honored to currently serve as the Membership Chair on the 2024-25 Governing Council of the Society of Interventional Radiology (SIR) Residents, Fellows, and Students section, where I actively support the professional development of young radiologists. My commitment to the field is reflected in my research, resulting in over 25 PubMed-indexed publications. My academic journey has included enriching experiences during electives in radiology at esteemed institutions such as the University of Alabama at Birmingham. On an international scale, I have represented Pakistan at prestigious forums, including the AMEE Conference 2023 Student Task Force. Currently, as the Regional Lead for the AMEE Students & New Health Professionals Panel, as well as a member of the Advisory Council of Medical Students for Climate Action Pakistan, I am dedicated to advocating for medical education and climate-related health challenges within the country.",
+    bio: [
+      "'Success is not final, failure is not fatal; it's the courage to continue that counts' – is a belief that I embody. I am a graduate of Allama Iqbal Medical College, Class of 2023, and an aspiring interventional radiologist with a passion for global health.",
+
+      "My passion for radiology was ignited during my final year of medical school, leading me to establish AIMCRad, my institution's first interest group. This initiative laid the groundwork for RSAP, a platform dedicated to supporting and empowering aspiring radiologists in Pakistan. I founded RSAP to address the lack of structured support and networking opportunities for aspiring radiologists in Pakistan, aiming to create a community that fosters collaboration, education, and professional growth.",
+
+      "I am honored to currently serve as the Membership Chair on the 2024-25 Governing Council of the Society of Interventional Radiology (SIR) Residents, Fellows, and Students section, where I actively support the professional development of young radiologists.",
+
+      "My commitment to the field is reflected in my research, resulting in over 25 PubMed-indexed publications. My academic journey has included enriching experiences during electives in radiology at esteemed institutions such as the University of Alabama at Birmingham. On an international scale, I have represented Pakistan at prestigious forums, including the AMEE Conference 2023 Student Task Force. Currently, as the Regional Lead for the AMEE Students & New Health Professionals Panel, as well as a member of the Advisory Council of Medical Students for Climate Action Pakistan, I am dedicated to advocating for medical education and climate-related health challenges within the country.",
+    ],
   },
   {
     name: "Dr. Ali Husnain, MD",
@@ -83,7 +91,11 @@ export const bod = [
     ],
     slug: "ali-husnain",
     email: "radsapakistan@gmail.com",
-    bio: "Sic Parvis Magna - 'Greatness from small things' - has been my guiding principle ever since I embarked on my journey in radiology. I am a graduate of King Edward Medical University Class of ’22, working as a postdoctoral research fellow at Northwestern University's Interventional Radiology Department. My passion for radiology ignited during my final year of medical school. Recognizing the limited exposure medical students have to this field, I founded an interest group within my institute to bridge this gap. Discovering interventional radiology through webinars, research, and mentorship fueled my enthusiasm further. To extend this support globally, we established RSAP, connecting students with mentors and promoting radiology in Pakistan, and aim to help them achieve their dream specialty.",
+    bio: [
+      "Sic Parvis Magna - 'Greatness from small things' - has been my guiding principle ever since I embarked on my journey in radiology. I am a graduate of King Edward Medical University Class of ’22, working as a postdoctoral research fellow at Northwestern University's Interventional Radiology Department.",
+      "My passion for radiology ignited during my final year of medical school. Recognizing the limited exposure medical students have to this field, I founded an interest group within my institute to bridge this gap. Discovering interventional radiology through webinars, research, and mentorship fueled my enthusiasm further.",
+      "To extend this support globally, we established RSAP, connecting students with mentors and promoting radiology in Pakistan, and aim to help them achieve their dream specialty.",
+    ],
   },
   {
     name: "Dr. Rana Muhammad Ahsan",
@@ -96,7 +108,10 @@ export const bod = [
     ],
     slug: "rana-muhammad-ahsan",
     email: "chair.radsapakistan@gmail.com",
-    bio: "I am a dedicated researcher and a passionate advocate for global health and equity. My leadership abilities shine through my role as the Chair of the Board for RSAP, and I have held multiple national and international positions, including President of MSAP, Vice President of Capacity Building in IFMSA-Pakistan, Director for Advocacy in GAP, National Program Manager of EAT for Pakistan, and Liaison Officer in WHO (Department of NCDs). My interests encompass interventional radiology, global health equity, and cutting-edge medical technologies. My ultimate goal is to leverage medical knowledge and scientific understanding to eradicate illnesses and create a better world for all.",
+    bio: [
+      "I am a dedicated researcher and a passionate advocate for global health and equity. My leadership abilities shine through my role as the Chair of the Board for RSAP, and I have held multiple national and international positions, including President of MSAP, Vice President of Capacity Building in IFMSA-Pakistan, Director for Advocacy in GAP, National Program Manager of EAT for Pakistan, and Liaison Officer in WHO (Department of NCDs).",
+      "My interests encompass interventional radiology, global health equity, and cutting-edge medical technologies. My ultimate goal is to leverage medical knowledge and scientific understanding to eradicate illnesses and create a better world for all.",
+    ],
   },
   {
     name: "Armeen Masood",
@@ -109,7 +124,11 @@ export const bod = [
     ],
     slug: "armeen-masood",
     email: "sec.radsapakistan@gmail.com",
-    bio: "I'm Armeen Masood, currently a medical student at Shalamar Medical and Dental College in Lahore and I have a keen interest in interventional radiology. I'm honored to return as a Board of Directors member for RSAP, having previously served as Secretary Treasurer. With a successful launch last year, I am focused on making RSAP even more active and impactful this term. As the founder of SMDCRad - the Radiology Interest Group at my institution, I firmly believes that teamwork, hardwork and dedication can make anything possible and this is what RSAP has done so far. “If you can dream it, you can do it.' I'm committed to making RSAP a valuable platform for aspiring radiologists nationwide, providing them with opportunities and support to shape their careers. Together, we can continue to grow and succeed!",
+    bio: [
+      "I'm Armeen Masood, currently a medical student at Shalamar Medical and Dental College in Lahore and I have a keen interest in interventional radiology. I'm honored to return as a Board of Directors member for RSAP, having previously served as Secretary Treasurer.",
+      "With a successful launch last year, I am focused on making RSAP even more active and impactful this term. As the founder of SMDCRad - the Radiology Interest Group at my institution, I firmly believe that teamwork, hard work and dedication can make anything possible and this is what RSAP has done so far.",
+      "'If you can dream it, you can do it.' I'm committed to making RSAP a valuable platform for aspiring radiologists nationwide, providing them with opportunities and support to shape their careers. Together, we can continue to grow and succeed!",
+    ],
   },
   {
     name: "Ali Azlan",
@@ -118,7 +137,11 @@ export const bod = [
     description: ["MS2", "Allama Iqbal Medical College", "Lahore, Pakistan"],
     slug: "ali-azlan",
     email: "dprc.radsapakistan@gmail.com",
-    bio: "I have a keen interest in radiation oncology and molecular biology. I am also passionate about medical research and currently hold the position of Director for Public Relations and Communication at AIMC/JHL Research Society (AJRS). I am a technology enthusiast who enjoys learning new technical skills, particularly in programming and web development. I represented Pakistan in the International Biology Olympiad 2022 and was awarded a Certificate of Merit. I believe that RSAP is an exceptional platform that provides radiological students with opportunities to explore and grow in the field, making it the first of its kind in Pakistan.",
+    bio: [
+      "I have a keen interest in radiation oncology and molecular biology. I am also passionate about medical research and currently hold the position of Director for Public Relations and Communication at AIMC/JHL Research Society (AJRS).",
+      "I am a technology enthusiast who enjoys learning new technical skills, particularly in programming and web development. I represented Pakistan in the International Biology Olympiad 2022 and was awarded a Certificate of Merit.",
+      "I believe that RSAP is an exceptional platform that provides radiological students with opportunities to explore and grow in the field, making it the first of its kind in Pakistan.",
+    ],
   },
   {
     name: "Khawaja Abdul Rehman",
@@ -127,7 +150,9 @@ export const bod = [
     description: ["MS3", "CMH Lahore Medical College", "Lahore, Pakistan"],
     slug: "khawaja-abdul-rehman",
     email: "dhr.radsapakistan@gmail.com",
-    bio: "I am dedicated to the medical profession and passionate about staying abreast of the latest advancements in healthcare. With a strong interest in oncology and radiology, I am hopeful to make a significant contribution to this field.",
+    bio: [
+      "I am dedicated to the medical profession and passionate about staying abreast of the latest advancements in healthcare. With a strong interest in oncology and radiology, I am hopeful to make a significant contribution to this field.",
+    ],
   },
   {
     name: "Aleena Ahmed",
@@ -136,7 +161,10 @@ export const bod = [
     description: ["MS5", "King Edward Medical University", "Lahore, Pakistan"],
     slug: "aleena-ahmed",
     email: "lrp.radsapakistan@gmail.com",
-    bio: "A girl with many dreams and a belief that dedication and passion transform dreams into reality – I am an aspiring radiologist. Radiology, with its dynamic fusion of technology and medicine, captivates me like no other specialty. I am a researcher, debater, and lead volunteer initiatives. I want to bring my passion and commitment to RSAP where I can create opportunities for my peers to engage in meaningful research projects and promote teamwork thereby creating a collaborative community of future radiologists. ",
+    bio: [
+      "A girl with many dreams and a belief that dedication and passion transform dreams into reality – I am an aspiring radiologist. Radiology, with its dynamic fusion of technology and medicine, captivates me like no other specialty.",
+      "I am a researcher, debater, and lead volunteer initiatives. I want to bring my passion and commitment to RSAP where I can create opportunities for my peers to engage in meaningful research projects and promote teamwork thereby creating a collaborative community of future radiologists.",
+    ],
   },
   {
     name: "Ahmed Abdullah",
@@ -145,7 +173,11 @@ export const bod = [
     description: ["MS2", "Khyber Medical College", "Peshawar, Pakistan"],
     slug: "ahmed-abdullah",
     email: "lan.radsapakistan@gmail.com",
-    bio: "My journey in medicine began with a touch of uncertainty. However, as a second-year student at Khyber Medical College, I've found my passion and a strong foothold in radiology. This newfound enthusiasm has led me to actively participate in various organisations and societies, even taking on leadership roles. One such example is my role as the founding General Secretary of the Radiology Interest Group, KMC. Here, my dedication lies in fostering a vibrant community for students who share my fascination with radiology. Building a space for like-minded individuals to connect and explore this exciting field is incredibly rewarding. Beyond academics, I find enjoyment in the world of video games, particularly the Far Cry series. Looking forward to an amazing year ahead.",
+    bio: [
+      "My journey in medicine began with a touch of uncertainty. However, as a second-year student at Khyber Medical College, I've found my passion and a strong foothold in radiology. This newfound enthusiasm has led me to actively participate in various organisations and societies, even taking on leadership roles.",
+      "One such example is my role as the founding General Secretary of the Radiology Interest Group, KMC. Here, my dedication lies in fostering a vibrant community for students who share my fascination with radiology. Building a space for like-minded individuals to connect and explore this exciting field is incredibly rewarding.",
+      "Beyond academics, I find enjoyment in the world of video games, particularly the Far Cry series. Looking forward to an amazing year ahead.",
+    ],
   },
   {
     name: "Dr. Zohaa Faiz",
@@ -154,7 +186,10 @@ export const bod = [
     description: ["Graduate", "Aga Khan University", "Karachi, Pakistan"],
     slug: "zohaa-faiz",
     email: "lme.radsapakistan@gmail.com",
-    bio: "after medical school. Despite my great clinical education, I found that radiology was often sidelined during our clinical years, leading to a delayed appreciation. Recognizing this gap in medical education, I am now driven to bridge this divide. By fostering mentorship and creating educational opportunities, I aim to cultivate a robust understanding of radiology among future medical students, ensuring they receive the guidance and knowledge I once lacked.",
+    bio: [
+      "After medical school, despite my great clinical education, I found that radiology was often sidelined during our clinical years, leading to a delayed appreciation.",
+      "Recognizing this gap in medical education, I am now driven to bridge this divide. By fostering mentorship and creating educational opportunities, I aim to cultivate a robust understanding of radiology among future medical students, ensuring they receive the guidance and knowledge I once lacked.",
+    ],
   },
 ];
 

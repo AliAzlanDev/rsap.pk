@@ -70,10 +70,6 @@ export default function Benefits() {
             </ul>
           </li>
           <li>
-            Graduates of the above-mentioned degrees within the first two years
-            of graduation.
-          </li>
-          <li>
             Graduates/trainees pursuing a radiology pathway within Pakistan or
             abroad.
           </li>
@@ -81,16 +77,40 @@ export default function Benefits() {
       </div>
       <h3>What are the benefits of RSAP membership?</h3>
       <div>
-        Members enjoy:
         <ul>
-          <li>Access to a network of radiologists and radiology students.</li>
+          <li>Official RSAP Membership Certificate & Letter in your name.</li>
           <li>
-            Opportunities to participate in research projects and mentorship
-            programs.
+            Welcome Package, which includes the RSAP Introduction Manual,
+            Roadmap, and Contact Database.
           </li>
-          <li>Free access to webinars, seminars, and a resources database.</li>
-          <li>Quarterly newsletters.</li>
-          <li>Official RSAP membership letter and certificate.</li>
+          <li>
+            Free access to our webinars, seminars, and the RSAP Resources’
+            Catalogue.
+          </li>
+          <li>
+            Access to a community of aspiring radiologists and enthusiasts in
+            Pakistan, along with our Advisors who are certified radiologists
+            across the world.
+          </li>
+          <li>
+            Newsletters keeping you updated on our activities and opportunities.
+          </li>
+          <li>
+            Participation in RSAP Research Projects and the Mentorship Program.
+          </li>
+          <li>
+            Exclusive discounts, including reduced prices for our annual
+            meetings and workshops.
+          </li>
+          <li>
+            Subscriptions for exceptional educational resources through our
+            partners.
+          </li>
+          <li>
+            Access to leadership opportunities, including applying as an RSAP
+            Ambassador or Official!
+          </li>
+          <li>A platform to collectively celebrate radiology!</li>
         </ul>
       </div>
       <h3>How is membership approved?</h3>

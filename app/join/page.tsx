@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { IdCardIcon, MixIcon, RocketIcon } from "@radix-ui/react-icons";
 import { Suspense } from "react";
 
 export const metadata = {
@@ -12,7 +13,12 @@ export default function Join() {
     <div className="container-x py-20">
       <div className=" prose dark:prose-invert prose-zinc mx-auto">
         <h1 className=" !text-rsap">Join RSAP</h1>
-        <h2>Benefits of Membership</h2>
+        <h2 className="flex items-center">
+          <div className=" size-9 border flex items-center justify-center rounded-md bg-accent">
+            <RocketIcon className="size-5" />
+          </div>
+          <span className="ml-2">Membership Benefits</span>
+        </h2>
         <ul>
           <li>Official RSAP Membership Certificate & Letter in your name.</li>
           <li>
@@ -48,7 +54,12 @@ export default function Join() {
           </li>
           <li>A platform to collectively celebrate radiology!</li>
         </ul>
-        <h2>Membership Form</h2>
+        <h2 className="flex items-center">
+          <div className=" size-9 border flex items-center justify-center rounded-md bg-accent">
+            <IdCardIcon className="size-5" />
+          </div>
+          <span className="ml-2">Membership Form</span>
+        </h2>
         <p>Fill out the following form to join RSAP today!</p>
         <a
           target="_blank"

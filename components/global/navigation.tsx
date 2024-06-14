@@ -8,7 +8,6 @@ import {
 } from "../ui/navigation-menu";
 import React, { useState } from "react";
 import {
-  CrumpledPaperIcon,
   FileIcon,
   GlobeIcon,
   HamburgerMenuIcon,
@@ -92,12 +91,6 @@ export const membership: IconMenu[] = [
     icon: (
       <RSAPLogo className="size-4 fill-muted-foreground group-hover:fill-white" />
     ),
-  },
-  {
-    title: "Benefits",
-    href: "/membership/benefits",
-    description: "Perks of RSAP Membership",
-    icon: <RocketIcon />,
   },
   {
     title: "FAQs",
