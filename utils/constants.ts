@@ -83,7 +83,7 @@ export const bod = [
     ],
     slug: "ali-husnain",
     email: "radsapakistan@gmail.com",
-    bio: "Sic Parvis Magna - 'Greatness from small things' - has been my guiding principle ever since I embarked on my journey in radiology. I am a KEMU graduate (Batch 22) working as a research fellow at Northwestern University's Interventional Radiology Department. My passion for radiology ignited during my final year of medical school. Recognizing the limited exposure medical students have to this field, I founded an interest group within my institute to bridge this gap. Discovering interventional radiology through webinars, research, and mentorship fueled my enthusiasm further. To extend this support globally, we established RSAP, connecting students with mentors and promoting radiology in Pakistan, and aim to help them achieve their dream specialty.",
+    bio: "Sic Parvis Magna - 'Greatness from small things' - has been my guiding principle ever since I embarked on my journey in radiology. I am a graduate of King Edward Medical University Class of ’22, working as a postdoctoral research fellow at Northwestern University's Interventional Radiology Department. My passion for radiology ignited during my final year of medical school. Recognizing the limited exposure medical students have to this field, I founded an interest group within my institute to bridge this gap. Discovering interventional radiology through webinars, research, and mentorship fueled my enthusiasm further. To extend this support globally, we established RSAP, connecting students with mentors and promoting radiology in Pakistan, and aim to help them achieve their dream specialty.",
   },
   {
     name: "Dr. Rana Muhammad Ahsan",
@@ -109,7 +109,7 @@ export const bod = [
     ],
     slug: "armeen-masood",
     email: "sec.radsapakistan@gmail.com",
-    bio: "I have always been passionate about radiology with a keen interest in Interventional Radiology. I am also the current National Vice President for Members for MSAP & Head Internal Affairs for Shaib-Abi-Talib. I plan on making RSAP a helpful platform for aspiring radiologists all over the county. I firmly believe that teamwork, hardwork and dedication can make anything possible. “Failure is simply the opportunity to begin again, this time more intelligently”. RSAP, I believe, will provide opportunities to medical students in the field of radiology, helping them shape their careers. I am very excited to work as a BOD member, taking RSAP to great heights.",
+    bio: "I'm Armeen Masood, currently a medical student at Shalamar Medical and Dental College in Lahore and I have a keen interest in interventional radiology. I'm honored to return as a Board of Directors member for RSAP, having previously served as Secretary Treasurer. With a successful launch last year, I am focused on making RSAP even more active and impactful this term. As the founder of SMDCRad - the Radiology Interest Group at my institution, I firmly believes that teamwork, hardwork and dedication can make anything possible and this is what RSAP has done so far. “If you can dream it, you can do it.' I'm committed to making RSAP a valuable platform for aspiring radiologists nationwide, providing them with opportunities and support to shape their careers. Together, we can continue to grow and succeed!",
   },
   {
     name: "Ali Azlan",
@@ -154,7 +154,7 @@ export const bod = [
     description: ["Graduate", "Aga Khan University", "Karachi, Pakistan"],
     slug: "zohaa-faiz",
     email: "lme.radsapakistan@gmail.com",
-    bio: "As a graduate of Aga Khan University in 2023, my interest in radiology began unexpectedly after medical school. Despite my great clinical education, I found that radiology was often sidelined during our clinical years, leading to a delayed appreciation . Recognizing this gap in medical education, I am now driven to bridge this divide. By fostering mentorship and creating educational opportunities, I aim to cultivate a robust understanding of radiology among future medical students , ensuring they receive the guidance and knowledge I once lacked.",
+    bio: "after medical school. Despite my great clinical education, I found that radiology was often sidelined during our clinical years, leading to a delayed appreciation. Recognizing this gap in medical education, I am now driven to bridge this divide. By fostering mentorship and creating educational opportunities, I aim to cultivate a robust understanding of radiology among future medical students, ensuring they receive the guidance and knowledge I once lacked.",
   },
 ];
 
@@ -279,12 +279,12 @@ export const boa = [
     image: "wali.jpg",
     slug: "dr-wali-badar",
     affiliation: [
-      "PGY-4 Integrated Interventional & Diagnostic Radiology",
+      "PGY-3 Integrated Interventional & Diagnostic Radiology",
       "University of Illinois Chicago",
       "Chicago, Illinois, USA",
     ],
     bio: [
-      "Dr. Badar is a PGY-4 Integrated Interventional & Diagnostic Radiology resident at the University of Illinois Chicago. An alumnus of the Chicago Medical School at Rosalind Franklin University, Dr. Badar completed his undergraduate degree in biomedical engineering at the University of Illinois Chicago.",
+      "Dr. Badar is a PGY-3 Integrated Interventional & Diagnostic Radiology resident at the University of Illinois Chicago. An alumnus of the Chicago Medical School at Rosalind Franklin University, Dr. Badar completed his undergraduate degree in biomedical engineering at the University of Illinois Chicago.",
 
       "Dr. Badar is a talented clinician and prolific researcher, recently receiving the prestigious Society of Interventional Radiology (SIR) Foundation's Radiology Resident Research Grant for 2023. This $20,000 grant supports his groundbreaking project titled 'Circulating Genetic Material for Detection and Prognostication of HCC,' which focuses on the detection and prognostication of hepatocellular carcinoma (HCC) through liquid biopsy. Dr. Badar's research aims to advance the field of interventional oncology, particularly for HCC and cholangiocarcinoma.",
 

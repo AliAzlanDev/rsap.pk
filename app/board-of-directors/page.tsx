@@ -16,8 +16,8 @@ export default function BoardOfDirectors() {
         </h1>
 
         <p className="max-w-2xl mx-auto my-6 text-center text-muted-foreground">
-          The RSAP Board of Directors consists of 9 officials. The members of
-          the board are responsible for the management of the Association.
+          The RSAP Board of Directors consists of 9 officials. Members of the
+          board are responsible for the management of the Association.
         </p>
 
         <img src="/images/news/1.jpg" />
