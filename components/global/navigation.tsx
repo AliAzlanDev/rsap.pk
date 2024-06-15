@@ -125,9 +125,9 @@ export const education: IconMenu[] = [
 ];
 export const research: IconMenu[] = [
   {
-    title: "Research",
+    title: "Research Projects",
     href: "/research",
-    description: "Research at RSAP",
+    description: "Ongoing and published papers",
     icon: <MicroscopeIcon className="size-3.5" />,
   },
 ];

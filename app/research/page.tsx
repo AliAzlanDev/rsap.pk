@@ -14,9 +14,9 @@ export default function Research() {
       <div className=" prose dark:prose-invert prose-zinc mx-auto">
         <h1 className=" !text-rsap">Research at RSAP</h1>
         <p>
-          RSAP{" "}
+          Our{" "}
           <ProgressBarLink href={"/committees/research-and-publications"}>
-            Research and Publications Committee
+            Research and Publications Committee (RPC)
           </ProgressBarLink>{" "}
           is dedicated to advancing the field of radiology through research. We
           are committed to conducting cutting-edge research that will improve
@@ -30,23 +30,30 @@ export default function Research() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {data.map((item) => (
           <div
-            className="flex flex-col border shadow rounded-xl p-6"
+            className="flex flex-col border shadow rounded-xl p-6 justify-between"
             key={item.title}
           >
-            <img src={item.image} alt={item.title} />
+            <img src={item.image} alt={item.title} className="rounded-lg" />
 
             <p className="mt-4 font-medium">{item.title}</p>
-            <p className="text-muted-foreground text-sm mt-2">
-              <FileTextIcon className="mr-1 inline-flex size-4" />
-              {item.journal}
-            </p>
-            <p className="mt-2 text-muted-foreground text-sm">
-              <UsersIcon className="mr-1 inline-flex size-4" />
+            {item.journal && (
+              <p className="text-muted-foreground text-sm mt-2">
+                <FileTextIcon className="mr-1 inline-flex size-4" />
+                {item.journal}
+              </p>
+            )}
+            {item.authors && (
+              <p className="mt-2 text-muted-foreground text-sm">
+                <UsersIcon className="mr-1 inline-flex size-4" />
 
-              {item.authors.join(", ")}
-            </p>
+                {item.authors.join(", ")}
+              </p>
+            )}
             <a target="_blank" href={item.link} className=" mt-5">
-              <Button text="Read More" />
+              <Button
+                text={item.disabled ? "In Progress" : "Read More"}
+                disabled={item.disabled}
+              />
             </a>
           </div>
         ))}
@@ -56,6 +63,12 @@ export default function Research() {
 }
 
 const data = [
+  {
+    title: "Addressing the shortcomings of radiology education in Pakistan",
+
+    image: "/images/r-3.jpg",
+    disabled: true,
+  },
   {
     title:
       "The Efficacy of Ketoconazole Containing Regimens in Castration-Resistant Prostate Cancer: A Systematic Review and Meta-Analysis",
