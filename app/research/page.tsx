@@ -33,9 +33,11 @@ export default function Research() {
             className="flex flex-col border shadow rounded-xl p-6 justify-between"
             key={item.title}
           >
-            <img src={item.image} alt={item.title} className="rounded-lg" />
+            <div>
+              <img src={item.image} alt={item.title} className="rounded-lg" />
 
-            <p className="mt-4 font-medium">{item.title}</p>
+              <p className="mt-4 font-medium">{item.title}</p>
+            </div>
             {item.journal && (
               <p className="text-muted-foreground text-sm mt-2">
                 <FileTextIcon className="mr-1 inline-flex size-4" />
