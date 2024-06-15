@@ -1,3 +1,4 @@
+import { ProgressBarLink } from "@/components/global/progress-bar";
 import { Button } from "@/components/ui/button";
 import { IdCardIcon, MixIcon, RocketIcon } from "@radix-ui/react-icons";
 import { Suspense } from "react";
@@ -60,14 +61,22 @@ export default function Join() {
           </div>
           <span className="ml-2">Membership Form</span>
         </h2>
-        <p>Fill out the following form to join RSAP today!</p>
+        <p>
+          Join RSAP today to make the most of these exciting opportunities and
+          benefits!
+        </p>
         <a
           target="_blank"
           href="https://docs.google.com/forms/d/e/1FAIpQLSfKtiCXOGflGEZF_S8szCwpJNDXzqAMeOQvhc5qLAtb6gBGqg/viewform"
           className=" not-prose"
         >
-          <Button text="Join RSAP" />
+          <Button text="Become an RSAP Member" />
         </a>
+        <h2>FAQs</h2>
+        <p>
+          Have a question about membership? Check out our FAQs page for answers.
+        </p>
+        <ProgressBarLink href="/membership/faqs">FAQ Page</ProgressBarLink>
       </div>
     </div>
   );

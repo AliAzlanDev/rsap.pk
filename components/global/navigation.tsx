@@ -123,6 +123,14 @@ export const education: IconMenu[] = [
     icon: <PersonIcon className="size-3.5" />,
   },
 ];
+export const research: IconMenu[] = [
+  {
+    title: "Research",
+    href: "/research",
+    description: "Research at RSAP",
+    icon: <MicroscopeIcon className="size-3.5" />,
+  },
+];
 export function Navigation() {
   return (
     <NavigationMenu>
@@ -181,7 +189,8 @@ export function Navigation() {
             Explore
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <div className="grid grid-cols-2 lg:grid-cols-3 min-w-[600px] lg:min-w-[850px]">
+            {/* lg:col-span-3 lg:min-w-[850px] */}
+            <div className="grid grid-cols-2 min-w-[600px]">
               <div className=" w-[300px]  p-3">
                 <h5 className=" text-sm py-2 px-3 font-normal text-muted-foreground">
                   RSAP Committees
@@ -216,22 +225,45 @@ export function Navigation() {
                   ))}
                 </ul>
               </div>
-              <div className=" w-[250px]  p-3">
-                <h5 className=" text-sm py-2 px-3 font-normal text-muted-foreground">
-                  Education
-                </h5>
-                <ul className="">
-                  {education.map((c) => (
-                    <li key={c.href}>
-                      <IconMenu
-                        title={c.title}
-                        href={c.href}
-                        icon={c.icon}
-                        description={c.description}
-                      />
-                    </li>
-                  ))}
-                </ul>
+              {/* lg:col-span-1 */}
+              <div className="  p-3  col-span-2 ">
+                {/*  lg:grid-cols-1 */}
+                <div className="grid grid-cols-2 gap-6">
+                  <div>
+                    <h5 className=" text-sm py-2 px-3 font-normal text-muted-foreground">
+                      Education
+                    </h5>
+                    <ul className="">
+                      {education.map((c) => (
+                        <li key={c.href}>
+                          <IconMenu
+                            title={c.title}
+                            href={c.href}
+                            icon={c.icon}
+                            description={c.description}
+                          />
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <h5 className=" text-sm py-2  px-3 font-normal text-muted-foreground">
+                      Research
+                    </h5>
+                    <ul className="">
+                      {research.map((c) => (
+                        <li key={c.href}>
+                          <IconMenu
+                            title={c.title}
+                            href={c.href}
+                            icon={c.icon}
+                            description={c.description}
+                          />
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </NavigationMenuContent>
@@ -359,6 +391,25 @@ export function MobileNavigation() {
               </h5>
               <ul>
                 {education.map((c) => (
+                  <li key={c.href}>
+                    <IconMenu
+                      title={c.title}
+                      href={c.href}
+                      icon={c.icon}
+                      description={c.description}
+                      onClick={() => setOpen(false)}
+                    />
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h4 className=" text-lg   font-medium">Research</h4>
+              <h5 className=" text-sm py-1  font-normal text-muted-foreground">
+                Research at RSAP
+              </h5>
+              <ul>
+                {research.map((c) => (
                   <li key={c.href}>
                     <IconMenu
                       title={c.title}
