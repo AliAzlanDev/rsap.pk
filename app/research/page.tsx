@@ -18,10 +18,7 @@ export default function Research() {
           <ProgressBarLink href={"/committees/research-and-publications"}>
             Research and Publications Committee (RPC)
           </ProgressBarLink>{" "}
-          is dedicated to advancing the field of radiology through research. We
-          are committed to conducting cutting-edge research that will improve
-          patient care and enhance the quality of life for radiology
-          professionals.
+          is dedicated to advancing the field of radiology through research.
         </p>
       </div>
       <h2 className=" text-3xl font-semibold text-center lg:text-4xl py-10">
@@ -66,7 +63,8 @@ export default function Research() {
 
 const data = [
   {
-    title: "Addressing the shortcomings of radiology education in Pakistan",
+    title:
+      "Addressing the shortcomings of radiology education in Pakistan: are medical schools doing enough?",
 
     image: "/images/r-3.jpg",
     disabled: true,
