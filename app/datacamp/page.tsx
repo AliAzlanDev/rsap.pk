@@ -64,7 +64,7 @@ export default function Page() {
         </li>
         <li>
           The top scoring applications will receive access to DataCamp for up to
-          <b>1 year</b> (starting July 1, 2024).
+          <b> 1 year</b> (starting July 1, 2024).
         </li>
 
         <li>
