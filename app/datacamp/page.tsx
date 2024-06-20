@@ -65,23 +65,18 @@ export default function Page() {
           The top scoring applications will receive access to DataCamp for up to
           1 year (starting July 1, 2024).
         </li>
+
         <li>
-          Keep the following timeline in mind during the scholarship period
-          after your selection:
-          <ul>
-            <li>
-              Accept the invite to DataCamp within the first 2 weeks of your
-              selection.
-            </li>
-            {/* <li>
+          Accept the invite to DataCamp within the first 2 weeks of your
+          selection.
+        </li>
+        {/* <li>
               Complete one course within the first 8 weeks of your selection.
             </li>
             <li>
               Accumulate at least 4000 XP within the first 20 weeks of your
               selection.
             </li> */}
-          </ul>
-        </li>
       </ul>
 
       <a
