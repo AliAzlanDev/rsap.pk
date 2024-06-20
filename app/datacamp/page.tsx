@@ -16,7 +16,6 @@ export default function Page() {
         </a>
       </div>
       <h1>RSAP x DataCamp Donates</h1>
-
       <p>
         <a href="https://www.datacamp.com/">DataCamp</a> is a world-renowned
         platform where you can learn the data and AI skills you need online at
@@ -24,33 +23,44 @@ export default function Page() {
         machine learning.
       </p>
       <p>
-        Through{" "}
-        <a href="https://www.datacamp.com/donates" target="_blank">
-          DataCamp Donates
-        </a>{" "}
-        1-year Scholarship, RSAP members get <b>free access</b> to over{" "}
-        <b>400+ courses</b> & 110+ projects, each worth over <b>$399</b>.
+        Through the RSAP x DataCamp Donates Scholarship initiative, RSAP Members
+        can receive a free subscription for up to one year. Enjoy unlimited
+        access to <strong>over 400 expertly designed courses</strong> and 110
+        projects, a package valued at over <strong>$399</strong>!
       </p>
       <h2>Why use DataCamp as a medical student or doctor?</h2>
       <p>
-        Modern radiology heavily relies on advanced technology, data analytics,
-        and machine learning algorithms. Big data plays a crucial role in tumor
-        detection and modeling. Learning these advanced techniques is vital to
-        contributing to the field and collaborating with leading
-        radiologists worldwide. Through this scholarship, RSAP members will:
+        In today's healthcare landscape, advanced technology, data analytics,
+        and machine learning algorithms are integral to modern radiology and
+        other medical fields. Big data plays a crucial role in tasks such as
+        tumor detection, disease modeling, and personalized treatment plans.
+        Mastering these advanced techniques is vital for contributing to the
+        field and collaborating with leading medical professionals worldwide.
       </p>
+      Here’s how the RSAP x DataCamp Donates Scholarship can benefit you:
       <ul>
-        <li>Get access to a wide range of statistical analysis courses.</li>
         <li>
-          Become certified in R programming, widely used in academic research.
-          (no programming experience required)
+          <strong>Master statistical analysis:</strong> gain in-depth knowledge
+          through a wide range of statistical analysis courses, enhancing your
+          ability to interpret complex data and contribute to groundbreaking
+          research.
         </li>
         <li>
-          Get free access to 400+ courses, including courses on data science,
-          machine learning, and AI.
+          <strong>Certification in R programming:</strong> become certified in R
+          programming, a powerful tool widely used in academic research. No
+          prior programming experience is required, making it accessible to all
+          medical professionals.
         </li>
         <li>
-          Get free access to 110+ of data science and machine learning projects.
+          ⁠<strong>Extensive course access:</strong> enjoy free access to 400+
+          courses, including those focused on data science, machine learning,
+          and AI.
+        </li>
+        <li>
+          <strong>Hands-on projects:</strong> get free access to 110+ projects
+          on data science and machine learning. These practical experiences will
+          solidify your skills and enable you to apply them in real-world
+          medical scenarios.
         </li>
 
         <li>
@@ -63,8 +73,8 @@ export default function Page() {
       </h2>
       <ul>
         <li>
-          This opportunity is exclusively for <b>RSAP Members</b>. If you
-          haven’t signed up yet, please register through the{" "}
+          This opportunity is exclusively for <strong>RSAP Members</strong>. If
+          you haven’t signed up yet, please register through the{" "}
           <a href="/join">RSAP Membership Form</a>.
         </li>
         <li>
@@ -73,12 +83,12 @@ export default function Page() {
         </li>
         <li>
           The top scoring applications will receive access to DataCamp for up to
-          <b> 1 year</b> (starting July 1, 2024).
+          <strong> one year</strong> (starting July 1, 2024).
         </li>
 
         <li>
-          Acceptance of the DataCamp invitation within <b>1 week</b> of
-          selection is mandatory to avoid revocation of the offer.
+          Acceptance of the DataCamp invitation within <strong>one week</strong>{" "}
+          of selection is mandatory to avoid revocation of the offer.
         </li>
         {/* <li>
               Complete one course within the first 8 weeks of your selection.
@@ -88,7 +98,6 @@ export default function Page() {
               selection.
             </li> */}
       </ul>
-
       <a
         href="https://docs.google.com/forms/d/e/1FAIpQLSfKh9wLESUJEoNB8lDYHpzJi6AS90f4_hq1lYrXM5LwyxUJKA/viewform"
         target="_blank"
