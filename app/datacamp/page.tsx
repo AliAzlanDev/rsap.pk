@@ -48,7 +48,9 @@ export default function Page() {
           <a href="https://www.datacamp.com/">Learn more about DataCamp</a>
         </li>
       </ul>
-      <h2>How to Apply and Access DataCamp as an RSAP Member</h2>
+      <h2>
+        How to apply and access the DataCamp scholarship as an RSAP Member?
+      </h2>
       <ul>
         <li>
           This opportunity is exclusively for RSAP Members. If you haven’t
@@ -61,7 +63,7 @@ export default function Page() {
         </li>
         <li>
           The top scoring applications will receive access to DataCamp for up to
-          1 year (starting July 1).
+          1 year (starting July 1, 2024).
         </li>
         <li>
           Keep the following timeline in mind during the scholarship period
@@ -71,13 +73,13 @@ export default function Page() {
               Accept the invite to DataCamp within the first 2 weeks of your
               selection.
             </li>
-            <li>
+            {/* <li>
               Complete one course within the first 8 weeks of your selection.
             </li>
             <li>
               Accumulate at least 4000 XP within the first 20 weeks of your
               selection.
-            </li>
+            </li> */}
           </ul>
         </li>
       </ul>
@@ -87,7 +89,7 @@ export default function Page() {
         target="_blank"
         className="not-prose"
       >
-        <Button text="RSAP X DataCamp Donate Scholarship" />
+        <Button text="RSAP x DataCamp Donate Scholarship" />
       </a>
     </div>
   );
