@@ -16,6 +16,7 @@ export default function Page() {
         </a>
       </div>
       <h1>RSAP x DataCamp Donates</h1>
+
       <p>
         <a href="https://www.datacamp.com/">DataCamp</a> is a world-renowned
         platform where you can learn the data and AI skills you need online at
@@ -31,6 +32,13 @@ export default function Page() {
         <b>400+ courses</b> & 110+ projects, each worth over <b>$399</b>.
       </p>
       <h2>Why use DataCamp as a medical student or doctor?</h2>
+      <p>
+        Modern radiology heavily relies on advanced technology, data analytics,
+        and machine learning algorithms. Big data plays a crucial role in tumor
+        detection and modeling. Learning these advanced techniques is vital to
+        contributing to the field and collaborating with leading
+        radiologists worldwide. Through this scholarship, RSAP members will:
+      </p>
       <ul>
         <li>Get access to a wide range of statistical analysis courses.</li>
         <li>
@@ -38,12 +46,13 @@ export default function Page() {
           (no programming experience required)
         </li>
         <li>
-          Get free access to 110+ of data science and machine learning projects.
+          Get free access to 400+ courses, including courses on data science,
+          machine learning, and AI.
         </li>
         <li>
-          Get free access to over 400 courses, including courses on data
-          science, machine learning, and AI.
+          Get free access to 110+ of data science and machine learning projects.
         </li>
+
         <li>
           <a href="https://www.datacamp.com/">Learn more about DataCamp</a>
         </li>
