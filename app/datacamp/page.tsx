@@ -30,14 +30,15 @@ export default function Page() {
       </p>
       <h2>Why use DataCamp as a medical student or doctor?</h2>
       <p>
-        In today's healthcare landscape, advanced technology, data analytics,
-        and machine learning algorithms are integral to modern radiology and
-        other medical fields. Big data plays a crucial role in tasks such as
-        tumor detection, disease modeling, and personalized treatment plans.
-        Mastering these advanced techniques is vital for contributing to the
-        field and collaborating with leading medical professionals worldwide.
+        In today&apos;s healthcare landscape, advanced technology, data
+        analytics, and machine learning algorithms are integral to modern
+        radiology and other medical fields. Big data plays a crucial role in
+        tasks such as tumor detection, disease modeling, and personalized
+        treatment plans. Mastering these advanced techniques is vital for
+        contributing to the field and collaborating with leading medical
+        professionals worldwide.
       </p>
-      Here’s how the RSAP x DataCamp Donates Scholarship can benefit you:
+      Here&apos;s how the RSAP x DataCamp Donates Scholarship can benefit you:
       <ul>
         <li>
           <strong>Master statistical analysis:</strong> gain in-depth knowledge
@@ -74,7 +75,7 @@ export default function Page() {
       <ul>
         <li>
           This opportunity is exclusively for <strong>RSAP Members</strong>. If
-          you haven’t signed up yet, please register through the{" "}
+          you haven&apos;t signed up yet, please register through the{" "}
           <a href="/join">RSAP Membership Form</a>.
         </li>
         <li>
