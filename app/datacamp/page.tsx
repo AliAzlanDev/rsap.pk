@@ -28,6 +28,10 @@ export default function Page() {
         access to <strong>over 400 expertly designed courses</strong> and 110
         projects, a package valued at over <strong>$399</strong>!
       </p>
+      <p>
+        RSAP is one of the pioneering student and trainee-led organizations in
+        Pakistan to offer this opportunity.
+      </p>
       <h2>Why use DataCamp as a medical student or doctor?</h2>
       <p>
         In today&apos;s healthcare landscape, advanced technology, data
