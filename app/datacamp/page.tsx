@@ -23,14 +23,16 @@ export default function Page() {
         machine learning.
       </p>
       <p>
-        Through the RSAP x DataCamp Donates Scholarship initiative, RSAP Members
-        can receive a free subscription for up to one year. Enjoy unlimited
-        access to <strong>over 400 expertly designed courses</strong> and 110
-        projects, a package valued at over <strong>$399</strong>!
+        Through the RSAP x{" "}
+        <a href="https://www.datacamp.com/donates">DataCamp Donates</a>{" "}
+        Scholarship initiative, RSAP Members can receive a free subscription for
+        up to one year. Enjoy unlimited access to{" "}
+        <strong>over 400 expertly designed courses</strong> and 110 projects, a
+        package valued at over <strong>$399</strong>!
       </p>
       <p>
-        RSAP is one of the pioneering student and trainee-led organizations in
-        Pakistan to offer this opportunity.
+        RSAP stands out as one of Pakistan's pioneering student and trainee-led
+        organizations offering this unparalleled opportunity.
       </p>
       <h2>Why use DataCamp as a medical student or doctor?</h2>
       <p>
