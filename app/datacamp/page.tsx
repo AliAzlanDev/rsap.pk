@@ -31,8 +31,8 @@ export default function Page() {
         package valued at over <strong>$399</strong>!
       </p>
       <p>
-        RSAP stands out as one of Pakistan's pioneering student and trainee-led
-        organizations offering this unparalleled opportunity.
+        RSAP stands out as one of Pakistan&apos;s pioneering student and
+        trainee-led organizations offering this unparalleled opportunity.
       </p>
       <h2>Why use DataCamp as a medical student or doctor?</h2>
       <p>
