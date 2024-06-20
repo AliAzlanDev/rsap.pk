@@ -1,3 +1,4 @@
+import { DataCampDonateIcon } from "../icons/datacamp";
 import FacebookIcon from "../icons/facebook";
 import InstagramIcon from "../icons/instagram";
 import LinkedInIcon from "../icons/linkedin";
@@ -74,6 +75,14 @@ export default function Footer() {
             <li>
               <a href="https://www.youtube.com/@radsapakistan" target="_blank">
                 <YoutubeIcon className="size-6" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.datacamp.com/donates?utm_source=donates&utm_medium=partner&utm_campaign=000000_1-internal_2-na_3-global_4-na_5-na_6-requirements_7-do_8-ptnr-pn_9-na_10-na_11-logo&noTrack=true"
+                target="_blank"
+              >
+                <DataCampDonateIcon className="h-6" />
               </a>
             </li>
           </ul>

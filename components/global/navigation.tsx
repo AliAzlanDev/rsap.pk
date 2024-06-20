@@ -14,6 +14,7 @@ import {
   IdCardIcon,
   InfoCircledIcon,
   PersonIcon,
+  PieChartIcon,
   QuestionMarkCircledIcon,
   RocketIcon,
 } from "@radix-ui/react-icons";
@@ -271,6 +272,14 @@ export function Navigation() {
         <NavigationMenuItem>
           <ProgressBarLink
             className="inline-flex h-9 w-max items-center justify-center transition-colors hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 text-sm rounded-full border-0 px-3 py-1.5 text-muted-foreground font-normal hover:bg-accent"
+            href={"/datacamp"}
+          >
+            DataCamp
+          </ProgressBarLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <ProgressBarLink
+            className="inline-flex h-9 w-max items-center justify-center transition-colors hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 text-sm rounded-full border-0 px-3 py-1.5 text-muted-foreground font-normal hover:bg-accent"
             href={"/news"}
           >
             News
@@ -401,6 +410,15 @@ export function MobileNavigation() {
                     />
                   </li>
                 ))}
+                <li>
+                  <IconMenu
+                    title="DataCamp Donates"
+                    href="/datacamp"
+                    icon={<PieChartIcon className="size-4" />}
+                    description="Get free access to DataCamp"
+                    onClick={() => setOpen(false)}
+                  />
+                </li>
               </ul>
             </div>
             <div>
