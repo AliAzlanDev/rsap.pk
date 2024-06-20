@@ -14,7 +14,10 @@ export function News() {
 
       <div className=" mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {posts.map((p) => (
-          <div className=" p-4 border " key={p.slugs[0]}>
+          <div
+            className=" p-4 border flex flex-col justify-between"
+            key={p.slugs[0]}
+          >
             <ProgressBarLink href={`/news/${p.slugs[0]}`}>
               <img
                 src={p.data.banner}

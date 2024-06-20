@@ -24,11 +24,13 @@ export default function Page() {
       </p>
       <p>
         Through the RSAP x{" "}
-        <a href="https://www.datacamp.com/donates">DataCamp Donates</a>{" "}
-        Scholarship initiative, RSAP Members can receive a free subscription for
-        up to one year. Enjoy unlimited access to{" "}
-        <strong>over 400 expertly designed courses</strong> and 110 projects, a
-        package valued at over <strong>$399</strong>!
+        <a href="https://www.datacamp.com/donates" target="_blank">
+          DataCamp Donates
+        </a>{" "}
+        Scholarship initiative, RSAP Members can receive a <strong>free</strong>{" "}
+        subscription for up to <strong>one year</strong>. Enjoy unlimited access
+        to 400+ expertly designed courses and 110+ projects, a package valued at
+        over <strong>$399</strong>!
       </p>
       <p>
         RSAP stands out as one of Pakistan&apos;s pioneering student and
@@ -71,7 +73,9 @@ export default function Page() {
         </li>
 
         <li>
-          <a href="https://www.datacamp.com/">Learn more about DataCamp</a>
+          <a href="https://www.datacamp.com/" target="_blank">
+            Learn more about DataCamp
+          </a>
         </li>
       </ul>
       <h2>
