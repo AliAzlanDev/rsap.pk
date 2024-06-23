@@ -61,7 +61,7 @@ export default function Page() {
           medical professionals.
         </li>
         <li>
-          ⁠<strong>Extensive course access:</strong> enjoy free access to 400+
+          ⁠<strong>Extensive course access:</strong> enjoy free access to 440+
           courses, including those focused on data science, machine learning,
           and AI.
         </li>

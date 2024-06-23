@@ -8,8 +8,11 @@ export default function Page() {
       </h1>
 
       <p>
-        We are opening the{" "}
-        <strong>Call for the RSAP Associate Directors (ADs) 2024-25</strong>.
+        We are seeking enthusiastic individuals to serve as{" "}
+        <strong>RSAP Associate Directors for 2024-25</strong>. Associate
+        Directors play a vital role in supporting RSAP&apos;s mission and
+        assisting their respective Directors with specific tasks and
+        responsibilities.
       </p>
       <h2>General information on RSAP Associate Directors</h2>
       <ul>
@@ -75,7 +78,7 @@ export default function Page() {
         late applications will not be considered and will be deemed invalid.
       </p>
 
-      <p>We look forward to receiving your applications</p>
+      <p>We look forward to receiving your applications!</p>
     </div>
   );
 }
