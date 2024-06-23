@@ -48,7 +48,7 @@ export default function Page() {
         </li>
       </ul>
 
-      <h2>Available RSAP Associate Directors' Positions</h2>
+      <h2>Available RSAP Associate Directors&apos; Positions</h2>
       <ol>
         <li>Associate Director(s) for Human Resources (ADHR)</li>
         <li>
