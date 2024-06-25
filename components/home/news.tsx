@@ -3,11 +3,13 @@ import { Button } from "../ui/button";
 import { ProgressBarLink } from "../global/progress-bar";
 
 export function News() {
-  const posts = [...news.getPages()].sort(
-    (a, b) =>
-      new Date(b.data.date ?? b.file.name).getTime() -
-      new Date(a.data.date ?? a.file.name).getTime()
-  );
+  const posts = [...news.getPages()]
+    .sort(
+      (a, b) =>
+        new Date(b.data.date ?? b.file.name).getTime() -
+        new Date(a.data.date ?? a.file.name).getTime()
+    )
+    .splice(0, 3);
   return (
     <div className="container-x py-10">
       <h1 className=" text-center text-4xl font-bold">Latest News</h1>
