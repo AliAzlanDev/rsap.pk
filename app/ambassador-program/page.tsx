@@ -121,4 +121,23 @@ const ambassadors = [
     affiliation: ["MS4", "Allama Iqbal Medical College", "Lahore, Pakistan"],
     image: "rubab.jpg",
   },
+  {
+    name: "Eeman Ahmad",
+    affiliation: [
+      "MS4",
+      "FHM College of Medicine & Dentistry",
+      "Lahore, Pakistan",
+    ],
+    image: "eeman.jpg",
+  },
+  {
+    name: "Sehar Fatima",
+    affiliation: ["MS4", "Allama Iqbal Medical College", "Lahore, Pakistan"],
+    image: "sehar.jpg",
+  },
+  {
+    name: "Farah Ali Afridi",
+    affiliation: ["MS2", "Khyber Medical College", "Peshawar, Pakistan"],
+    image: "farah.jpg",
+  },
 ];
