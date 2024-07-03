@@ -15,8 +15,8 @@ export default function Page() {
       </div>
       <h1 className="mt-4">RSAP x AMBOSS</h1>
       <p>
-        <a href="https://www.amboss.com/us/knowledge">AMBOSS</a> is a
-        next-generation learninf resource for medical school and beyond. AMBOSS
+        <a href="https://www.amboss.com">AMBOSS</a> is a next-generation
+        learning resource for medical school and beyond.
       </p>
       <p>
         Through the RSAP x AMBOSS partnership, RSAP Members will enjoy a number
@@ -62,7 +62,7 @@ export default function Page() {
           Full drug database plus instant access to first-line drug dosages
         </li>
         <li>
-          <a href="https://www.datacamp.com/" target="_blank">
+          <a href="https://www.amboss.com" target="_blank">
             Learn more about AMBOSS
           </a>
         </li>
