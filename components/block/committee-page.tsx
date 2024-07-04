@@ -6,7 +6,7 @@ type Props = {
   description: string;
   image: string;
   color: string;
-  lead: {
+  lead?: {
     name: string;
     position: string;
     affiliation: string;
@@ -31,7 +31,9 @@ export function CommitteePage(props: Props) {
       <div className="flex gap-10  items-center md:items-start md:justify-between flex-col-reverse md:flex-row mt-10">
         <div>
           <p className="prose dark:prose-invert mx-auto">{description}</p>
-          <AuthorCard lead={lead} color={color} className="hidden lg:flex" />
+          {lead && (
+            <AuthorCard lead={lead} color={color} className="hidden lg:flex" />
+          )}
         </div>
         <img
           src={image}
@@ -39,7 +41,7 @@ export function CommitteePage(props: Props) {
           className=" max-w-[400px] w-full  rounded-xl shadow-xl"
         />
       </div>
-      <AuthorCard lead={lead} color={color} className="lg:hidden" />
+      {lead && <AuthorCard lead={lead} color={color} className="lg:hidden" />}
     </div>
   );
 }
