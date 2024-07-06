@@ -1,4 +1,5 @@
 import AmbossIcon from "@/components/icons/amboss";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 export const metadata = {
   title: "RSAP x AMBOSS",
@@ -11,12 +12,48 @@ export default function Page() {
           <AmbossIcon />
         </a>
       </div>
+      <h2 className="text-5xl  font-semibold leading-tight text-center mt-20">
+        RSAP x AMBOSS
+      </h2>
+      <p className="md:text-center text-lg text-muted-foreground mt-10 max-w-[900px] mx-auto">
+        AMBOSS is an online learning platform designed to support your medical
+        career. It features a Library and Question Bank aligned with USMLE
+        guidelines, aiding in the preparation for USMLE Step 1, Step 2 exams.
+        <br />
+        Through the RSAP x AMBOSS partnership,{" "}
+        <strong className=" font-semibold">RSAP Members</strong> will enjoy a
+        number of amazing benefits. Stay tuned for more details!
+      </p>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 mt-20 ">
+        <div className="lg:hidden">
+          <h2 className="text-4xl leading-tight font-semibold text-center lg:text-left">
+            Your next-gen resource for med school and beyond.
+          </h2>
+          <p className="mt-6 text-lg text-center text-muted-foreground">
+            Learn faster, study smarter, and excel in clerkships
+          </p>
+        </div>
+        <img
+          src="/images/amboss-2.png"
+          className=" max-w-[600px]"
+          alt="AMBOSS"
+        />
+        <div className="my-auto hidden lg:block">
+          <h2 className="text-4xl leading-tight font-semibold text-center md:text-left">
+            Your next-gen resource for med school and beyond.
+          </h2>
+          <p className="mt-6 text-lg text-muted-foreground">
+            Learn faster, study smarter, and excel in clerkships
+          </p>
+        </div>
+      </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-20">
         <div className="my-auto">
-          <h2 className="text-5xl font-semibold text-center md:text-left">
+          <h2 className="text-4xl font-semibold leading-tight text-center md:text-left">
             All the answers, right in your hands.
           </h2>
-          <p className="mt-10 text-lg text-muted-foreground">
+          <p className="mt-6 text-lg text-muted-foreground">
             Make the right call in every clinical scenario. The AMBOSS Knowledge
             and Qbank apps give you instant and on-the-go medical knowledge and
             guidance.
@@ -80,13 +117,6 @@ export default function Page() {
           </ul>
         </div>
       </div>
-      <h2 className="text-5xl font-semibold text-center mt-20">
-        RSAP x AMBOSS Partnership
-      </h2>
-      <p className="text-center  text-muted-foreground mt-10">
-        Through the RSAP x AMBOSS partnership, RSAP Members will enjoy a number
-        of amazing benefits. Stay tuned for more details!
-      </p>
     </div>
   );
 }
