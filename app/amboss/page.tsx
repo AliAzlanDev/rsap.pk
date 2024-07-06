@@ -1,5 +1,4 @@
 import AmbossIcon from "@/components/icons/amboss";
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 export const metadata = {
   title: "RSAP x AMBOSS",
