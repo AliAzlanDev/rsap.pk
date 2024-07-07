@@ -6,22 +6,34 @@ export const metadata = {
 export default function Page() {
   return (
     <div className=" container-x py-10 overflow-x-hidden">
-      <div className="max-w-sm mx-auto my-8 ">
-        <a href="https://www.amboss.com" target="_blank">
+      <div className="max-w-2xl mx-auto my-8 grid grid-cols-5 gap-5 sm:gap-8 md:gap-20  ">
+        <img
+          src="/images/logo.png"
+          alt="RSAP"
+          className=" col-span-2 mx-auto dark:hidden"
+        />
+        <img
+          src="/images/logo-invert.png"
+          alt="RSAP"
+          className=" col-span-2 mx-auto hidden dark:block"
+        />
+        <a
+          href="https://www.amboss.com"
+          target="_blank"
+          className=" col-span-3 my-auto"
+        >
           <AmbossIcon />
         </a>
       </div>
-      <h2 className="text-5xl  font-semibold leading-tight text-center mt-20">
-        RSAP x AMBOSS
-      </h2>
+
       <p className="md:text-center text-lg text-muted-foreground mt-10 max-w-[900px] mx-auto">
-        AMBOSS is an online learning platform designed to support your medical
-        career. It features a Library and Question Bank aligned with USMLE
-        guidelines, aiding in the preparation for USMLE Step 1, Step 2 exams.
+        AMBOSS is one of the leading online learning platforms designed to
+        support your medical career. It features an amazing Library and Question
+        Bank aligned with USMLE guidelines, aiding in the preparation for USMLE
+        Step 1 and Step 2 exams.
         <br />
-        Through the RSAP x AMBOSS partnership,{" "}
-        <strong className=" font-semibold">RSAP Members</strong> will enjoy a
-        number of amazing benefits. Stay tuned for more details!
+        Through the RSAP x AMBOSS partnership, RSAP Members will enjoy numerous
+        amazing benefits. Stay tuned for more details!
       </p>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 mt-20 ">
         <div className="lg:hidden">
