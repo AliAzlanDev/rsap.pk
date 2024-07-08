@@ -29,7 +29,7 @@ export default function Page() {
         </a>
       </div>
 
-      <div className=" prose dark:prose-invert prose-zinc mx-auto">
+      <div className=" prose dark:prose-invert prose-zinc mx-auto mt-20">
         <h1>RSAP x DataCamp Donates</h1>
         <p>
           <a href="https://www.datacamp.com/">DataCamp</a> is a world-renowned
