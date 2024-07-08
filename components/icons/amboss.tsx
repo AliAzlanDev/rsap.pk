@@ -7,7 +7,6 @@ export default function AmbossIcon() {
       x="0px"
       y="0px"
       viewBox="0 0 141.2 22.4"
-      enableBackground="new 0 0 141.2 22.4"
     >
       <g>
         <path
