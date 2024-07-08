@@ -13,6 +13,7 @@ import {
   HamburgerMenuIcon,
   IdCardIcon,
   InfoCircledIcon,
+  MixIcon,
   PersonIcon,
   PieChartIcon,
   QuestionMarkCircledIcon,
@@ -286,6 +287,14 @@ export function Navigation() {
         <NavigationMenuItem>
           <ProgressBarLink
             className="inline-flex h-9 w-max items-center justify-center transition-colors hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 text-sm rounded-full border-0 px-3 py-1.5 text-muted-foreground font-normal hover:bg-accent"
+            href={"/amboss"}
+          >
+            AMBOSS
+          </ProgressBarLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <ProgressBarLink
+            className="inline-flex h-9 w-max items-center justify-center transition-colors hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 text-sm rounded-full border-0 px-3 py-1.5 text-muted-foreground font-normal hover:bg-accent"
             href={"/news"}
           >
             News
@@ -422,6 +431,15 @@ export function MobileNavigation() {
                     href="/datacamp"
                     icon={<PieChartIcon className="size-4" />}
                     description="Get free access to DataCamp"
+                    onClick={() => setOpen(false)}
+                  />
+                </li>
+                <li>
+                  <IconMenu
+                    title="AMBOSS"
+                    href="/amboss"
+                    icon={<MixIcon className="size-4" />}
+                    description="RSAP x AMBOSS Partnership"
                     onClick={() => setOpen(false)}
                   />
                 </li>

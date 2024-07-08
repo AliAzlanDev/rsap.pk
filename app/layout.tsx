@@ -25,7 +25,7 @@ export const metadata: Metadata = {
       url: "https://aliazlanreal.blogspot.com",
     },
   ],
-  creator: "AliAzlanReal",
+  creator: "radsapakistan",
   openGraph: {
     type: "website",
     locale: "en_US",
