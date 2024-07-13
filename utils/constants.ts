@@ -34,13 +34,13 @@ export const committees = {
       "The RSAP Mentorship and Education Committee (MEC) is dedicated to fostering a more supportive environment for aspiring radiologists. The mentorship program offers aspiring radiologists a unique one-on-one opportunity to connect with seasoned professionals. It's a chance for them to gain valuable insights and stand on the shoulders of field experts. Simultaneously, education wing plays a pivotal role in our mission by disseminating valuable educational content related to radiology. They design immersive, hands-on learning workshops that actively engage students. Through these workshops, medical students can gain a genuine understanding of what it means to be a radiologist, offering them a firsthand experience of the profession.",
     image: "/image/mec-home.jpg",
     color: "text-[#0e0021]",
-    // lead: {
-    //   name: "Dr. Zohaa Faiz",
-    //   position: "Liaison for Mentorship & Education",
-    //   affiliation: "Graduate, Aga Khan University",
-    //   email: "lme.radsapakistan@gmail.com",
-    //   picture: "zohaa.jpg",
-    // },
+    lead: {
+      name: "Momina Javaid Awan",
+      position: "Liaison for Mentorship & Education",
+      affiliation: "MS5, King Edward Medical University",
+      email: "lme.radsapakistan@gmail.com",
+      picture: "momina.jpg",
+    },
   },
   advocacyAndNetwroking: {
     title: "Advocacy and Networking Committee",
@@ -179,18 +179,18 @@ export const bod = [
       "Beyond academics, I find enjoyment in the world of video games, particularly the Far Cry series. Looking forward to an amazing year ahead.",
     ],
   },
-  // {
-  //   name: "Dr. Zohaa Faiz",
-  //   position: "Liaison for Mentorship & Education",
-  //   image: "/images/bod/zohaa.jpg",
-  //   description: ["Graduate", "Aga Khan University", "Karachi, Pakistan"],
-  //   slug: "zohaa-faiz",
-  //   email: "lme.radsapakistan@gmail.com",
-  //   bio: [
-  //     "After medical school, despite my great clinical education, I found that radiology was often sidelined during our clinical years, leading to a delayed appreciation.",
-  //     "Recognizing this gap in medical education, I am now driven to bridge this divide. By fostering mentorship and creating educational opportunities, I aim to cultivate a robust understanding of radiology among future medical students, ensuring they receive the guidance and knowledge I once lacked.",
-  //   ],
-  // },
+  {
+    name: "Momina Javaid Awan",
+    position: "Liaison for Mentorship & Education",
+    image: "/images/bod/momina.jpg",
+    description: ["MS5", "King Edward Medical University", "Lahore, Pakistan"],
+    slug: "momina-javaid-awan",
+    email: "lme.radsapakistan@gmail.com",
+    bio: [
+      "Fueled by the conviction that education is the catalyst for turning dreams into realities, I'm Momina Awan, nearing the end of my journey at King Edward Medical University. What started as a spark of curiosity in medicine has grown into a fervent dedication to Radiology.",
+      "My goal for RSAP extends beyond borders: I envision its mentorship programs spreading worldwide, empowering budding radiologists to thrive in this ever-evolving field. Through a blend of teamwork and inventive thinking, I aspire to forge pathways that ignite passion and prepare tomorrow's healthcare visionaries.",
+    ],
+  },
 ];
 
 export const boa = [
