@@ -20,7 +20,7 @@ export default function BoardOfDirectors() {
           board are responsible for the management of the Association.
         </p>
 
-        {/* <img src="/images/news/1.jpg" /> */}
+        <img src="/images/news/1.jpg" />
 
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 ">
           {bod.map((item, index) => (
