@@ -1,5 +1,6 @@
 import { cn } from "@/utils/shadcn";
 import { EnvelopeClosedIcon } from "@radix-ui/react-icons";
+import { ProgressBarLink } from "../global/progress-bar";
 
 type Props = {
   title: string;
@@ -62,9 +63,13 @@ function AuthorCard({
   className?: string;
 }) {
   return (
-    <div
+    <ProgressBarLink
+      href={`/board-of-directors/${lead.name
+        .toLowerCase()
+        .replaceAll(" ", "-")}`}
       className={cn(
-        "mt-10 border rounded-2xl p-5 flex flex-col sm:flex-row items-center gap-6",
+        "mt-10 border rounded-2xl p-5 flex flex-col sm:flex-row items-center gap-6 hover:border-rsap ",
+
         className
       )}
     >
@@ -94,6 +99,6 @@ function AuthorCard({
           {lead.email}
         </a>
       </div>
-    </div>
+    </ProgressBarLink>
   );
 }
