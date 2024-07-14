@@ -68,7 +68,7 @@ function AuthorCard({
         .toLowerCase()
         .replaceAll(" ", "-")}`}
       className={cn(
-        "mt-10 border rounded-2xl p-5 flex flex-col sm:flex-row items-center gap-6 hover:border-rsap ",
+        "mt-10 border rounded-2xl transition-colors duration-300 p-5 flex flex-col sm:flex-row items-center group gap-6 hover:border-transparent hover:bg-primary",
 
         className
       )}
@@ -82,17 +82,20 @@ function AuthorCard({
         <div
           className={cn(
             "font-bold text-2xl ",
-            color !== "text-[#0e0021]" && color
+            color !== "text-[#0e0021]" && color,
+            "group-hover:text-white"
           )}
         >
           {lead.position}
         </div>
-        <h3 className="font-semibold text-xl mt-3">{lead.name}</h3>
-        <p className="mt-1 mb-2 text-sm text-muted-foreground">
+        <h3 className="font-semibold text-xl mt-3 group-hover:!text-white">
+          {lead.name}
+        </h3>
+        <p className="mt-1 mb-2 text-sm text-muted-foreground group-hover:text-zinc-300">
           {lead.affiliation}
         </p>
         <a
-          className=" underline font-medium"
+          className=" underline font-medium group-hover:text-zinc-300"
           href="mailto:lrp.radsapakistan@gmail.com"
         >
           <EnvelopeClosedIcon className=" inline-flex mr-2" />

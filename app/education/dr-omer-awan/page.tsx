@@ -19,7 +19,7 @@ export default async function EducationDrOmerAwan() {
   const playlists = {
     playlist1: {
       id: "PLFqKuvTXsoesCARWn88RYbgD7qvyOtC96",
-      title: "Match & Residency Tips",
+      title: "U.S. Match & Residency Tips",
       thumbnail: "https://i.ytimg.com/vi/Kv7yfZOyLY4/maxresdefault.jpg",
     },
     playlist2: {
