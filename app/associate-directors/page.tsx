@@ -23,7 +23,7 @@ export default function Page() {
                 <h3 className="mt-2 font-bold text-lg">{associate.name}</h3>
                 <div className=" mt-1 font-medium text-sm">
                   {associate.institute.map((institute, index) => (
-                    <div>{institute}</div>
+                    <div key={index}>{institute}</div>
                   ))}
                 </div>
               </div>
