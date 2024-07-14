@@ -23,7 +23,7 @@ export function News() {
             <ProgressBarLink href={`/news/${p.slugs[0]}`}>
               <img
                 src={p.data.banner}
-                className=" cursor-pointer aspect-video"
+                className=" cursor-pointer "
                 loading="lazy"
               />
             </ProgressBarLink>
