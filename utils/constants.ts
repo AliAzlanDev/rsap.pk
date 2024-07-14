@@ -13,6 +13,137 @@ export const siteConfig = {
   },
 };
 
+export const associateDirectors = [
+  {
+    name: "Human Resources",
+    associateDirectors: [
+      {
+        name: "Ayesha Ahmed",
+        image: "ayesha-ahmed.jpg",
+        institute: [
+          "MS5",
+          "King Edward Medical University",
+          "Lahore, Pakistan",
+        ],
+      },
+      {
+        name: "Ayesha Saqib",
+        image: "ayesha-saqib.jpg",
+        institute: [
+          "MS2",
+          "FMH College of Medicine & Dentistry",
+          "Lahore, Pakistan",
+        ],
+      },
+    ],
+  },
+  {
+    name: "Public Relations and Communication",
+    associateDirectors: [
+      {
+        name: "Mubashra Ayub",
+        image: "mubashra.jpg",
+        institute: [
+          "MS5",
+          "Shaikh Khalifa Bin Zayed Medical & Dental College",
+          "Lahore, Pakistan",
+        ],
+      },
+      {
+        name: "Salika Malik",
+        image: "salika.jpg",
+        institute: [
+          "MS4",
+          "Fatima Jinnah Medical University",
+          "Lahore, Pakistan",
+        ],
+      },
+      {
+        name: "Ayefa Naveed Klair",
+        image: "ayefa.jpg",
+        institute: ["MS2", "Allama Iqbal Medical College", "Lahore, Pakistan"],
+      },
+      {
+        name: "Muhammad Shumas",
+        image: "shumas.jpg",
+        institute: ["MS2", "Akhtar Saeed Medical College", "Lahore, Pakistan"],
+      },
+      {
+        name: "⁠Syeda Ramaisah Nazish Wasti",
+        image: "ramaisah.jpg",
+        institute: [
+          "MS2",
+          "King Edward Medical University",
+          "Lahore, Pakistan",
+        ],
+      },
+    ],
+  },
+  {
+    name: "Research and Publications",
+    associateDirectors: [
+      {
+        name: "Muhammad Abdullah",
+        image: "abdullah.jpg",
+        institute: ["MS4", "Aga Khan University", "Karachi, Pakistan"],
+      },
+      {
+        name: "Muhammad Bilal Sardar",
+        image: "bilal.jpg",
+        institute: ["MS4", "Allama Iqbal Medical College", "Lahore, Pakistan"],
+      },
+      {
+        name: "Aena Fatima",
+        image: "aena.jpg",
+        institute: ["MS2", "Shifa College of Medicine", "Islamabad, Pakistan"],
+      },
+    ],
+  },
+  {
+    name: "Mentorship and Education",
+    associateDirectors: [
+      {
+        name: "Dr. Maryam Ikram",
+        image: "maryam.jpg",
+        institute: [
+          "MS5",
+          "King Edward Medical University",
+          "Lahore, Pakistan",
+        ],
+      },
+      {
+        name: "Abdul Wahab Mirza",
+        image: "wahab.jpg",
+        institute: ["MS2", "Allama Iqbal Medical College", "Lahore, Pakistan"],
+      },
+    ],
+  },
+  {
+    name: "Advocacy and Networking",
+    associateDirectors: [
+      {
+        name: "Abdul Karim Shahbaz",
+        image: "karim.jpg",
+        institute: ["MS4", "Sialkot Medical College", "Sialkot, Pakistan"],
+      },
+      {
+        name: "Azqa Fatima",
+        image: "azqa.jpg",
+        institute: [
+          "MS3",
+          "Fatima Jinnah Medical University",
+          "Lahore, Pakistan",
+        ],
+      },
+      {
+        name: "Najia Ali Khan",
+        image: "najia.jpg",
+        institute: ["MS2", "Khyber Medical College", "Lahore, Pakistan"],
+      },
+    ],
+  },
+];
+
 export const committees = {
   researchAndPublications: {
     title: "Research and Publications Committee",
