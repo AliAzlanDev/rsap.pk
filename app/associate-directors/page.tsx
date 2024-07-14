@@ -21,7 +21,7 @@ export default function Page() {
                   className=" aspect-square rounded-lg mx-auto"
                 />
                 <h3 className="mt-2 font-bold text-lg">{associate.name}</h3>
-                <div className=" mt-1 font-medium text-sm">
+                <div className=" mt-1 font-medium text-sm text-muted-foreground">
                   {associate.institute.map((institute, index) => (
                     <div key={index}>{institute}</div>
                   ))}

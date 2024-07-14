@@ -105,11 +105,7 @@ export const associateDirectors = [
       {
         name: "Dr. Maryam Ikram",
         image: "maryam.jpg",
-        institute: [
-          "MS5",
-          "King Edward Medical University",
-          "Lahore, Pakistan",
-        ],
+        institute: ["Inmol Cancer Hospital", "Lahore, Pakistan"],
       },
       {
         name: "Abdul Wahab Mirza",
