@@ -15,7 +15,7 @@ export const siteConfig = {
 
 export const associateDirectors = [
   {
-    name: "Human Resources",
+    name: "Associate Directors for Human Resources",
     associateDirectors: [
       {
         name: "Ayesha Ahmed",
@@ -38,14 +38,14 @@ export const associateDirectors = [
     ],
   },
   {
-    name: "Public Relations and Communication",
+    name: "Associate Directors for Public Relations and Communication",
     associateDirectors: [
       {
         name: "Mubashra Ayub",
         image: "mubashra.jpg",
         institute: [
           "MS5",
-          "Shaikh Khalifa Bin Zayed Medical & Dental College",
+          "Shaikh Khalifa Bin Zayed Al-Nahyan Medical and Dental College",
           "Lahore, Pakistan",
         ],
       },
@@ -66,13 +66,17 @@ export const associateDirectors = [
       {
         name: "Muhammad Shumas",
         image: "shumas.jpg",
-        institute: ["MS2", "Akhtar Saeed Medical College", "Lahore, Pakistan"],
+        institute: [
+          "MS2",
+          "Akhtar Saeed Medical & Dental College",
+          "Lahore, Pakistan",
+        ],
       },
       {
         name: "⁠Syeda Ramaisah Nazish Wasti",
         image: "ramaisah.jpg",
         institute: [
-          "MS2",
+          "BS RIT 2nd year",
           "King Edward Medical University",
           "Lahore, Pakistan",
         ],
@@ -80,7 +84,7 @@ export const associateDirectors = [
     ],
   },
   {
-    name: "Research and Publications",
+    name: "Associate Liaisons for Research and Publications",
     associateDirectors: [
       {
         name: "Muhammad Abdullah",
@@ -100,12 +104,34 @@ export const associateDirectors = [
     ],
   },
   {
-    name: "Mentorship and Education",
+    name: "Associate Liaisons for Mentorship and Education",
     associateDirectors: [
       {
         name: "Dr. Maryam Ikram",
         image: "maryam.jpg",
-        institute: ["Inmol Cancer Hospital", "Lahore, Pakistan"],
+        institute: [
+          "Radiology Resident",
+          "Inmol Cancer Hospital",
+          "Lahore, Pakistan",
+        ],
+      },
+      {
+        name: "Areeba Saleem Baig",
+        image: "areeba.jpg",
+        institute: [
+          "Graduate",
+          "King Edward Medical University",
+          "Lahore, Pakistan",
+        ],
+      },
+      {
+        name: "Abdullah Waheed Dar",
+        image: "abdullah-waheed.jpg",
+        institute: [
+          "MS5",
+          "Lahore Medical & Dental College",
+          "Lahore, Pakistan",
+        ],
       },
       {
         name: "Abdul Wahab Mirza",
@@ -114,8 +140,9 @@ export const associateDirectors = [
       },
     ],
   },
+
   {
-    name: "Advocacy and Networking",
+    name: "Associate Liaisons for Advocacy and Networking",
     associateDirectors: [
       {
         name: "Abdul Karim Shahbaz",

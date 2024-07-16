@@ -1,5 +1,8 @@
-import { ComingSoon } from "@/components/global/coming-soon";
 import { associateDirectors } from "@/utils/constants";
+
+export const metadata = {
+  title: "Associate Directors",
+};
 
 export default function Page() {
   return (
@@ -8,13 +11,16 @@ export default function Page() {
         Associate Directors
       </h1>
       {associateDirectors.map((item, index) => (
-        <div className="mt-16" key={index}>
+        <div
+          className="mt-16 px-4 md:px-8 py-8 rounded-lg border shadow "
+          key={index}
+        >
           <h2 className=" text-2xl font-semibold text-center lg:text-3xl">
-            Associate Directors for {item.name}
+            {item.name}
           </h2>
-          <div className="mt-10 grid grid-cols-1 mx-auto sm:grid-cols-2  lg:grid-cols-4 gap-4">
+          <div className="mt-10 grid grid-cols-1 mx-auto sm:grid-cols-2  lg:grid-cols-4 gap-7">
             {item.associateDirectors.map((associate, index) => (
-              <div className="p-4 rounded-lg border " key={index}>
+              <div key={index}>
                 <img
                   src={`/images/associate-directors/${associate.image}`}
                   alt={associate.name}
