@@ -116,7 +116,7 @@ export const associateDirectors = [
         ],
       },
       {
-        name: "Areeba Saleem Baig",
+        name: "Dr. Areeba Saleem Baig",
         image: "areeba.jpg",
         institute: [
           "Graduate",

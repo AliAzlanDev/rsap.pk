@@ -89,7 +89,11 @@ export default function Footer() {
         </div>
         <div className="mt-4 md:mt-0 text-sm">
           &copy; 2024 Radiological Students&apos; Association of Pakistan. All
-          rights reserved. Developed by Ali Azlan.
+          rights reserved. Developed by{" "}
+          <a target="_blank" href="mailto:aliazlanofficial@gmail.com">
+            Ali Azlan
+          </a>
+          .
         </div>
       </div>
     </footer>
