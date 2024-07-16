@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const siteMetadata = {
   title: "Radiological Students' Asscoation of Pakistan",
 };
@@ -85,6 +87,7 @@ export const associateDirectors = [
   },
   {
     name: "Associate Liaisons for Research and Publications",
+    link: "/committees/research-and-publications",
     associateDirectors: [
       {
         name: "Muhammad Abdullah",
@@ -105,6 +108,7 @@ export const associateDirectors = [
   },
   {
     name: "Associate Liaisons for Mentorship and Education",
+    link: "/committees/mentorship-and-education",
     associateDirectors: [
       {
         name: "Dr. Maryam Ikram",
@@ -143,6 +147,7 @@ export const associateDirectors = [
 
   {
     name: "Associate Liaisons for Advocacy and Networking",
+    link: "/committees/advocacy-and-networking",
     associateDirectors: [
       {
         name: "Abdul Karim Shahbaz",

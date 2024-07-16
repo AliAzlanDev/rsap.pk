@@ -1,4 +1,6 @@
+import { ProgressBarLink } from "@/components/global/progress-bar";
 import { associateDirectors } from "@/utils/constants";
+import { cn } from "@/utils/shadcn";
 
 export const metadata = {
   title: "Associate Directors",
@@ -11,9 +13,13 @@ export default function Page() {
         Associate Directors
       </h1>
       {associateDirectors.map((item, index) => (
-        <div
-          className="mt-16 px-4 md:px-8 py-8 rounded-lg border shadow "
+        <ProgressBarLink
+          href={item.link ? item.link : "#"}
           key={index}
+          className={cn(
+            "mt-16 px-4 md:px-8 py-8 rounded-lg border shadow block",
+            !item.link && "cursor-default"
+          )}
         >
           <h2 className=" text-2xl font-semibold text-center lg:text-3xl">
             {item.name}
@@ -35,7 +41,7 @@ export default function Page() {
               </div>
             ))}
           </div>
-        </div>
+        </ProgressBarLink>
       ))}
     </div>
   );
