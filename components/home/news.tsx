@@ -27,18 +27,20 @@ export function News() {
                 loading="lazy"
               />
             </ProgressBarLink>
-            <ProgressBarLink href={`/news/${p.slugs[0]}`}>
-              <p className="font-medium mt-5"> {p.data.title}</p>
-            </ProgressBarLink>
-            <p className=" mt-2 mb-2 text-muted-foreground text-sm">
-              {p.data.description}
-            </p>
-            <ProgressBarLink
-              href={`/news/${p.slugs[0]}`}
-              className="text-primary text-sm hover:underline hover:cursor-pointer"
-            >
-              Read More
-            </ProgressBarLink>
+            <div>
+              <ProgressBarLink href={`/news/${p.slugs[0]}`}>
+                <p className="font-medium mt-5"> {p.data.title}</p>
+              </ProgressBarLink>
+              <p className=" mt-2 mb-2 text-muted-foreground text-sm">
+                {p.data.description}
+              </p>
+              <ProgressBarLink
+                href={`/news/${p.slugs[0]}`}
+                className="text-primary text-sm hover:underline hover:cursor-pointer"
+              >
+                Read More
+              </ProgressBarLink>
+            </div>
           </div>
         ))}
       </div>
