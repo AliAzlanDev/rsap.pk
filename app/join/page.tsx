@@ -74,9 +74,10 @@ export default function Join() {
         </a>
         <h2>FAQs</h2>
         <p>
-          Have a question about membership? Check out our FAQs page for answers.
+          Have a question about membership? Check out our{" "}
+          <ProgressBarLink href="/membership/faqs">FAQs page</ProgressBarLink>{" "}
+          for answers.
         </p>
-        <ProgressBarLink href="/membership/faqs">FAQ Page</ProgressBarLink>
       </div>
     </div>
   );

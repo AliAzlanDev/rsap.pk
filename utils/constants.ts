@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const siteMetadata = {
   title: "Radiological Students' Asscoation of Pakistan",
 };
@@ -12,6 +14,163 @@ export const siteConfig = {
     twitter: "https://twitter.com/radsapakistan",
   },
 };
+
+export const associateDirectors = [
+  {
+    name: "Associate Directors for Human Resources",
+    associateDirectors: [
+      {
+        name: "Ayesha Ahmed",
+        image: "ayesha-ahmed.jpg",
+        institute: [
+          "MS5",
+          "King Edward Medical University",
+          "Lahore, Pakistan",
+        ],
+      },
+      {
+        name: "Ayesha Saqib",
+        image: "ayesha-saqib.jpg",
+        institute: [
+          "MS2",
+          "FMH College of Medicine & Dentistry",
+          "Lahore, Pakistan",
+        ],
+      },
+    ],
+  },
+  {
+    name: "Associate Directors for Public Relations and Communication",
+    associateDirectors: [
+      {
+        name: "Mubashra Ayub",
+        image: "mubashra.jpg",
+        institute: [
+          "MS5",
+          "Shaikh Khalifa Bin Zayed Al-Nahyan Medical and Dental College",
+          "Lahore, Pakistan",
+        ],
+      },
+      {
+        name: "Salika Malik",
+        image: "salika.jpg",
+        institute: [
+          "MS4",
+          "Fatima Jinnah Medical University",
+          "Lahore, Pakistan",
+        ],
+      },
+      {
+        name: "Ayefa Naveed Klair",
+        image: "ayefa.jpg",
+        institute: ["MS2", "Allama Iqbal Medical College", "Lahore, Pakistan"],
+      },
+      {
+        name: "Muhammad Shumas",
+        image: "shumas.jpg",
+        institute: [
+          "MS2",
+          "Akhtar Saeed Medical & Dental College",
+          "Lahore, Pakistan",
+        ],
+      },
+      {
+        name: "⁠Syeda Ramaisah Nazish Wasti",
+        image: "ramaisah.jpg",
+        institute: [
+          "BS RIT 2nd year",
+          "King Edward Medical University",
+          "Lahore, Pakistan",
+        ],
+      },
+    ],
+  },
+  {
+    name: "Associate Liaisons for Research and Publications",
+    link: "/committees/research-and-publications",
+    associateDirectors: [
+      {
+        name: "Muhammad Abdullah",
+        image: "abdullah.jpg",
+        institute: ["MS4", "Aga Khan University", "Karachi, Pakistan"],
+      },
+      {
+        name: "Muhammad Bilal Sardar",
+        image: "bilal.jpg",
+        institute: ["MS4", "Allama Iqbal Medical College", "Lahore, Pakistan"],
+      },
+      {
+        name: "Aena Fatima",
+        image: "aena.jpg",
+        institute: ["MS2", "Shifa College of Medicine", "Islamabad, Pakistan"],
+      },
+    ],
+  },
+  {
+    name: "Associate Liaisons for Mentorship and Education",
+    link: "/committees/mentorship-and-education",
+    associateDirectors: [
+      {
+        name: "Dr. Maryam Ikram",
+        image: "maryam.jpg",
+        institute: [
+          "Radiology Resident",
+          "Inmol Cancer Hospital",
+          "Lahore, Pakistan",
+        ],
+      },
+      {
+        name: "Dr. Areeba Saleem Baig",
+        image: "areeba.jpg",
+        institute: [
+          "Graduate",
+          "King Edward Medical University",
+          "Lahore, Pakistan",
+        ],
+      },
+      {
+        name: "Abdullah Waheed Dar",
+        image: "abdullah-waheed.jpg",
+        institute: [
+          "MS5",
+          "Lahore Medical & Dental College",
+          "Lahore, Pakistan",
+        ],
+      },
+      {
+        name: "Abdul Wahab Mirza",
+        image: "wahab.jpg",
+        institute: ["MS2", "Allama Iqbal Medical College", "Lahore, Pakistan"],
+      },
+    ],
+  },
+
+  {
+    name: "Associate Liaisons for Advocacy and Networking",
+    link: "/committees/advocacy-and-networking",
+    associateDirectors: [
+      {
+        name: "Abdul Karim Shahbaz",
+        image: "karim.jpg",
+        institute: ["MS4", "Sialkot Medical College", "Sialkot, Pakistan"],
+      },
+      {
+        name: "Azqa Fatima",
+        image: "azqa.jpg",
+        institute: [
+          "MS3",
+          "Fatima Jinnah Medical University",
+          "Lahore, Pakistan",
+        ],
+      },
+      {
+        name: "Najia Ali Khan",
+        image: "najia.jpg",
+        institute: ["MS2", "Khyber Medical College", "Lahore, Pakistan"],
+      },
+    ],
+  },
+];
 
 export const committees = {
   researchAndPublications: {
@@ -35,11 +194,11 @@ export const committees = {
     image: "/image/mec-home.jpg",
     color: "text-[#0e0021]",
     lead: {
-      name: "Dr. Zohaa Faiz",
+      name: "Momina Javaid Awan",
       position: "Liaison for Mentorship & Education",
-      affiliation: "Graduate, Aga Khan University",
+      affiliation: "MS5, King Edward Medical University",
       email: "lme.radsapakistan@gmail.com",
-      picture: "zohaa.jpg",
+      picture: "momina.jpg",
     },
   },
   advocacyAndNetwroking: {
@@ -180,15 +339,15 @@ export const bod = [
     ],
   },
   {
-    name: "Dr. Zohaa Faiz",
+    name: "Momina Javaid Awan",
     position: "Liaison for Mentorship & Education",
-    image: "/images/bod/zohaa.jpg",
-    description: ["Graduate", "Aga Khan University", "Karachi, Pakistan"],
-    slug: "zohaa-faiz",
+    image: "/images/bod/momina.jpg",
+    description: ["MS5", "King Edward Medical University", "Lahore, Pakistan"],
+    slug: "momina-javaid-awan",
     email: "lme.radsapakistan@gmail.com",
     bio: [
-      "After medical school, despite my great clinical education, I found that radiology was often sidelined during our clinical years, leading to a delayed appreciation.",
-      "Recognizing this gap in medical education, I am now driven to bridge this divide. By fostering mentorship and creating educational opportunities, I aim to cultivate a robust understanding of radiology among future medical students, ensuring they receive the guidance and knowledge I once lacked.",
+      "Fueled by the conviction that education is the catalyst for turning dreams into realities, I'm Momina Awan, nearing the end of my journey at King Edward Medical University. What started as a spark of curiosity in medicine has grown into a fervent dedication to Radiology.",
+      "My goal for RSAP extends beyond borders: I envision its mentorship programs spreading worldwide, empowering budding radiologists to thrive in this ever-evolving field. Through a blend of teamwork and inventive thinking, I aspire to forge pathways that ignite passion and prepare tomorrow's healthcare visionaries.",
     ],
   },
 ];

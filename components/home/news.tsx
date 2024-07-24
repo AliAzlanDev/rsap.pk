@@ -3,11 +3,13 @@ import { Button } from "../ui/button";
 import { ProgressBarLink } from "../global/progress-bar";
 
 export function News() {
-  const posts = [...news.getPages()].sort(
-    (a, b) =>
-      new Date(b.data.date ?? b.file.name).getTime() -
-      new Date(a.data.date ?? a.file.name).getTime()
-  );
+  const posts = [...news.getPages()]
+    .sort(
+      (a, b) =>
+        new Date(b.data.date ?? b.file.name).getTime() -
+        new Date(a.data.date ?? a.file.name).getTime()
+    )
+    .splice(0, 3);
   return (
     <div className="container-x py-10">
       <h1 className=" text-center text-4xl font-bold">Latest News</h1>
@@ -21,22 +23,24 @@ export function News() {
             <ProgressBarLink href={`/news/${p.slugs[0]}`}>
               <img
                 src={p.data.banner}
-                className=" cursor-pointer"
+                className=" cursor-pointer "
                 loading="lazy"
               />
             </ProgressBarLink>
-            <ProgressBarLink href={`/news/${p.slugs[0]}`}>
-              <p className="font-medium mt-5"> {p.data.title}</p>
-            </ProgressBarLink>
-            <p className=" mt-2 mb-2 text-muted-foreground text-sm">
-              {p.data.description}
-            </p>
-            <ProgressBarLink
-              href={`/news/${p.slugs[0]}`}
-              className="text-primary text-sm hover:underline hover:cursor-pointer"
-            >
-              Read More
-            </ProgressBarLink>
+            <div>
+              <ProgressBarLink href={`/news/${p.slugs[0]}`}>
+                <p className="font-medium mt-5"> {p.data.title}</p>
+              </ProgressBarLink>
+              <p className=" mt-2 mb-2 text-muted-foreground text-sm">
+                {p.data.description}
+              </p>
+              <ProgressBarLink
+                href={`/news/${p.slugs[0]}`}
+                className="text-primary text-sm hover:underline hover:cursor-pointer"
+              >
+                Read More
+              </ProgressBarLink>
+            </div>
           </div>
         ))}
       </div>

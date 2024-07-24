@@ -78,6 +78,12 @@ const association: IconMenu[] = [
     icon: <UserScreenIcon className="size-3.5" />,
   },
   {
+    title: "Associate Directors",
+    href: "/associate-directors",
+    description: "RSAP Associate Directors",
+    icon: <UsersIcon className="size-3.5" />,
+  },
+  {
     title: "Constitutional Bylaws",
     href: "/bylaws",
     description: "Read the RSAP Bylaws",

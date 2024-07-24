@@ -32,49 +32,37 @@ export default function AmbassadorProgram() {
       </div>
 
       <div className=" container-x max-w-[65ch] pt-20 mx-auto">
-        <h2>RSAP Ambassador Program</h2>
+        <h1>RSAP Ambassador Program</h1>
         <p>
-          In your role as the official RSAP Ambassador for your institute, you
-          are entrusted with the responsibility of representing and championing
-          RSAP&apos;s mission and its various initiatives within the confines of
-          your educational institution.
+          Join the prestigious RSAP Ambassador Program and become a champion of
+          RSAP&apos;s mission at your institution and within your social
+          circles. As an RSAP Ambassador, you will:
         </p>
-        <h2>Guidelines</h2>
         <ol>
           <li>
-            <strong>Represent RSAP:</strong> Act as a representative of RSAP in
-            all interactions, embodying its values and mission within the
-            medical college.
+            Foster valuable networking in radiology by creating connections
+            among students, faculty, and professionals.
           </li>
           <li>
-            <strong>Feedback Channel:</strong> Serve as a conduit for feedback
-            between the medical college and RSAP, helping to improve programs
-            and offerings. All RSAP Ambassadors will be reporting to the
-            Director for Human Resources and Liaison for Advocacy and Networking
-            as their primary points of contact in the RSAP Board of Directors.
+            Actively engage in recruiting new members to expand the RSAP
+            community.
           </li>
           <li>
-            <strong>Foster Networking:</strong> Facilitate connections between
-            students, faculty, and professionals within the radiology society,
-            promoting collaboration and mentorship.
+            Disseminate information by sharing the latest RSAP events, research,
+            and opportunities on social media and other platforms.
           </li>
           <li>
-            <strong>Recruit New Members:</strong> Actively engage in recruitment
-            efforts to increase the membership of RSAP among medical college
-            students.
+            Organize impactful local events such as seminars, lectures, and
+            workshops.
           </li>
           <li>
-            <strong>Disseminate Information:</strong> Promote and spread
-            information regarding the latest events, research, and opportunities
-            provided by RSAP. (This includes sharing content on social media and
-            through WhatsApp)
-          </li>
-          <li>
-            <strong>Organise Events:</strong> Plan and coordinate RSAP events,
-            such as seminars, lectures, and workshops, should they be happening
-            in your locality.
+            Serve as a vital feedback channel, providing essential insights to
+            the RSAP leadership.
           </li>
         </ol>
+        This role enhances your leadership skills and allows you to make a
+        significant impact in the radiology community within Pakistan. Join us
+        and be a catalyst for positive change!
         <h2>How to Apply</h2>
         <p>
           To apply for the RSAP Ambassador Program, please fill out the
@@ -120,5 +108,24 @@ const ambassadors = [
     name: "Rubab Zahra",
     affiliation: ["MS4", "Allama Iqbal Medical College", "Lahore, Pakistan"],
     image: "rubab.jpg",
+  },
+  {
+    name: "Eeman Ahmad",
+    affiliation: [
+      "MS4",
+      "FHM College of Medicine & Dentistry",
+      "Lahore, Pakistan",
+    ],
+    image: "eeman.jpg",
+  },
+  {
+    name: "Sehar Fatima",
+    affiliation: ["MS4", "Allama Iqbal Medical College", "Lahore, Pakistan"],
+    image: "sehar.jpg",
+  },
+  {
+    name: "Farah Ali Afridi",
+    affiliation: ["MS2", "Khyber Medical College", "Peshawar, Pakistan"],
+    image: "farah.jpg",
   },
 ];
