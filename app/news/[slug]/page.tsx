@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { news } from "@/app/source";
 import { createMetadata } from "@/utils/create-metadata";
+import { siteConfig } from "@/utils/constants";
 
 interface Param {
   slug: string;
@@ -57,10 +58,10 @@ export function generateMetadata({ params }: { params: Param }): Metadata {
     title: page.data.title,
     description: page.data.description ?? "Latest updates from RSAP.",
     openGraph: {
-      images: page.data.banner,
+      images: `${siteConfig.url}/${page.data.banner}`,
     },
     twitter: {
-      images: page.data.banner,
+      images: `${siteConfig.url}/${page.data.banner}`,
     },
   });
 }
