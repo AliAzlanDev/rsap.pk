@@ -56,6 +56,12 @@ export function generateMetadata({ params }: { params: Param }): Metadata {
   return createMetadata({
     title: page.data.title,
     description: page.data.description ?? "Latest updates from RSAP.",
+    openGraph: {
+      images: page.data.banner,
+    },
+    twitter: {
+      images: page.data.banner,
+    },
   });
 }
 
