@@ -58,10 +58,10 @@ export function generateMetadata({ params }: { params: Param }): Metadata {
     title: page.data.title,
     description: page.data.description ?? "Latest updates from RSAP.",
     openGraph: {
-      images: `${siteConfig.url}/${page.data.banner}`,
+      images: `${siteConfig.url}${page.data.banner}`,
     },
     twitter: {
-      images: `${siteConfig.url}/${page.data.banner}`,
+      images: `${siteConfig.url}${page.data.banner}`,
     },
   });
 }
