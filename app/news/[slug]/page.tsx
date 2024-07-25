@@ -25,7 +25,7 @@ export default function Page({
         <p className="mb-4 text-muted-foreground">{page.data.description}</p>
       </div>
       <article className="container-x  grid grid-cols-1 px-0 py-8 lg:grid-cols-[2fr_1fr] lg:px-4">
-        <div className="prose prose-zinc p-4  dark:prose-invert">
+        <div className="prose prose-zinc p-4 pt-0 dark:prose-invert">
           {/* <InlineTOC items={page.data.exports.toc} /> */}
 
           <page.data.exports.default />
