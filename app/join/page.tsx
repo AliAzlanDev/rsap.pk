@@ -74,7 +74,7 @@ export default function Join() {
         </a>
         <h2>FAQs</h2>
         <p>
-          Have a question about membership? Check out our{" "}
+          Have a question about RSAP membership? Check out our{" "}
           <ProgressBarLink href="/membership/faqs">FAQs page</ProgressBarLink>{" "}
           for answers.
         </p>
