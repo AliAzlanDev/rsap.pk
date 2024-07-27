@@ -1,5 +1,8 @@
 import { ProgressBarLink } from "@/components/global/progress-bar";
+import { ANCIcon } from "@/components/icons/anc";
 import RSAPLogo from "@/components/icons/logo";
+import { MECIcon } from "@/components/icons/mec";
+import { RPCIcon } from "@/components/icons/rpc";
 import { associateDirectors } from "@/utils/constants";
 import { cn } from "@/utils/shadcn";
 
@@ -9,7 +12,7 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <div className="container-x py-20 ">
+    <div className="container-x py-20 overflow-x-hidden">
       <h1 className=" text-3xl font-semibold text-center lg:text-4xl">
         Associate Directors
       </h1>
@@ -18,20 +21,31 @@ export default function Page() {
           href={item.link ? item.link : "#"}
           key={index}
           className={cn(
-            "mt-16 px-4 md:px-8 py-8 rounded-lg border shadow block group",
+            "mt-16 px-4 md:px-8 py-8 rounded-lg border shadow relative block group",
             !item.link && "cursor-default"
           )}
         >
           <h2 className=" text-2xl font-semibold text-center lg:text-3xl">
             {item.name}
           </h2>
+          <div className="absolute -z-10 hidden lg:block mx-auto -right-10 bottom-4">
+            <RSAPLogo className="fill-rsap dark:fill-rsap  opacity-10 max-h-24  group-hover:opacity-20 transition-opacity duration-300" />
+          </div>
+
           <div className="mt-10 grid relative grid-cols-1 mx-auto sm:grid-cols-2  lg:grid-cols-4 gap-7">
-            <RSAPLogo
-              className={cn(
-                "absolute -z-10 hidden left-0 bottom-0 right-0 w-full h-full fill-rsap text-rsap opacity-10  group-hover:opacity-20 transition-opacity duration-300",
-                item.link && "sm:block"
-              )}
-            />
+            {item.id && item.id === "anc" ? (
+              <div className="absolute -z-10 hidden sm:block mx-auto inset-0">
+                <ANCIcon className="fill-[#bd202a] h-full w-full dark:fill-rsap  opacity-10  group-hover:opacity-20 transition-opacity duration-300" />
+              </div>
+            ) : item.id === "mec" ? (
+              <div className="absolute -z-10 hidden sm:block mx-auto inset-0">
+                <MECIcon className="fill-[#0e0021] h-full w-full dark:fill-rsap  opacity-10  group-hover:opacity-20 transition-opacity duration-300" />
+              </div>
+            ) : item.id === "rpc" ? (
+              <div className="absolute -z-10 hidden sm:block mx-auto inset-0">
+                <RPCIcon className="fill-[#5f903f] h-full w-full dark:fill-rsap  opacity-10  group-hover:opacity-20 transition-opacity duration-300" />
+              </div>
+            ) : null}
 
             {item.associateDirectors.map((associate, index) => (
               <div key={index}>

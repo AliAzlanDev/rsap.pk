@@ -87,6 +87,7 @@ export const associateDirectors = [
   },
   {
     name: "Associate Liaisons for Research and Publications",
+    id: "rpc",
     link: "/committees/research-and-publications",
     associateDirectors: [
       {
@@ -108,6 +109,7 @@ export const associateDirectors = [
   },
   {
     name: "Associate Liaisons for Mentorship and Education",
+    id: "mec",
     link: "/committees/mentorship-and-education",
     associateDirectors: [
       {
@@ -147,6 +149,7 @@ export const associateDirectors = [
 
   {
     name: "Associate Liaisons for Advocacy and Networking",
+    id: "anc",
     link: "/committees/advocacy-and-networking",
     associateDirectors: [
       {
