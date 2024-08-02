@@ -1,13 +1,13 @@
 import type { Metadata } from "next/types";
+import { siteConfig } from "./constants";
 
 export function createMetadata(override: Metadata): Metadata {
   return {
     ...override,
-    metadataBase: baseUrl,
     openGraph: {
       title: override.title ?? undefined,
       description: override.description ?? undefined,
-      url: baseUrl.href,
+      url: siteConfig.url,
       images: "/banner.png",
       siteName: "Radiological Students' Association of Pakistan (RSAP)",
       ...override.openGraph,
@@ -15,7 +15,7 @@ export function createMetadata(override: Metadata): Metadata {
     twitter: {
       card: "summary_large_image",
 
-      creator: "@AliAzlanReal",
+      creator: "@radsapakistan",
       title: override.title ?? undefined,
       description: override.description ?? undefined,
       images: "/banner.png",

@@ -21,8 +21,8 @@ export const metadata: Metadata = {
   keywords: ["Radiology", "RSNA", "Pakistan", "Medicine", "Health"],
   authors: [
     {
-      name: "AliAzlanReal",
-      url: "https://aliazlanreal.blogspot.com",
+      name: "RSAP",
+      url: "https://rsap.pk",
     },
   ],
   creator: "radsapakistan",
