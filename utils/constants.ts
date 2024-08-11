@@ -252,9 +252,10 @@ export const bod = [
     slug: "ali-husnain",
     email: "radsapakistan@gmail.com",
     bio: [
-      "Sic Parvis Magna - 'Greatness from small things' - has been my guiding principle ever since I embarked on my journey in radiology. I am a graduate of King Edward Medical University Class of ’22, working as a postdoctoral research fellow at Northwestern University's Interventional Radiology Department.",
-      "My passion for radiology ignited during my final year of medical school. Recognizing the limited exposure medical students have to this field, I founded an interest group within my institute to bridge this gap. Discovering interventional radiology through webinars, research, and mentorship fueled my enthusiasm further.",
-      "To extend this support globally, we established RSAP, connecting students with mentors and promoting radiology in Pakistan, and aim to help them achieve their dream specialty.",
+      "Sic Parvis Magna—'Greatness from small things'—has been my guiding principle ever since I embarked on my journey in medicine. I am a graduate of King Edward Medical University (Class of 2022) and currently working as a postdoctoral research fellow at Northwestern University's Interventional Radiology Department. My research focuses on percutaneous endoscopy, image-guided complex hepatobiliary and gallbladder interventions, and medical device innovation.",
+      "My passion for radiology was sparked during my core clerkships in medical school. Recognizing the limited exposure medical students have to this field, I founded a radiology interest group, KemRad, within my institute to bridge the gap through online and in-person learning opportunities.",
+      "KemRad inspired the creation of similar groups at other medical schools, ultimately laying the foundation of the Radiological Students’ Association of Pakistan (RSAP). This pioneering organization connects medical students with mentors, fosters collaborations, and promotes radiology exposure among students through research and educational initiatives.",
+      "As the President of RSAP, I am fortunate to lead an incredible Board of Directors from across the country, each of whom is wholeheartedly dedicated to furthering the mission of RSAP.",
     ],
   },
   {
