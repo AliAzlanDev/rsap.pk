@@ -19,7 +19,7 @@ export default function Research() {
       <div className=" prose dark:prose-invert prose-zinc mx-auto">
         <h1 className=" !text-rsap">RSAP Webinars</h1>
         <p>
-          Change this to Our{" "}
+          Our{" "}
           <ProgressBarLink href={"/committees/mentorship-and-education"}>
             Mentorship and Education Committee (MEC)
           </ProgressBarLink>{" "}
