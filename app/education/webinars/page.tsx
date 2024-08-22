@@ -30,12 +30,11 @@ export default function Research() {
           USMLE and UKMLA, and exploration of additional opportunities for those
           pursuing a career in radiology. Our webinars are designed to equip
           attendees with the knowledge and tools they need to succeed in their
-          radiological education and career journey. Our regularly conducts
-          various educational webinars on radiology, USMLE, UKMLA, and other
-          opportunities for medical students.
+          radiological education and career journey.
         </p>
 
         <h2>Navigating Postdoctoral Research Fellowships in the U.S.</h2>
+        <div className=" font-semibold -mt-4">August 18, 2024</div>
         <p>
           The webinar featured three esteemed non-US international medical
           graduates (IMGs), who are currently postdoctoral research fellows at

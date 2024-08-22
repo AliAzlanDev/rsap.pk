@@ -101,7 +101,7 @@ type dataType = {
 const data: dataType[] = [
   {
     name: "AIMCRad",
-    logo: "aimcrad.jpg",
+    logo: "aimcrad.png",
     year: 2023,
 
     institution: "Allama Iqbal Medical College",
@@ -129,7 +129,7 @@ const data: dataType[] = [
   },
   {
     name: "SIMS RIG",
-    logo: "simsrig.jpg",
+    logo: "simsrig.png",
     year: 2023,
     institution: "Services Institute of Medical Sciences",
     city: "Lahore",
@@ -141,7 +141,7 @@ const data: dataType[] = [
   },
   {
     name: "ZEDRIG",
-    logo: "zedrig.jpg",
+    logo: "zedrig.png",
     year: 2023,
     institution: "Sheikh Zayed Medical College",
     city: "Rahim Yar Khan",
@@ -173,6 +173,7 @@ const data: dataType[] = [
     socials: {
       email: "rig.kmc@gmail.com",
       instagram: "rigkmc",
+      linkedIn: "company/radiology-interest-group-kmc",
     },
   },
 ];
