@@ -1,7 +1,7 @@
 import { ProgressBarLink } from "@/components/global/progress-bar";
 import UsersIcon from "@/components/icons/users";
 import { Button } from "@/components/ui/button";
-import { FileTextIcon } from "@radix-ui/react-icons";
+import { CalendarIcon, FileTextIcon, ReaderIcon } from "@radix-ui/react-icons";
 
 export const metadata = {
   title: "Research",
@@ -31,23 +31,36 @@ export default function Research() {
             key={item.title}
           >
             <div>
-              <img src={item.image} alt={item.title} className="rounded-lg" />
+              <p className="font-medium">{item.title}</p>
 
-              <p className="mt-4 font-medium">{item.title}</p>
+              {item.type && (
+                <p className="mt-2 text-muted-foreground text-sm">
+                  <ReaderIcon className="mr-1 inline-flex size-4" />
+
+                  {item.type}
+                </p>
+              )}
+              {item.date && (
+                <p className="mt-2 text-muted-foreground text-sm">
+                  <CalendarIcon className="mr-1 inline-flex size-4" />
+
+                  {item.date}
+                </p>
+              )}
+              {item.journal && (
+                <p className="text-muted-foreground text-sm mt-2">
+                  <FileTextIcon className="mr-1 inline-flex size-4" />
+                  {item.journal}
+                </p>
+              )}
+              {item.authors && (
+                <p className="mt-2 text-muted-foreground text-sm">
+                  <UsersIcon className="mr-1 inline-flex size-4" />
+
+                  {item.authors.join(", ")}
+                </p>
+              )}
             </div>
-            {item.journal && (
-              <p className="text-muted-foreground text-sm mt-2">
-                <FileTextIcon className="mr-1 inline-flex size-4" />
-                {item.journal}
-              </p>
-            )}
-            {item.authors && (
-              <p className="mt-2 text-muted-foreground text-sm">
-                <UsersIcon className="mr-1 inline-flex size-4" />
-
-                {item.authors.join(", ")}
-              </p>
-            )}
             <a target="_blank" href={item.link} className=" mt-5">
               <Button
                 text={item.disabled ? "In Progress" : "Read More"}
@@ -65,9 +78,8 @@ const data = [
   {
     title:
       "Addressing the shortcomings of radiology education in Pakistan: are medical schools doing enough?",
-
-    image: "/images/r-3.jpg",
     disabled: true,
+    type: "Cross-sectional Study",
   },
   {
     title:
@@ -83,20 +95,23 @@ const data = [
       "Arsalan Nadeem",
       "Waqas Rasheed",
     ],
-    image: "/images/r-1.jpg",
     journal: "Clinical Genitourinary Cancer",
+
+    date: "January 09, 2024",
+    type: "Meta-analysis",
   },
   {
     title:
       "Concurrent acute pancreatitis, pneumoperitoneum, pneumoretroperitoneum, and pneumomediastinum following ERCP-related perforation: A rare and insightful case study",
     journal: "Radiology Case Reports",
-    image: "/images/r-2.jpg",
     authors: [
       "Dr. Arsalan Nadeem",
       "Ali Husnain, MD",
       "Dr. Tayyab Zia",
       "Abdullah Ahmed",
     ],
+    type: "Case Report",
+    date: "January 16, 2024",
     link: "https://doi.org/10.1016/j.radcr.2023.12.064",
   },
 ];
