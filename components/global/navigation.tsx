@@ -18,6 +18,7 @@ import {
   PieChartIcon,
   QuestionMarkCircledIcon,
   RocketIcon,
+  VideoIcon,
 } from "@radix-ui/react-icons";
 import { ProgressBarLink } from "./progress-bar";
 import MicroscopeIcon from "../icons/microscope";
@@ -28,6 +29,7 @@ import UserScreenIcon from "../icons/user-screen";
 import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
 import { siteConfig } from "@/utils/constants";
 import { usePathname } from "next/navigation";
+import { Monitor } from "lucide-react";
 
 type IconMenu = {
   title: string;
@@ -129,6 +131,12 @@ export const education: IconMenu[] = [
     href: "/education/dr-omer-awan",
     description: "Dr. Omer Awan",
     icon: <PersonIcon className="size-3.5" />,
+  },
+  {
+    title: "Post-Doc Webinar",
+    href: "/education/webinars",
+    description: "Post-doc Research Fellowships in the US",
+    icon: <VideoIcon className=" size-3.5" />,
   },
 ];
 export const research: IconMenu[] = [
