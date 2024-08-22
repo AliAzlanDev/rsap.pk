@@ -127,16 +127,16 @@ export const network: IconMenu[] = [
 
 export const education: IconMenu[] = [
   {
+    title: "Webinars",
+    href: "/education/webinars",
+    description: "Post-doc Research Fellowships in the US",
+    icon: <VideoIcon className=" size-3.5" />,
+  },
+  {
     title: "Dr. Omer Awan",
     href: "/education/dr-omer-awan",
     description: "Dr. Omer Awan",
     icon: <PersonIcon className="size-3.5" />,
-  },
-  {
-    title: "Post-Doc Webinar",
-    href: "/education/webinars",
-    description: "Post-doc Research Fellowships in the US",
-    icon: <VideoIcon className=" size-3.5" />,
   },
 ];
 export const research: IconMenu[] = [

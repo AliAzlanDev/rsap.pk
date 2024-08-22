@@ -1,22 +1,38 @@
 import { ProgressBarLink } from "@/components/global/progress-bar";
+import { createMetadata } from "@/utils/create-metadata";
 
-export const metadata = {
+export const metadata = createMetadata({
   title: "Webinars",
   description:
     "RSAP is dedicated to advancing the field of radiology through research.",
-};
+  openGraph: {
+    images: "/images/news/post-doc.jpg",
+  },
+  twitter: {
+    images: "/images/news/post-doc.jpg",
+  },
+});
+
 export default function Research() {
   return (
     <div className="container-x py-20">
       <div className=" prose dark:prose-invert prose-zinc mx-auto">
         <h1 className=" !text-rsap">RSAP Webinars</h1>
         <p>
-          Our{" "}
+          Change this to Our{" "}
           <ProgressBarLink href={"/committees/mentorship-and-education"}>
             Mentorship and Education Committee (MEC)
           </ProgressBarLink>{" "}
-          regularly conducts various educational webinars on radiology, USMLE,
-          UKMLA, and other opportunities for medical students.
+          is committed to empowering aspiring radiologists by regularly hosting
+          a series of impactful educational webinars. These sessions discuss
+          essential topics, including comprehensive overviews of radiology
+          training pathways, in-depth guidance on licensing exams such as the
+          USMLE and UKMLA, and exploration of additional opportunities for those
+          pursuing a career in radiology. Our webinars are designed to equip
+          attendees with the knowledge and tools they need to succeed in their
+          radiological education and career journey. Our regularly conducts
+          various educational webinars on radiology, USMLE, UKMLA, and other
+          opportunities for medical students.
         </p>
 
         <h2>Navigating Postdoctoral Research Fellowships in the U.S.</h2>

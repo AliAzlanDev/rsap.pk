@@ -4,11 +4,18 @@ import RSAPLogo from "@/components/icons/logo";
 import { MECIcon } from "@/components/icons/mec";
 import { RPCIcon } from "@/components/icons/rpc";
 import { associateDirectors } from "@/utils/constants";
+import { createMetadata } from "@/utils/create-metadata";
 import { cn } from "@/utils/shadcn";
 
-export const metadata = {
+export const metadata = createMetadata({
   title: "Associate Directors",
-};
+  openGraph: {
+    images: "/images/news/ad.jpg",
+  },
+  twitter: {
+    images: "/images/news/ad.jpg",
+  },
+});
 
 export default function Page() {
   return (

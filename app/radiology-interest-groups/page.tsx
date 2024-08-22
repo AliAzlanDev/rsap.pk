@@ -2,6 +2,7 @@ import FacebookIcon from "@/components/icons/facebook";
 import InstagramIcon from "@/components/icons/instagram";
 import LinkedInIcon from "@/components/icons/linkedin";
 import XIcon from "@/components/icons/x";
+import { EnvelopeClosedIcon } from "@radix-ui/react-icons";
 
 export const metadata = {
   title: "Radiology Interest Groups (RIGs)",
@@ -19,7 +20,7 @@ export default function RadiologyInterestGroups() {
             <img
               src={`/images/rigs/${rig.logo}`}
               alt={rig.name}
-              className=" aspect-square rounded-full bg-white mx-auto w-full"
+              className=" aspect-square rounded-lg bg-white mx-auto w-full"
             />
             <h3 className="mt-4 text-center font-bold text-lg">{rig.name}</h3>
             <p className=" mt-1 font-medium text-center text-sm ">
@@ -29,6 +30,15 @@ export default function RadiologyInterestGroups() {
               Established: {rig.year}
             </p>
             <div className="flex mt-5 mx-auto gap-x-3 justify-center">
+              {rig.socials.email && (
+                <a
+                  href={`mailto:${rig.socials.email}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <EnvelopeClosedIcon className="w-5 h-5 " />
+                </a>
+              )}
               {rig.socials.facebook && (
                 <a
                   href={`https://facebook.com/${rig.socials.facebook}`}
@@ -78,7 +88,9 @@ type dataType = {
   logo: string;
   year: number;
   institution: string;
+  city: string;
   socials: {
+    email?: string;
     facebook?: string;
     instagram?: string;
     x?: string;
@@ -91,8 +103,11 @@ const data: dataType[] = [
     name: "AIMCRad",
     logo: "aimcrad.jpg",
     year: 2023,
+
     institution: "Allama Iqbal Medical College",
+    city: "Lahore",
     socials: {
+      email: "aimcradiologyig@gmail.com",
       facebook: "aimcradiologyig",
       instagram: "aimcradig",
       x: "aimcradig",
@@ -104,18 +119,22 @@ const data: dataType[] = [
     logo: "kemrad.png",
     year: 2023,
     institution: "King Edward Medical University",
+    city: "Lahore",
     socials: {
+      email: "kemuradiologyig@gmail.com",
       instagram: "kemradiologyig",
       facebook: "profile.php?id=100088150849481",
       x: "kemradiologyig",
     },
   },
   {
-    name: "SIM RIG",
+    name: "SIMS RIG",
     logo: "simsrig.jpg",
     year: 2023,
     institution: "Services Institute of Medical Sciences",
+    city: "Lahore",
     socials: {
+      email: "simsradiologyig@gmail.com",
       x: "simsradiologyig",
       instagram: "simsradiologyig",
     },
@@ -125,8 +144,11 @@ const data: dataType[] = [
     logo: "zedrig.jpg",
     year: 2023,
     institution: "Sheikh Zayed Medical College",
+    city: "Rahim Yar Khan",
     socials: {
       instagram: "zayediansrig",
+      email: "zayediansradiologyig@gmail.com",
+      x: "ZayediansRIG",
     },
   },
   {
@@ -134,8 +156,12 @@ const data: dataType[] = [
     logo: "smdcrad.jpg",
     year: 2023,
     institution: "Shalamar Medical & Dental College",
+    city: "Lahore",
     socials: {
+      email: "smdcradig@gmail.com",
       instagram: "smdcradig",
+      x: "smdcradig",
+      facebook: "smdcradiologyig",
     },
   },
   {
@@ -143,7 +169,9 @@ const data: dataType[] = [
     logo: "rig.png",
     year: 2024,
     institution: "Khyber Medical College",
+    city: "Peshawar",
     socials: {
+      email: "rig.kmc@gmail.com",
       instagram: "rigkmc",
     },
   },
