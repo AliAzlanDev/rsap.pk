@@ -106,6 +106,19 @@ type dataType = {
 
 const data: dataType[] = [
   {
+    name: "KEMRad",
+    logo: "kemrad.png",
+    year: 2022,
+    institution: "King Edward Medical University",
+    city: "Lahore",
+    socials: {
+      email: "kemuradiologyig@gmail.com",
+      instagram: "kemradiologyig",
+      facebook: "profile.php?id=100088150849481",
+      x: "kemradiologyig",
+    },
+  },
+  {
     name: "AIMCRad",
     logo: "aimcrad.png",
     year: 2023,
@@ -118,19 +131,6 @@ const data: dataType[] = [
       instagram: "aimcradig",
       x: "aimcradig",
       linkedIn: "company/aimcradiologyig",
-    },
-  },
-  {
-    name: "KEMRad",
-    logo: "kemrad.png",
-    year: 2023,
-    institution: "King Edward Medical University",
-    city: "Lahore",
-    socials: {
-      email: "kemuradiologyig@gmail.com",
-      instagram: "kemradiologyig",
-      facebook: "profile.php?id=100088150849481",
-      x: "kemradiologyig",
     },
   },
   {
