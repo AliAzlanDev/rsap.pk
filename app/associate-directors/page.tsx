@@ -21,7 +21,7 @@ export default function Page() {
   return (
     <div className="container-x py-20 overflow-x-hidden">
       <h1 className=" text-3xl font-semibold text-center lg:text-4xl">
-        Associate Directors
+        Our Associate Directors
       </h1>
       {associateDirectors.map((item, index) => (
         <ProgressBarLink

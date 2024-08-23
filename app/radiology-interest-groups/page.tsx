@@ -12,8 +12,12 @@ export default function RadiologyInterestGroups() {
   return (
     <div className=" container-x py-10">
       <h1 className=" text-3xl font-semibold text-center lg:text-4xl">
-        Radiology Interest Groups (RIGs)
+        Radiology Interest Groups
       </h1>
+      <p className="max-w-2xl mx-auto my-6 text-center text-muted-foreground">
+        The Radiology Interest Groups officially affiliated with RSAP across
+        Pakistan
+      </p>
       <div className="mt-10 grid relative grid-cols-1 mx-auto sm:grid-cols-2  lg:grid-cols-4 gap-4">
         {data.map((rig, index) => (
           <div key={index} className="border rounded-lg p-4 shadow">
@@ -26,10 +30,12 @@ export default function RadiologyInterestGroups() {
             <p className=" mt-1 font-medium text-center text-sm ">
               {rig.institution}
             </p>
+            <p className="font-medium text-center text-sm">{rig.city}</p>
             <p className=" mt-1 text-center font-medium text-sm text-muted-foreground">
               Established: {rig.year}
             </p>
-            <div className="flex mt-5 mx-auto gap-x-3 justify-center">
+
+            <div className="flex mt-5 mx-auto gap-x-3 justify-center items-center">
               {rig.socials.email && (
                 <a
                   href={`mailto:${rig.socials.email}`}
@@ -63,7 +69,7 @@ export default function RadiologyInterestGroups() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <XIcon className="size-5 fill-foreground" />
+                  <XIcon className="size-4 fill-foreground" />
                 </a>
               )}
               {rig.socials.linkedIn && (
