@@ -15,8 +15,8 @@ export default function RadiologyInterestGroups() {
         Radiology Interest Groups
       </h1>
       <p className="max-w-2xl mx-auto my-6 text-center text-muted-foreground">
-        The Radiology Interest Groups officially affiliated with RSAP across
-        Pakistan
+        Radiology Interest Groups (RIGs) across Pakistan officially affiliated
+        with RSAP
       </p>
       <div className="mt-10 grid relative grid-cols-1 mx-auto sm:grid-cols-2  lg:grid-cols-4 gap-4">
         {data.map((rig, index) => (
