@@ -43,13 +43,13 @@ export default function Page() {
         videos, a premium Step 1 question bank, and much more!
         <br />
         <br />
-        Through the RSAP x Med School Bootcamp partnership, RSAP Members avail
-        an exclusive{" "}
+        Through the RSAP x Med School Bootcamp partnership, RSAP Members can
+        avail an exclusive{" "}
         <strong className=" text-foreground font-semibold">
           {" "}
           25% discount
         </strong>{" "}
-        on the subscription.
+        on the subscription!
       </p>
 
       <Image
@@ -177,8 +177,10 @@ export default function Page() {
           </ul>
         </div>
       </div>
-      <h2 className=" text-center text-4xl font-semibold mt-24">Apply Now</h2>
-      <div className="mt-16 max-w-2xl mx-auto">
+      <h2 className=" text-center text-4xl font-semibold mt-24">
+        Sign Up for Code
+      </h2>
+      <div className="mt-8 max-w-2xl mx-auto">
         <Script
           src="https://tally.so/widgets/embed.js"
           //   onLoad={Tally.loadEmbeds()}
@@ -191,7 +193,7 @@ export default function Page() {
           height="276"
           title="Contact form"
         ></iframe>
-        <p className="text-muted-foreground text-sm">
+        <p className="text-muted-foreground text-sm mt-2">
           If the form does not load, please{" "}
           <a
             href="https://tally.so/r/nrV84v"

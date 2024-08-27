@@ -167,7 +167,7 @@ const ambassadors = [
   {
     name: "Rimsha Ijaz",
     affiliation: ["MS4", "Sargodha Medical College", "Sargodha, Pakistan"],
-    image: "rimsha.JPG",
+    image: "rimsha.jpg",
   },
   {
     name: "Huzafa Ali",
