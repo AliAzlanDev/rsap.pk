@@ -40,9 +40,9 @@ export function Header() {
             <RSAPLogo className="size-7 fill-rsap" />
           </ProgressBarLink>
         </div>
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-2 items-center flex-shrink-0">
           <ProgressBarLink href={"/join"}>
-            <Button text="Join RSAP" className="w-fit" />
+            <Button text="Join RSAP" className="w-fit flex-shrink-0" />
           </ProgressBarLink>
           <ModeToggle />
         </div>

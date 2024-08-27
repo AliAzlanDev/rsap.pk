@@ -18,6 +18,11 @@ import {
   PieChartIcon,
   QuestionMarkCircledIcon,
   RocketIcon,
+<<<<<<< Updated upstream
+=======
+  StarIcon,
+  VideoIcon,
+>>>>>>> Stashed changes
 } from "@radix-ui/react-icons";
 import { ProgressBarLink } from "./progress-bar";
 import MicroscopeIcon from "../icons/microscope";
@@ -90,7 +95,6 @@ const association: IconMenu[] = [
     icon: <FileIcon />,
   },
 ];
-
 export const membership: IconMenu[] = [
   {
     title: "Join RSAP",
@@ -107,7 +111,6 @@ export const membership: IconMenu[] = [
     icon: <QuestionMarkCircledIcon />,
   },
 ];
-
 export const network: IconMenu[] = [
   {
     title: "Ambassador Program",
@@ -122,7 +125,26 @@ export const network: IconMenu[] = [
     icon: <UsersIcon className="size-3.5" />,
   },
 ];
-
+export const partnerships: IconMenu[] = [
+  {
+    title: "DataCamp Donates",
+    href: "/datacamp",
+    description: "Get free access to DataCamp",
+    icon: <PieChartIcon />,
+  },
+  {
+    title: "AMBOSS",
+    href: "/amboss",
+    description: "RSAP x AMBOSS Partnership",
+    icon: <MixIcon className="size-3.5" />,
+  },
+  {
+    title: "Med School Bootcamp",
+    href: "/bootcamp",
+    description: "Get 25% discount on subscription",
+    icon: <StarIcon />,
+  },
+];
 export const education: IconMenu[] = [
   {
     title: "Dr. Omer Awan",
@@ -139,12 +161,13 @@ export const research: IconMenu[] = [
     icon: <MicroscopeIcon className="size-3.5" />,
   },
 ];
+
 export function Navigation() {
   return (
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-sm rounded-full border-0 px-3 py-1.5 text-muted-foreground font-normal">
+          <NavigationMenuTrigger className="text-sm rounded-full border-0 px-2 lg:px-3 py-1.5 text-muted-foreground font-normal">
             Membership
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -169,7 +192,7 @@ export function Navigation() {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-sm rounded-full border-0 px-3 py-1.5 text-muted-foreground font-normal">
+          <NavigationMenuTrigger className="text-sm rounded-full border-0 px-2 lg:px-3 py-1.5 text-muted-foreground font-normal">
             Association
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -193,7 +216,7 @@ export function Navigation() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-sm rounded-full border-0 px-3 py-1.5 text-muted-foreground font-normal">
+          <NavigationMenuTrigger className="text-sm rounded-full border-0 px-2 lg:px-3 py-1.5 text-muted-foreground font-normal">
             Explore
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -277,6 +300,30 @@ export function Navigation() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
+          <NavigationMenuTrigger className="text-sm rounded-full border-0 px-2 lg:px-3 py-1.5 text-muted-foreground font-normal">
+            Partnerships
+          </NavigationMenuTrigger>
+          <NavigationMenuContent>
+            <div className=" p-3 min-w-[600px]">
+              <h5 className=" text-sm py-2 px-3 font-normal text-muted-foreground">
+                Our Partners
+              </h5>
+              <div className="grid grid-cols-2 ">
+                {partnerships.map((c) => (
+                  <div key={c.href}>
+                    <IconMenu
+                      title={c.title}
+                      href={c.href}
+                      icon={c.icon}
+                      description={c.description}
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </NavigationMenuContent>
+        </NavigationMenuItem>
+        {/* <NavigationMenuItem className="hidden lg:block">
           <ProgressBarLink
             className="inline-flex h-9 w-max items-center justify-center transition-colors hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 text-sm rounded-full border-0 px-3 py-1.5 text-muted-foreground font-normal hover:bg-accent"
             href={"/datacamp"}
@@ -284,7 +331,7 @@ export function Navigation() {
             DataCamp
           </ProgressBarLink>
         </NavigationMenuItem>
-        <NavigationMenuItem>
+        <NavigationMenuItem className="hidden lg:block">
           <ProgressBarLink
             className="inline-flex h-9 w-max items-center justify-center transition-colors hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 text-sm rounded-full border-0 px-3 py-1.5 text-muted-foreground font-normal hover:bg-accent"
             href={"/amboss"}
@@ -292,6 +339,14 @@ export function Navigation() {
             AMBOSS
           </ProgressBarLink>
         </NavigationMenuItem>
+        <NavigationMenuItem className="hidden lg:block">
+          <ProgressBarLink
+            className="inline-flex h-9 w-max items-center justify-center transition-colors hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 text-sm rounded-full border-0 px-3 py-1.5 text-muted-foreground font-normal hover:bg-accent"
+            href={"/bootcamp"}
+          >
+            Bootcamp
+          </ProgressBarLink>
+        </NavigationMenuItem> */}
         <NavigationMenuItem>
           <ProgressBarLink
             className="inline-flex h-9 w-max items-center justify-center transition-colors hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 text-sm rounded-full border-0 px-3 py-1.5 text-muted-foreground font-normal hover:bg-accent"
@@ -311,7 +366,7 @@ export function MobileNavigation() {
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
-        <button className="shrink-0 md:hidden">
+        <button className="shrink-0">
           <HamburgerMenuIcon className="h-5 w-5" />
           <span className="sr-only">Toggle navigation menu</span>
         </button>
@@ -425,24 +480,17 @@ export function MobileNavigation() {
                     />
                   </li>
                 ))}
-                <li>
-                  <IconMenu
-                    title="DataCamp Donates"
-                    href="/datacamp"
-                    icon={<PieChartIcon className="size-4" />}
-                    description="Get free access to DataCamp"
-                    onClick={() => setOpen(false)}
-                  />
-                </li>
-                <li>
-                  <IconMenu
-                    title="AMBOSS"
-                    href="/amboss"
-                    icon={<MixIcon className="size-4" />}
-                    description="RSAP x AMBOSS Partnership"
-                    onClick={() => setOpen(false)}
-                  />
-                </li>
+                {partnerships.map((c) => (
+                  <li key={c.href}>
+                    <IconMenu
+                      title={c.title}
+                      href={c.href}
+                      icon={c.icon}
+                      description={c.description}
+                      onClick={() => setOpen(false)}
+                    />
+                  </li>
+                ))}
               </ul>
             </div>
             <div>
