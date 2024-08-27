@@ -1,5 +1,6 @@
 import AmbossIcon from "@/components/icons/amboss";
 import Image from "next/image";
+import Script from "next/script";
 
 export const metadata = {
   title: "RSAP x Bootcamp",
@@ -18,7 +19,7 @@ export default function Page() {
           alt="RSAP"
           className=" col-span-5 -ml-2 md:mx-auto hidden dark:block aspect-[2/1]"
         />
-        <span className="border-r-2 mr-6 md:mr-12"></span>
+        <span className="border-r-2 mr-6 md:mr-14"></span>
         <a
           href="https://bootcamp.com/med-school"
           target="_blank"
@@ -42,12 +43,13 @@ export default function Page() {
         videos, a premium Step 1 question bank, and much more!
         <br />
         <br />
-        Through the RSAP x Bootcamp partnership, RSAP Members can have{" "}
+        Through the RSAP x Med School Bootcamp partnership, RSAP Members avail
+        an exclusive{" "}
         <strong className=" text-foreground font-semibold">
           {" "}
           25% discount
         </strong>{" "}
-        on Bootcamp subscription.
+        on the subscription.
       </p>
 
       <Image
@@ -174,6 +176,32 @@ export default function Page() {
             </li>
           </ul>
         </div>
+      </div>
+      <h2 className=" text-center text-4xl font-semibold mt-24">Apply Now</h2>
+      <div className="mt-16 max-w-2xl mx-auto">
+        <Script
+          src="https://tally.so/widgets/embed.js"
+          //   onLoad={Tally.loadEmbeds()}
+        />
+
+        <iframe
+          data-tally-src="https://tally.so/embed/nrV84v?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+          loading="lazy"
+          width="100%"
+          height="276"
+          title="Contact form"
+        ></iframe>
+        <p className="text-muted-foreground text-sm">
+          If the form does not load, please{" "}
+          <a
+            href="https://tally.so/r/nrV84v"
+            className=" text-foreground font-medium underline"
+            target="_blank"
+          >
+            click here
+          </a>{" "}
+          to fill it out.
+        </p>
       </div>
       <p className=" text-sm text-muted-foreground  mt-20">
         © Some of the content on this page is copyrighted by Bootcamp.com™ and

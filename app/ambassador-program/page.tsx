@@ -135,4 +135,61 @@ const ambassadors = [
     affiliation: ["MS2", "Khyber Medical College", "Peshawar, Pakistan"],
     image: "farah.jpg",
   },
+  {
+    name: "Navaira Shoaib",
+    affiliation: ["Graduate", "Dow Medical College", "Karachi, Pakistan"],
+    image: "navaira.jpg",
+  },
+
+  {
+    name: "Abdul Hanan",
+    affiliation: [
+      "Graduate",
+      "Khawaja Safdar Medical College",
+      "Sialkot, Pakistan",
+    ],
+    image: "hanan.jpg",
+  },
+  {
+    name: "Piresh Kumar",
+    affiliation: [
+      "MS5",
+      "Bahria University Health Sciences Campus",
+      "Karachi, Pakistan",
+    ],
+    image: "piresh.jpg",
+  },
+  {
+    name: "Ahmad Hussain",
+    affiliation: ["MS5", "King Edward Medical University", "Lahore, Pakistan"],
+    image: "ahmad.jpg",
+  },
+  {
+    name: "Rimsha Ijaz",
+    affiliation: ["MS4", "Sargodha Medical College", "Sargodha, Pakistan"],
+    image: "rimsha.JPG",
+  },
+  {
+    name: "Huzafa Ali",
+    affiliation: [
+      "MS4",
+      "CMH Multan Institute of Medical Sciences",
+      "Multan, Pakistan",
+    ],
+    image: "huzafa.jpg",
+  },
+  {
+    name: "Muhammad Zeeshan",
+    affiliation: ["MS2", "Khyber Medical College", "Peshawar, Pakistan"],
+    image: "zeeshan.jpg",
+  },
+  {
+    name: "Maryam Sial",
+    affiliation: [
+      "MS2",
+      "Sheikh Zayed Medical College",
+      "Rahim Yar Khan, Pakistan",
+    ],
+    image: "maryam.jpg",
+  },
 ];
