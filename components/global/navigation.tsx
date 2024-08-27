@@ -18,11 +18,8 @@ import {
   PieChartIcon,
   QuestionMarkCircledIcon,
   RocketIcon,
-<<<<<<< Updated upstream
-=======
   StarIcon,
   VideoIcon,
->>>>>>> Stashed changes
 } from "@radix-ui/react-icons";
 import { ProgressBarLink } from "./progress-bar";
 import MicroscopeIcon from "../icons/microscope";
@@ -33,6 +30,7 @@ import UserScreenIcon from "../icons/user-screen";
 import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
 import { siteConfig } from "@/utils/constants";
 import { usePathname } from "next/navigation";
+import { Monitor } from "lucide-react";
 
 type IconMenu = {
   title: string;
@@ -147,9 +145,15 @@ export const partnerships: IconMenu[] = [
 ];
 export const education: IconMenu[] = [
   {
+    title: "Webinars",
+    href: "/education/webinars",
+    description: "Impactful and educational sessions",
+    icon: <VideoIcon className=" size-3.5" />,
+  },
+  {
     title: "Dr. Omer Awan",
     href: "/education/dr-omer-awan",
-    description: "Dr. Omer Awan",
+    description: "Educational resources",
     icon: <PersonIcon className="size-3.5" />,
   },
 ];
@@ -157,7 +161,7 @@ export const research: IconMenu[] = [
   {
     title: "Research Projects",
     href: "/research",
-    description: "Ongoing and published papers",
+    description: "Ongoing and published projects",
     icon: <MicroscopeIcon className="size-3.5" />,
   },
 ];
@@ -224,7 +228,7 @@ export function Navigation() {
             <div className="grid grid-cols-2 min-w-[600px]">
               <div className=" w-[300px]  p-3">
                 <h5 className=" text-sm py-2 px-3 font-normal text-muted-foreground">
-                  RSAP Committees
+                  Working Committees
                 </h5>
                 <ul className="">
                   {committees.map((c) => (
@@ -426,9 +430,9 @@ export function MobileNavigation() {
               </ul>
             </div>
             <div>
-              <h4 className=" text-lg   font-medium">Committees</h4>
+              <h4 className=" text-lg   font-medium">Working Committees</h4>
               <h5 className=" text-sm py-1  font-normal text-muted-foreground">
-                RSAP Committees
+                RSAP Working Committees
               </h5>
               <ul>
                 {committees.map((c) => (

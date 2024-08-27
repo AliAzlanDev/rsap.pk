@@ -1,8 +1,15 @@
 import { Button } from "@/components/ui/button";
+import { createMetadata } from "@/utils/create-metadata";
 
-export const metadata = {
+export const metadata = createMetadata({
   title: "Become an RSAP Ambassador",
-};
+  openGraph: {
+    images: "/images/news/ambassador-program.jpg",
+  },
+  twitter: {
+    images: "/images/news/ambassador-program.jpg",
+  },
+});
 
 export default function AmbassadorProgram() {
   return (
