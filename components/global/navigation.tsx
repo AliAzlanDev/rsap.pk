@@ -138,7 +138,7 @@ export const partnerships: IconMenu[] = [
   },
   {
     title: "Med School Bootcamp",
-    href: "/bootcamp",
+    href: "/medschoolbootcamp",
     description: "Get 25% discount on subscription",
     icon: <StarIcon />,
   },

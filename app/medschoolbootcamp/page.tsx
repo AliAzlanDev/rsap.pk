@@ -194,7 +194,7 @@ export default function Page() {
           title="Contact form"
         ></iframe>
         <p className="text-muted-foreground text-sm mt-2">
-          If the form does not load, please{" "}
+          If the form doesn&apos;t load, try refreshing the page or{" "}
           <a
             href="https://tally.so/r/nrV84v"
             className=" text-foreground font-medium underline"

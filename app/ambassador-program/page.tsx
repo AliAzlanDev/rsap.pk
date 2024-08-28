@@ -98,6 +98,21 @@ const ambassadors = [
     image: "shahroze.jpg",
   },
   {
+    name: "Navaira Shoaib",
+    affiliation: ["Graduate", "Dow Medical College", "Karachi, Pakistan"],
+    image: "navaira.jpg",
+  },
+
+  {
+    name: "Abdul Hanan",
+    affiliation: [
+      "Graduate",
+      "Khawaja Safdar Medical College",
+      "Sialkot, Pakistan",
+    ],
+    image: "hanan.jpg",
+  },
+  {
     name: "Farooq Ahmad",
     affiliation: ["MS5", "Allama Iqbal Medical College", "Lahore, Pakistan"],
     image: "farooq.jpg",
@@ -110,6 +125,20 @@ const ambassadors = [
       "Lahore, Pakistan",
     ],
     image: "ibrahim.jpg",
+  },
+  {
+    name: "Piresh Kumar",
+    affiliation: [
+      "MS5",
+      "Bahria University Health Sciences Campus",
+      "Karachi, Pakistan",
+    ],
+    image: "piresh.jpg",
+  },
+  {
+    name: "Ahmad Hussain",
+    affiliation: ["MS5", "King Edward Medical University", "Lahore, Pakistan"],
+    image: "ahmad.jpg",
   },
   {
     name: "Rubab Zahra",
@@ -130,40 +159,7 @@ const ambassadors = [
     affiliation: ["MS4", "Allama Iqbal Medical College", "Lahore, Pakistan"],
     image: "sehar.jpg",
   },
-  {
-    name: "Farah Ali Afridi",
-    affiliation: ["MS2", "Khyber Medical College", "Peshawar, Pakistan"],
-    image: "farah.jpg",
-  },
-  {
-    name: "Navaira Shoaib",
-    affiliation: ["Graduate", "Dow Medical College", "Karachi, Pakistan"],
-    image: "navaira.jpg",
-  },
 
-  {
-    name: "Abdul Hanan",
-    affiliation: [
-      "Graduate",
-      "Khawaja Safdar Medical College",
-      "Sialkot, Pakistan",
-    ],
-    image: "hanan.jpg",
-  },
-  {
-    name: "Piresh Kumar",
-    affiliation: [
-      "MS5",
-      "Bahria University Health Sciences Campus",
-      "Karachi, Pakistan",
-    ],
-    image: "piresh.jpg",
-  },
-  {
-    name: "Ahmad Hussain",
-    affiliation: ["MS5", "King Edward Medical University", "Lahore, Pakistan"],
-    image: "ahmad.jpg",
-  },
   {
     name: "Rimsha Ijaz",
     affiliation: ["MS4", "Sargodha Medical College", "Sargodha, Pakistan"],
@@ -178,6 +174,12 @@ const ambassadors = [
     ],
     image: "huzafa.jpg",
   },
+  {
+    name: "Farah Ali Afridi",
+    affiliation: ["MS2", "Khyber Medical College", "Peshawar, Pakistan"],
+    image: "farah.jpg",
+  },
+
   {
     name: "Muhammad Zeeshan",
     affiliation: ["MS2", "Khyber Medical College", "Peshawar, Pakistan"],
