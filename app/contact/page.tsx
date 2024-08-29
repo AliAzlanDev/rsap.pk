@@ -22,8 +22,7 @@ export default function Contact() {
         loading="lazy"
         width="100%"
         height="276"
-        title="Contact form
-"
+        title="Contact form"
       ></iframe>
     </div>
   );
