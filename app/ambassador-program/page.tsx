@@ -165,15 +165,15 @@ const ambassadors = [
     affiliation: ["MS4", "Sargodha Medical College", "Sargodha, Pakistan"],
     image: "rimsha.jpg",
   },
-  {
-    name: "Huzafa Ali",
-    affiliation: [
-      "MS4",
-      "CMH Multan Institute of Medical Sciences",
-      "Multan, Pakistan",
-    ],
-    image: "huzafa.jpg",
-  },
+  // {
+  //   name: "Huzafa Ali",
+  //   affiliation: [
+  //     "MS4",
+  //     "CMH Multan Institute of Medical Sciences",
+  //     "Multan, Pakistan",
+  //   ],
+  //   image: "huzafa.jpg",
+  // },
   {
     name: "Farah Ali Afridi",
     affiliation: ["MS2", "Khyber Medical College", "Peshawar, Pakistan"],
