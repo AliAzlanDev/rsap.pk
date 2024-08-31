@@ -123,19 +123,19 @@ export function Hero2({ title, link }: { title: string; link: string }) {
         >
           <motion.div
             variants={STAGGER_CHILD_VARIANTS}
-            className="hidden sm:mb-8 sm:flex sm:justify-center"
+            className="mb-8 sm:w-fit sm:mx-auto"
           >
-            <div className="relative flex items-center gap-x-2 rounded-full px-3 py-1 text-sm leading-6  text-muted-foreground ring-1 ring-ring/10 hover:ring-ring/20">
-              <span>{title}</span>
+            <div className="relative flex items-center justify-center gap-x-2 rounded-full px-2 sm:px-3 sm:py-1 text-xs sm:text-sm leading-6  text-muted-foreground ring-1 ring-ring/10 hover:ring-ring/20">
+              <span className=" truncate">{title}</span>
 
               <ProgressBarLink
                 href={link}
-                className="font-semibold text-primary flex items-center gap-x-0.5"
+                className="font-semibold text-primary flex items-center gap-x-0.5 flex-shrink-0"
               >
                 <span> Read more</span>
                 <span aria-hidden="true">
                   <svg
-                    className="flex-shrink-0 size-4 text-primary"
+                    className="flex-shrink-0 size-3 sm:size-4 text-primary"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
