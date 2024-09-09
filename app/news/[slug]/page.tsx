@@ -3,6 +3,9 @@ import { notFound } from "next/navigation";
 import { news } from "@/app/source";
 import { createMetadata } from "@/utils/create-metadata";
 import { siteConfig } from "@/utils/constants";
+import { BackButton } from "./page.client";
+import Link from "next/link";
+import { ChevronLeftIcon } from "@radix-ui/react-icons";
 
 interface Param {
   slug: string;
@@ -21,32 +24,42 @@ export default function Page({
 
   return (
     <>
+      <div className="container-x  py-16 sm:px-16 xl:px-20">
+        <div className="grid grid-cols-12 gap-4">
+          <div className="col-span-12 mb-2 xl:col-span-2"></div>
+          <div className="col-span-12 lg:col-span-8">
+            <article className="flex flex-col gap-8">
+              <div className="flex flex-col gap-8 max-w-2xl">
+                <Link
+                  href={`/news`}
+                  className="text-primary/80 flex items-center gap-x-1 font-semibold hover:text-primary uppercase mb-2 mt-0"
+                >
+                  <ChevronLeftIcon className="size-4" />
+                  news
+                </Link>
 
-      <div className="container-x rounded-xl border bg-gradient-to-b from-indigo-600/20 to-50% py-8 mt-4">
+                <h1 className="text-foreground text-4xl font-semibold xl:text-5xl xl:leading-tight">
+                  {page.data.title}
+                </h1>
+                <h2 className="text-foreground text-xl xl:text-2xl">
+                  {page.data.description}
+                </h2>
 
-        <h1 className="mb-2 text-3xl font-bold">{page.data.title}</h1>
-        <p className="mb-4 text-muted-foreground">{page.data.description}</p>
+                <div>
+                  <p className=" text-muted-foreground text-sm">Written by</p>
+                  <p className=" text-primary font-medium mt-1">
+                    {page.data.author}
+                  </p>
+                </div>
+
+                <div className="prose dark:prose-invert md:prose-lg mt-12 ">
+                  <page.data.exports.default />
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
       </div>
-      <article className="container-x  grid grid-cols-1 px-0 py-8 lg:grid-cols-[2fr_1fr] lg:px-4">
-        <div className="prose prose-zinc p-4 pt-0 dark:prose-invert">
-          {/* <InlineTOC items={page.data.exports.toc} /> */}
-
-          <page.data.exports.default />
-        </div>
-        <div className="flex flex-col gap-4 border-l p-4">
-          <div>
-            <p className="mb-1 text-sm text-muted-foreground">Written by</p>
-            <p className="font-medium">{page.data.author}</p>
-          </div>
-          <div>
-            <p className="mb-1 text-sm text-muted-foreground">On</p>
-            <p className="font-medium">
-              {new Date(page.data.date ?? page.file.name).toDateString()}
-            </p>
-          </div>
-          {/* <Control url={page.url} /> */}
-        </div>
-      </article>
     </>
   );
 }

@@ -1,6 +1,6 @@
 import { map } from "@/.map";
 import { createMDXSource, defaultSchemas } from "fumadocs-mdx";
-import { loader } from "fumadocs-core/source";
+import { InferPageType, loader } from "fumadocs-core/source";
 import { z } from "zod";
 
 export const news = loader({
@@ -22,3 +22,5 @@ export const bylaws = loader({
   rootDir: "bylaws",
   source: createMDXSource(map),
 });
+
+export type News = InferPageType<typeof news>;
