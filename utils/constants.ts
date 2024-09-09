@@ -551,4 +551,19 @@ export const boa = [
       "His notable achievements include winning 1st Place for Oral Presentation in the Scientific Category at the 3rd International Radiology Residents’ Forum, where he presented on the assessment of prostate lesions using PIRADS v2.1. Dr. Bhinder's passion for research and excellence is further evidenced by his extensive citations and impactful work, including securing 3rd Place for an Oral Presentation on the CT Swirl Sign in Intra-Cerebral Hemorrhage. His dedication to advancing radiological practices is reflected in his commitment to both clinical excellence and scientific contribution.",
     ],
   },
+  {
+    name: "Dr. Muhammad Tayyab Zia, MBBS",
+    position: "Advisor",
+    image: "tayyab.jpg",
+    slug: "dr-muhammad-tayyab-zia",
+    affiliation: [
+      "PGY3 Radiology Resident",
+      "Pakistan Kidney and Liver Institute",
+      "Lahore, Pakistan",
+    ],
+    bio: [
+      "Dr. Zia graduated from King Edward Medical University and is currently a PGY3 resident at Pakistan Kidney and Liver Institute. He has gained valuable experience working as a locum medical officer at Shaukat Khanum Hospital, where he contributed to the Cansino vaccine trial camp. Dr. Zia attended the virtual Radiopaedia conferences in both 2022 and 2023, enriching his knowledge and skills in radiology.",
+      "In addition to his clinical work, Dr. Zia has a keen interest in research, with a publication on percutaneous transhepatic biliary drainage. His work also extends to the field of AI in medical imaging, where he contributed to a project involving segmentation techniques with Labelata. Currently, Dr. Zia is a member of the Royal College of Radiologists (RCR) and is committed to further advancing his career in radiology.",
+    ],
+  },
 ];

@@ -13,18 +13,6 @@ export default function Page(): React.ReactElement {
       new Date(a.data.date ?? a.file.name).getTime()
   );
 
-  const svg = `<svg viewBox='0 0 500 500' xmlns='http://www.w3.org/2000/svg'>
-  <filter id='noiseFilter'>
-    <feTurbulence 
-      type='fractalNoise' 
-      baseFrequency='0.65' 
-      numOctaves='3' 
-      stitchTiles='stitch'/>
-  </filter>
-  
-  <rect width='100%' height='100%' filter='url(#noiseFilter)'/>
-</svg>`;
-
   return (
     <main>
       <h1 className="sr-only">RSAP News</h1>
@@ -33,42 +21,6 @@ export default function Page(): React.ReactElement {
           <FeaturedThumb key={i} {...post} />
         ))}
       </div>
-      {/* <div
-        className="h-[300px] p-8 md:h-[400px] md:p-12"
-        style={{
-          backgroundImage: [
-            "radial-gradient(circle at 70% 10%, rgba(255,50,100,0.5), transparent)",
-            "radial-gradient(circle at 0% 80%, rgba(190,0,255,0.5), transparent)",
-            "radial-gradient(circle at 50% 50%, rgba(50,50,255,0.3), transparent)",
-            `url("data:image/svg+xml,${encodeURIComponent(svg)}")`,
-          ].join(", "),
-        }}
-      >
-        <h1 className="mb-4 border-b-4 border-rsap pb-2 text-4xl font-bold md:text-5xl">
-          Latest News
-        </h1>
-        <p className="text-sm md:text-base text-rsap">
-          Get the latest updates from RSAP.
-        </p>
-      </div> */}
-      {/* <div className="grid grid-cols-1 border md:grid-cols-2 lg:grid-cols-3">
-        {posts.map((post) => (
-          <Link
-            key={post.url}
-            href={post.url}
-            className="flex flex-col bg-card p-4 transition-colors hover:bg-accent hover:text-accent-foreground"
-          >
-            <p className="font-medium">{post.data.title}</p>
-            <p className="text-sm text-muted-foreground mt-1">
-              {post.data.description}
-            </p>
-
-            <p className="mt-auto pt-4 text-xs text-muted-foreground">
-              {new Date(post.data.date ?? post.file.name).toDateString()}
-            </p>
-          </Link>
-        ))}
-      </div> */}
       <div className="border-t mt-8">
         <div className="md:container mx-auto mt-6 lg:mt-8 px-6 sm:px-16 ">
           <ol
@@ -112,7 +64,7 @@ const NewsItem = ({ news }: Props) => {
     >
       <div className="flex flex-col space-y-2">
         <div className="flex flex-col space-y-1">
-          <div className="relative mb-3 w-full aspect-[2/1] lg:aspect-[5/3] overflow-hidden rounded-lg border shadow-sm">
+          <div className="relative mb-3 w-full aspect-video overflow-hidden rounded-lg border shadow-sm">
             <Image
               fill
               sizes="100%"
@@ -156,7 +108,7 @@ function FeaturedThumb(news: News) {
         href={`/news/${news.slugs[0]}`}
         className="grid gap-4 lg:grid-cols-7 lg:gap-8 xl:gap-12 hover:bg-accent dark:hover:bg-accent/40 p-2 sm:p-4 rounded-xl"
       >
-        <div className="relative w-full aspect-[2/1] lg:col-span-3 lg:aspect-[3/2] overflow-auto rounded-lg border">
+        <div className="relative w-full  lg:col-span-3 aspect-video overflow-auto rounded-lg border">
           <Image
             src={news.data.banner || ""}
             fill
