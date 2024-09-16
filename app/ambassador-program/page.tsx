@@ -159,7 +159,15 @@ const ambassadors = [
     affiliation: ["MS4", "Allama Iqbal Medical College", "Lahore, Pakistan"],
     image: "sehar.jpg",
   },
-
+  {
+    name: "Ali Ahsan Zafar",
+    affiliation: [
+      "MS4",
+      "Dow International Medical College",
+      "Karachi, Pakistan",
+    ],
+    image: "ali.jpg",
+  },
   {
     name: "Rimsha Ijaz",
     affiliation: ["MS4", "Sargodha Medical College", "Sargodha, Pakistan"],
