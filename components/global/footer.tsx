@@ -90,7 +90,11 @@ export default function Footer() {
         <div className="mt-4 md:mt-0 text-sm">
           &copy; 2024 Radiological Students&apos; Association of Pakistan. All
           rights reserved. Developed by{" "}
-          <a target="_blank" href="https://aliazlan.me">
+          <a
+            target="_blank"
+            href="https://aliazlan.me"
+            className="text-primary hover:underline hover:underline-offset-2"
+          >
             Ali Azlan
           </a>
           .
