@@ -1,25 +1,30 @@
-# Next.js Starter Template
+# RSAP Website
+Official website of Radiological Students' Association of Pakistan (RSAP)
 
 ## Features
-- Dark Mode with toggle button
-- Loading Global Progress Bar
-- Hono + Tanstack React Query
-- Lucia Auth (Google OAuth + Logout Button)
-- Shadcn UI
-- Kysely ORM
-- Prisma-kysely (type generation only)
-- Env (@t3-oss/env-nextjs)
-- pg (for postgres)
+- Light/Dark Mode with system preference detection and toggle button
+- Global Progress Bar during link navigation
+- Dynamic YouTube Videos fetched using YouTube Data API
+- MDX-powered news pages for easy content management
+- Responsive design for optimal viewing on all devices
+- Social media integration with links to RSAP's profiles
 
 ## Tech Stack
 
-- Next.js
-- Tailwind CSS
-- Lucia Auth
+- Next.js 14 (React framework)
+- Tailwind CSS (Utility-first CSS framework)
+- Shadcn UI (Accessible and customizable component library)
+- YouTube Data API (For fetching channel videos)
+- MDX (Markdown for the component era)
+- TypeScript (For type-safe development)
 
-## Env
+## Getting Started
 
-- `POSTGRES_URL` - Postgres URL
-- `PG_SSL` - Postgres SSL Certificate
-- `GOOGLE_CLIENT_ID` - Google Client ID
-- `GOOGLE_CLIENT_SECRET` - Google Client Secret
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Copy `.env.example` to `.env` and fill in the required values
+4. Run the development server with `npm run dev`
+
+## License
+
+See the [LICENSE](LICENSE) file for details.
