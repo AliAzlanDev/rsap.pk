@@ -26,6 +26,9 @@ const config = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         rsap: "hsl(var(--rsap))",
+        anc: "hsl(var(--anc))",
+        mec: "hsl(var(--mec))",
+        rpc: "hsl(var(--rpc))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",

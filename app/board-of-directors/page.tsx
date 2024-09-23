@@ -28,8 +28,8 @@ export default function BoardOfDirectors() {
               href={`/board-of-directors/${item.slug}`}
               key={index}
             >
-              <div className="px-12 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-primary dark:hover:border-transparent">
-                <div className="flex flex-col sm:-mx-4 sm:flex-row">
+              <div className="px-12 py-8 h-full transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-primary dark:hover:border-transparent">
+                <div className="flex flex-col sm:-mx-4 lg:flex-row">
                   <img
                     className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-muted"
                     src={item.image}

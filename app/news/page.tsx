@@ -64,13 +64,13 @@ const NewsItem = ({ news }: Props) => {
     >
       <div className="flex flex-col space-y-2">
         <div className="flex flex-col space-y-1">
-          <div className="relative mb-3 w-full aspect-video overflow-hidden rounded-lg border shadow-sm">
+          <div className="relative mb-3 w-full overflow-hidden aspect-video rounded-lg border shadow-sm">
             <Image
               fill
               sizes="100%"
               quality={100}
               src={news.data.banner || ""}
-              className="scale-100  overflow-hidden"
+              className="scale-100  overflow-hidden "
               alt={`${news.data.title} thumbnail`}
             />
           </div>
