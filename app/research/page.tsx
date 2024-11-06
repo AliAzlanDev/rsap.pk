@@ -83,10 +83,42 @@ const data = [
   },
   {
     title:
+      "Salvage Stereotactic Radiotherapy for Nodal Oligo-recurrent Prostate Cancer: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+    journal: "Clinical Genitourinary Cancer",
+    authors: [
+      "Ayesha Aman",
+      "Arfa Akram",
+      "Bisma Akram",
+      "Ali Husnain",
+      "Aleena Akram",
+      "Sania Akram",
+      "Eeman Ahmad",
+      "Arsalan Nadeem",
+    ],
+    type: "Meta-analysis",
+    date: "October 23, 2024",
+    link: "https://doi.org/10.1016/j.clgc.2024.102239",
+  },
+  {
+    title:
+      "Concurrent acute pancreatitis, pneumoperitoneum, pneumoretroperitoneum, and pneumomediastinum following ERCP-related perforation: A rare and insightful case study",
+    journal: "Radiology Case Reports",
+    authors: [
+      "Arsalan Nadeem",
+      "Ali Husnain",
+      "Dr. Tayyab Zia",
+      "Abdullah Ahmed",
+    ],
+    type: "Case Report",
+    date: "January 16, 2024",
+    link: "https://doi.org/10.1016/j.radcr.2023.12.064",
+  },
+  {
+    title:
       "The Efficacy of Ketoconazole Containing Regimens in Castration-Resistant Prostate Cancer: A Systematic Review and Meta-Analysis",
     link: "https://doi.org/10.1016/j.clgc.2024.01.003",
     authors: [
-      " Obaid Ur Rehman",
+      "Obaid Ur Rehman",
       "Zain Ali Nadeem",
       "Eeshal Fatima",
       "Umar Akram",
@@ -99,37 +131,5 @@ const data = [
 
     date: "January 09, 2024",
     type: "Meta-analysis",
-  },
-  {
-    title:
-      "Concurrent acute pancreatitis, pneumoperitoneum, pneumoretroperitoneum, and pneumomediastinum following ERCP-related perforation: A rare and insightful case study",
-    journal: "Radiology Case Reports",
-    authors: [
-      "Dr. Arsalan Nadeem",
-      "Ali Husnain, MD",
-      "Dr. Tayyab Zia",
-      "Abdullah Ahmed",
-    ],
-    type: "Case Report",
-    date: "January 16, 2024",
-    link: "https://doi.org/10.1016/j.radcr.2023.12.064",
-  },
-  {
-    title:
-      "Salvage Stereotactic Radiotherapy for Nodal Oligo-recurrent Prostate Cancer: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
-    journal: "Clinical Genitourinary Cancer",
-    authors: [
-      "Ayesha Aman",
-      "Arfa Akram",
-      "Bisma Akram",
-      "Ali Husnain, MD",
-      "Aleena Akram",
-      "Sania Akram",
-      "Eeman Ahmad",
-      "Arsalan Nadeem",
-    ],
-    type: "Meta-analysis",
-    date: "October 23, 2024",
-    link: "https://doi.org/10.1016/j.clgc.2024.102239",
   },
 ];
