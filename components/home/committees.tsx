@@ -128,7 +128,7 @@ export default function Committees() {
                   >
                     <img
                       className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
-                      src="/image/rpc-home.jpg"
+                      src="/images/rpc-home.jpg"
                       alt="RPC"
                     />
                   </div>
@@ -141,7 +141,7 @@ export default function Committees() {
                   >
                     <img
                       className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
-                      src="/image/mec-home.jpg"
+                      src="/images/mec-home.jpg"
                       alt="MEC"
                       loading="lazy"
                     />
@@ -155,7 +155,7 @@ export default function Committees() {
                   >
                     <img
                       className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
-                      src="/image/anc-home.jpg"
+                      src="/images/anc-home.jpg"
                       alt="Image Description"
                       loading="lazy"
                     />
