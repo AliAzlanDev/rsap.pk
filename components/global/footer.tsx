@@ -88,8 +88,8 @@ export default function Footer() {
           </ul>
         </div>
         <div className="mt-4 md:mt-0 text-sm">
-          &copy; 2024 Radiological Students&apos; Association of Pakistan. All
-          rights reserved. Developed by{" "}
+          &copy; {new Date().getFullYear()} Radiological Students&apos;
+          Association of Pakistan. All rights reserved. Developed by{" "}
           <a
             target="_blank"
             href="https://aliazlan.me"

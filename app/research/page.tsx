@@ -83,6 +83,62 @@ const data = [
   },
   {
     title:
+      "The 100 Most Influential Papers on Yttrium-90 Transarterial Radioembolization for Primary and Secondary Liver Malignancies: A Bibliometric Analysis",
+    journal: "Journal of Vascular and Interventional Radiology",
+    authors: [
+      "A. Nadeem",
+      "A. Husnain",
+      "H. Ashraf",
+      "M. Sardar",
+      "A. Ahmed",
+      "Z. Nadeem",
+      "M. Serhal",
+      "R. Lewandowski",
+    ],
+    type: "Conference Abstract",
+    date: "March 2025",
+    link: "https://doi.org/10.1016/j.jvir.2024.12.070",
+  },
+  {
+    title:
+      "Microwave Ablation Versus Resection for Colorectal Cancer Liver Metastases: A Systematic Review and Meta-Analysis",
+    journal: "Journal of Vascular and Interventional Radiology",
+    authors: [
+      "A. Nadeem",
+      "A. Husnain",
+      "T. Mirza",
+      "A. Ahmed",
+      "D. Javed",
+      "M. Sardar",
+      "A. Hussain",
+      "S. Almas",
+      "A. Ahmed",
+      "M. Serhal",
+      "R. Lewandowski",
+    ],
+    type: "Conference Abstract",
+    date: "March 2025",
+    link: "https://doi.org/10.1016/j.jvir.2024.12.494",
+  },
+  {
+    title:
+      "T5A-SPIR-9 Efficacy of Uterine Artery Embolization Using Gelatin Sponge Particles for the Treatment of Uterine Leiomyoma - A Systematic Review and Meta-Analysis",
+    journal: "RSNA Annual Meeting",
+    authors: [
+      "Ali Husnain",
+      "Arsalan Nadeem",
+      "Obaid Ur Rehman",
+      "Zain Ali Nadeem",
+      "Eeman Ahmad",
+      "Umar Akram",
+      "Eeshal Fatima",
+    ],
+    type: "Presentation",
+    date: "December 2024",
+    link: "https://www.researchgate.net/publication/386506485_T5A-SPIR-9_EFFICACY_OF_UTERINE_ARTERY_EMBOLIZATION_USING_GELATIN_SPONGE_PARTICLES_FOR_THE_TREATMENT_OF_UTERINE_LEIOMYOMA_-_A_SYSTEMATIC_REVIEW_AND_META-ANALYSIS",
+  },
+  {
+    title:
       "Salvage Stereotactic Radiotherapy for Nodal Oligo-recurrent Prostate Cancer: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
     journal: "Clinical Genitourinary Cancer",
     authors: [

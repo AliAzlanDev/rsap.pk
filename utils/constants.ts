@@ -224,9 +224,9 @@ export const bod = [
     position: "Co-President & Co-Founder",
     image: "/images/bod/arsalan.jpg",
     description: [
-      "Graduate",
-      "Allama Iqbal Medical College",
-      "Lahore, Pakistan",
+      "Postdoctoral Research Fellow",
+      "Department of Interventional Radiology, Northwestern University",
+      "Chicago, USA",
     ],
     slug: "arsalan-nadeem",
     email: "radsapakistan@gmail.com",

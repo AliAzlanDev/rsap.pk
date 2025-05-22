@@ -70,7 +70,7 @@ const NewsItem = ({ news }: Props) => {
               sizes="100%"
               quality={100}
               src={news.data.banner || ""}
-              className="scale-100  overflow-hidden "
+              className="scale-100  overflow-hidden object-cover"
               alt={`${news.data.title} thumbnail`}
             />
           </div>
