@@ -9,7 +9,7 @@ import YoutubeIcon from "@/components/icons/youtube";
 export const metadata = {
   title: "Dr. Islam Elhelf, MD",
   description:
-    "Member of the Board of Advisors of Radiological Students’ Association of Pakistan",
+    "Dr. Islam Elhelf is a renowned interventional radiologist with extensive training and research experience.",
 };
 
 export default async function EducationDrIslamElhelf() {
