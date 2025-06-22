@@ -156,6 +156,12 @@ export const education: IconMenu[] = [
     description: "Educational resources",
     icon: <PersonIcon className="size-3.5" />,
   },
+  {
+    title: "Dr. Islam Elhelf",
+    href: "/education/dr-islam-elhelf",
+    description: "Educational resources",
+    icon: <PersonIcon className="size-3.5" />,
+  },
 ];
 export const research: IconMenu[] = [
   {

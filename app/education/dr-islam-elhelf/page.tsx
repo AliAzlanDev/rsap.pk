@@ -1,31 +1,27 @@
 import XIcon from "@/components/icons/x";
 import { getPlaylist, getVideo } from "@/utils/getVideo";
 import InstagramIcon from "@/components/icons/instagram";
-import LinkedInIcon from "@/components/icons/linkedin";
 import FacebookIcon from "@/components/icons/facebook";
 import { OpenInNewWindowIcon } from "@radix-ui/react-icons";
 import { Button } from "@/components/ui/button";
 import YoutubeIcon from "@/components/icons/youtube";
-import ForbesIcon from "@/components/icons/forbes";
 
 export const metadata = {
-  title: "Dr. Omer A. Awan, MD MPH CIIP",
+  title: "Dr. Islam Elhelf, MD",
   description:
     "Member of the Board of Advisors of Radiological Students’ Association of Pakistan",
 };
 
-export default async function EducationDrOmerAwan() {
-  const data = await getVideo("UCV_WMc6wSrrYvCio1J7VwIg");
+export default async function EducationDrIslamElhelf() {
+  const data = await getVideo("UCLJZAAukMALXKQYfG0SfweA");
   const playlists = {
     playlist1: {
-      id: "PLFqKuvTXsoesCARWn88RYbgD7qvyOtC96",
-      title: "U.S. Match & Residency Tips",
-      thumbnail: "https://i.ytimg.com/vi/Kv7yfZOyLY4/maxresdefault.jpg",
+      id: "PLS6Q3N0exDd_G5KsfyxQFtb5mscxNLLRm",
+      title: "Basics of IR (Arabic)",
     },
     playlist2: {
-      id: "PLFqKuvTXsoevG-050jL0RZ6kDzLr9PjO3",
-      title: "Musculoskeletal Radiology Unknown Case Series",
-      thumbnail: "https://i.ytimg.com/vi/D-ePRsadSVc/maxresdefault.jpg",
+      id: "PLS6Q3N0exDd_4YLK-dOvL24iwCNEEck13",
+      title: "Basics of IR (English)",
     },
   };
   const playlist1 = await getPlaylist(playlists.playlist1.id);
@@ -36,91 +32,50 @@ export default async function EducationDrOmerAwan() {
       <div className="border p-6 flex flex-col-reverse md:flex-row items-center md:items-start justify-between rounded-xl shadow">
         <div>
           <h1 className="text-4xl font-bold mt-8 md:mt-0">
-            Dr. Omer A. Awan, MD MPH CIIP
+            Dr. Islam Elhelf, MD
           </h1>
           <div className="flex gap-4 items-center mt-5">
-            <a href="https://www.youtube.com/@AwanRad" target="_blank">
+            <a href="https://www.youtube.com/@IRPathway" target="_blank">
               <YoutubeIcon className="size-8" />
             </a>
-            <a href={`http://twitter.com/AwanRad`} target="_blank">
+            <a href={`https://x.com/IR_Pathway`} target="_blank">
               <XIcon className="size-7 fill-foreground" />
             </a>
-            <a
-              href="https://www.linkedin.com/in/omer-awan-md-mph-ciip-6243556b/"
-              target="_blank"
-            >
-              <LinkedInIcon className="size-7" />
-            </a>
-            <a href={`http://instagram.com/omerawanmd`} target="_blank">
+            <a href={`https://instagram.com/ir_pathway`} target="_blank">
               <InstagramIcon className="size-8" />
             </a>
-
-            <a
-              href="https://www.facebook.com/profile.php?id=100072542480638"
-              target="_blank"
-            >
+            <a href="https://facebook.com/irpathway" target="_blank">
               <FacebookIcon className="size-8" />
-            </a>
-            <a href="https://www.forbes.com/sites/omerawan/" target="_blank">
-              <ForbesIcon className="h-5 fill-foreground" />
             </a>
           </div>
           <div className="mt-10 ">
             <img
-              src="/images/boa/omer.jpg"
-              alt="Dr. Omer Awan"
+              src="/images/boa/ielhelf.jpg"
+              alt="Dr. Islam Elhelf"
               className="rounded-md size-96  object-cover float-left mr-8 mb-8"
             />
             <div className="prose dark:prose-invert prose-zinc max-w-full">
               <p>
-                Dr. Awan currently serves as a Professor in Diagnostic Radiology
-                and Nuclear Medicine at the University of Maryland School of
-                Medicine. In addition to his professorship, he holds key
-                leadership roles including Vice Chair in Education, Associate
-                Program Director of the Diagnostic Radiology Residency, and
-                Co-Director of the Medical Student Radiology Clerkship. Dr. Awan
-                also contributes as a member of the Teaching Faculty at the
-                Harvard Macy Institute.
-              </p>
-              <p>
-                Beyond his academic and clinical commitments, Dr. Awan is a
-                prolific contributor to public discourse on healthcare and
-                public health. He is a Medical Contributor for the Scripps
-                News&apos; &quot;America Tonight Show,&quot; where he discusses
-                pressing health issues facing America. Additionally, he writes
-                insightful articles as a Healthcare and Public Health Contribute
-                for Forbes.
-              </p>
-              <p>
-                Dr. Awan earned his Medical Doctor (MD) degree from the George
-                Washington University School of Medicine and Health Sciences and
-                a Master in Public Health (MPH) degree from Harvard University.
-                His expertise spans medicine, public health, and medical
-                education. In recognition of his contributions to medical
-                education, PubMed named him a World Expert in Teaching in 2022.
-              </p>
-              <p>
-                Dr. Awan is passionate about using innovative teaching methods
-                to educate both the public and medical students on important
-                healthcare topics. He actively engages with aspiring
-                International Medical Graduates (IMGs) and students through his
-                YouTube channel, &quot;MedEdPage,&quot; where he shares
-                invaluable videos and radiology cases.
-              </p>
-              <p>
-                RSAP is honored to work under the guidance of Dr. Awan, a leader
-                in radiology education and a dedicated advocate for public
-                health. His contributions are invaluable to the advancement of
-                medical knowledge and practice, both in the United States and
-                globally.
+                Dr. Elhelf graduated from Cairo University in Egypt and
+                completed a diagnostic radiology residency in Egypt. He holds
+                master’s and doctoral degrees in diagnostic and interventional
+                radiology form Cairo University. Dr. Elhelf completed a second
+                diagnostic radiology residency and a fellowship in nuclear
+                medicine at University of Iowa Hospitals and Clinics. He also
+                did an interventional radiology fellowship at Harvard Medical
+                School/Beth Israel Deaconess Medical Center in Boston. Dr.
+                Elhelf has extended research experience in the field of high
+                intensity focused ultrasound. He is also interested in
+                interventional oncology, theranostic therapies and nuclear
+                medicine.
               </p>
             </div>
           </div>
         </div>
       </div>
       <h2 className="text-4xl font-semibold mt-16 hover:underline hover:underline-offset-4">
-        <a href="https://www.youtube.com/@AwanRad" target="_blank">
-          Latest Videos from MedEdPage (@AwanRad){" "}
+        <a href="https://www.youtube.com/@IRPathway" target="_blank">
+          Latest Videos from IR Pathway (@IRPathway){" "}
           <OpenInNewWindowIcon className=" inline-flex size-8 " />
         </a>
       </h2>
@@ -139,7 +94,7 @@ export default async function EducationDrOmerAwan() {
           </div>
         ))}
       </div>
-      <a href="https://www.youtube.com/@AwanRad" target="_blank">
+      <a href="https://www.youtube.com/@IRPathway" target="_blank">
         <Button variant="secondary" text="See all videos" />
       </a>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-16">
