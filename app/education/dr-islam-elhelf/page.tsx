@@ -70,18 +70,32 @@ export default async function EducationDrIslamElhelf() {
             />
             <div className="prose dark:prose-invert prose-zinc max-w-full">
               <p>
-                Dr. Elhelf graduated from Cairo University in Egypt and
-                completed a diagnostic radiology residency in Egypt. He holds
-                master’s and doctoral degrees in diagnostic and interventional
-                radiology form Cairo University. Dr. Elhelf completed a second
-                diagnostic radiology residency and a fellowship in nuclear
-                medicine at University of Iowa Hospitals and Clinics. He also
-                did an interventional radiology fellowship at Harvard Medical
-                School/Beth Israel Deaconess Medical Center in Boston. Dr.
-                Elhelf has extended research experience in the field of high
-                intensity focused ultrasound. He is also interested in
-                interventional oncology, theranostic therapies and nuclear
-                medicine.
+                Dr. Islam A. Shehata Elhelf is an Assistant Professor of
+                Radiology and the Program Director of the Interventional
+                Radiology Residency at Augusta University in Georgia, U.S. He is
+                the founder of IR Pathway, a new educational platform designed
+                to offer a step-by-step and engaging approach to mastering
+                Interventional Radiology. Whether you’re new to IR or looking to
+                enhance your skills, IR Pathway provides practical insights,
+                techniques, and strategies to help learners excel.
+              </p>
+              <p>
+                Dr. Elhelf graduated from Cairo University in Egypt, where he
+                completed a diagnostic radiology residency and earned both a
+                master’s and doctoral degree in diagnostic and interventional
+                radiology. He went on to complete a second diagnostic radiology
+                residency and a fellowship in nuclear medicine at the University
+                of Iowa Hospitals and Clinics, followed by an interventional
+                radiology fellowship at Harvard Medical School/Beth Israel
+                Deaconess Medical Center in Boston.
+              </p>
+              <p>
+                His research interests include high-intensity focused
+                ultrasound, interventional oncology, theranostic therapies, and
+                nuclear medicine. Through his clinical expertise and commitment
+                to education, Dr. Elhelf continues to advance the field of
+                interventional radiology and inspire the next generation
+                of IR physicians.
               </p>
             </div>
           </div>
