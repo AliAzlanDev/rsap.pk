@@ -1,6 +1,6 @@
-export async function getVideo(channelId: string) {
+export async function getVideo(channelId: string, maxResults: number = 4) {
   const videos = await fetch(
-    `https://www.googleapis.com/youtube/v3/search?key=${process.env.YOUTUBE_KEY}&channelId=${channelId}&part=snippet,id&order=date&maxResults=4`
+    `https://www.googleapis.com/youtube/v3/search?key=${process.env.YOUTUBE_KEY}&channelId=${channelId}&part=snippet,id&order=date&maxResults=${maxResults}`
   );
   const data: YouTubeSearchListResponse = await videos.json();
   return data;

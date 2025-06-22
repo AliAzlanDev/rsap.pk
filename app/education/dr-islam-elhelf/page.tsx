@@ -5,6 +5,8 @@ import FacebookIcon from "@/components/icons/facebook";
 import { OpenInNewWindowIcon } from "@radix-ui/react-icons";
 import { Button } from "@/components/ui/button";
 import YoutubeIcon from "@/components/icons/youtube";
+import { InfoIcon } from "lucide-react";
+import LinkedInIcon from "@/components/icons/linkedin";
 
 export const metadata = {
   title: "Dr. Islam Elhelf, MD",
@@ -13,7 +15,7 @@ export const metadata = {
 };
 
 export default async function EducationDrIslamElhelf() {
-  const data = await getVideo("UCLJZAAukMALXKQYfG0SfweA");
+  const data = await getVideo("UCLJZAAukMALXKQYfG0SfweA", 6);
   const playlists = {
     playlist1: {
       id: "PLS6Q3N0exDd_G5KsfyxQFtb5mscxNLLRm",
@@ -35,11 +37,23 @@ export default async function EducationDrIslamElhelf() {
             Dr. Islam Elhelf, MD
           </h1>
           <div className="flex gap-4 items-center mt-5">
+            <a
+              href="https://www.augusta.edu/faculty/directory/view.php?id=IELHELF"
+              target="_blank"
+            >
+              <InfoIcon className="size-8 text-rsap" />
+            </a>
             <a href="https://www.youtube.com/@IRPathway" target="_blank">
               <YoutubeIcon className="size-8" />
             </a>
             <a href={`https://x.com/IR_Pathway`} target="_blank">
               <XIcon className="size-7 fill-foreground" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/islam-a-shehata-elhelf-05801a30"
+              target="_blank"
+            >
+              <LinkedInIcon className="size-7" />
             </a>
             <a href={`https://instagram.com/ir_pathway`} target="_blank">
               <InstagramIcon className="size-8" />
@@ -80,19 +94,23 @@ export default async function EducationDrIslamElhelf() {
         </a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 my-7 gap-4 md:grid-cols-4 ">
-        {data.items.map((item) => (
-          <div key={item.id.videoId}>
-            <div className="relative  h-0 w-full pb-[56.25%]">
-              <iframe
-                className="absolute left-0 top-0 h-full w-full"
-                src={`https://www.youtube.com/embed/${item.id.videoId}`}
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              ></iframe>
+        {data.items
+          // Temorarily filter out the 4th and 5th videos
+          // as they cannot be embedded
+          .filter((_, index) => index !== 3 && index !== 4)
+          .map((item) => (
+            <div key={item.id.videoId}>
+              <div className="relative  h-0 w-full pb-[56.25%]">
+                <iframe
+                  className="absolute left-0 top-0 h-full w-full"
+                  src={`https://www.youtube.com/embed/${item.id.videoId}`}
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
       </div>
       <a href="https://www.youtube.com/@IRPathway" target="_blank">
         <Button variant="secondary" text="See all videos" />

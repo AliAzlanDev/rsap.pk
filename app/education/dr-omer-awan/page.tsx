@@ -7,6 +7,7 @@ import { OpenInNewWindowIcon } from "@radix-ui/react-icons";
 import { Button } from "@/components/ui/button";
 import YoutubeIcon from "@/components/icons/youtube";
 import ForbesIcon from "@/components/icons/forbes";
+import { InfoIcon } from "lucide-react";
 
 export const metadata = {
   title: "Dr. Omer A. Awan, MD MPH CIIP",
@@ -39,6 +40,12 @@ export default async function EducationDrOmerAwan() {
             Dr. Omer A. Awan, MD MPH CIIP
           </h1>
           <div className="flex gap-4 items-center mt-5">
+            <a
+              href="https://www.medschool.umaryland.edu/profiles/awan-omer/"
+              target="_blank"
+            >
+              <InfoIcon className="size-8 text-rsap" />
+            </a>
             <a href="https://www.youtube.com/@AwanRad" target="_blank">
               <YoutubeIcon className="size-8" />
             </a>
