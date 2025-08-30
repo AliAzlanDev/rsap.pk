@@ -83,6 +83,25 @@ const data = [
   },
   {
     title:
+      "Percutaneous cholecystolithotomy and lithotripsy for managing acute calculous cholecystitis in non-surgical candidates: a systematic review and meta-analysis",
+    journal: "Clinical Endoscopy",
+    authors: [
+      "Arsalan Nadeem",
+      "Ali Husnain",
+      "Aleena Ahmed",
+      "Haider Ashfaq",
+      "Hamza Ashraf",
+      "Zain Ali Nadeem",
+      "Khawaja Abdul Rehman",
+      "Shahroze Ahmad",
+      "Muhammad Rafay Shahzad Cheema",
+    ],
+    type: "Meta-analysis",
+    date: "August 27, 2025",
+    link: "https://doi.org/10.5946/ce.2024.256",
+  },
+  {
+    title:
       "The 100 Most Influential Papers on Yttrium-90 Transarterial Radioembolization for Primary and Secondary Liver Malignancies: A Bibliometric Analysis",
     journal: "Journal of Vascular and Interventional Radiology",
     authors: [
