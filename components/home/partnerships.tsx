@@ -36,8 +36,7 @@ const partnershipsList = [
 
 export default function Partnerships() {
   return (
-    <section className="py-16 md:py-20 relative">
-      <LinearGradient direction="top" transitionPoint="40%" />
+    <section className="py-16 md:py-20 relative border-t border-b mb-10">
       <div className="container-x">
         <div className="text-center mb-12">
           <p className="text-sm font-semibold text-primary mb-3 uppercase tracking-widest">
