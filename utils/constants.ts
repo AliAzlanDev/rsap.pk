@@ -270,7 +270,7 @@ export const bod = [
     email: 'dprc.radsapakistan@gmail.com',
   },
   {
-    name: 'Dawood Javed',
+    name: 'Dr. Dawood Javed',
     position: 'Director for Human Resources',
     image: '/images/bod/placeholder.jpg',
     description: [
@@ -282,7 +282,7 @@ export const bod = [
     email: 'dhr.radsapakistan@gmail.com',
   },
   {
-    name: 'Talha Iqbal',
+    name: 'Dr. Talha Iqbal',
     position: 'Liaison for Research & Publications',
     image: '/images/bod/placeholder.jpg',
     description: ['Graduate', 'Khyber Medical College', 'Peshawar, Pakistan'],
@@ -297,7 +297,7 @@ export const bod = [
     email: 'lan.radsapakistan@gmail.com',
   },
   {
-    name: 'Shahroze Ahmed',
+    name: 'Dr. Shahroze Ahmed',
     position: 'Liaison for Mentorship & Education',
     image: '/images/bod/placeholder.jpg',
     description: [

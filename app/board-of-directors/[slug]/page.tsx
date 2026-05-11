@@ -65,7 +65,7 @@ interface BodMember extends Omit<(typeof bod)[number], 'slug'> {
 export function generateStaticParams(): Param[] {
   const bodWithSlug: BodMember[] = bod.filter(
     (member) => member.slug !== undefined,
-  )
+  ) as BodMember[]
   return bodWithSlug.map((member) => ({
     slug: member.slug,
   }))
