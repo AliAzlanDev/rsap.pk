@@ -83,21 +83,12 @@ const data = [
   },
   {
     title:
-      'Abstract No. 566 Interventional Radiology in Multidisciplinary Liver Oncology Clinics: Evaluating Growth and Specialist Involvement',
+      'Abstract No. 620 Disparities in State-Level Utilization of Inferior Vena Cava Filters Among Medicare Part B Beneficiaries from 2013 to 2023',
     journal: 'Journal of Vascular and Interventional Radiology',
-    authors: ['Arsalan Nadeem', 'Saad Abuzahra', 'Laura Kulik', 'et al.'],
+    authors: ['Talha Iqbal', 'Arsalan Nadeem', 'Ali Husnain', 'et al.'],
     type: 'Article',
     date: '2026-04',
-    link: 'https://doi.org/10.1016/j.jvir.2026.108474',
-  },
-  {
-    title:
-      'Abstract No. 597 Trends in the State-Level Utilization of Percutaneous Kyphoplasty Among Medicare Part B Beneficiaries from 2015 to 2023',
-    journal: 'Journal of Vascular and Interventional Radiology',
-    authors: ['Talha Iqbal', 'Arsalan Nadeem', 'S. Ayaz', 'et al.'],
-    type: 'Article',
-    date: '2026-04',
-    link: 'https://doi.org/10.1016/j.jvir.2026.108505',
+    link: 'https://doi.org/10.1016/j.jvir.2026.108528',
   },
   {
     title:
@@ -110,12 +101,12 @@ const data = [
   },
   {
     title:
-      'Abstract No. 563 Trends in the Utilization of Transarterial Radioembolization in Medicare Part B Beneficiaries from 2007 to 2023',
+      'Abstract No. 597 Trends in the State-Level Utilization of Percutaneous Kyphoplasty Among Medicare Part B Beneficiaries from 2015 to 2023',
     journal: 'Journal of Vascular and Interventional Radiology',
-    authors: ['Arsalan Nadeem', 'Talha Iqbal', 'S. Ayaz', 'et al.'],
+    authors: ['Talha Iqbal', 'Arsalan Nadeem', 'S. Ayaz', 'et al.'],
     type: 'Article',
     date: '2026-04',
-    link: 'https://doi.org/10.1016/j.jvir.2026.108471',
+    link: 'https://doi.org/10.1016/j.jvir.2026.108505',
   },
   {
     title:
@@ -128,21 +119,21 @@ const data = [
   },
   {
     title:
-      'Abstract No. 620 Disparities in State-Level Utilization of Inferior Vena Cava Filters Among Medicare Part B Beneficiaries from 2013 to 2023',
-    journal: 'Journal of Vascular and Interventional Radiology',
-    authors: ['Talha Iqbal', 'Arsalan Nadeem', 'Ali Husnain', 'et al.'],
-    type: 'Article',
-    date: '2026-04',
-    link: 'https://doi.org/10.1016/j.jvir.2026.108528',
-  },
-  {
-    title:
       'Abstract No. 575 State-Level Trends and Disparities in Transarterial Radioembolization Utilization by Medicare Part B Beneficiaries from 2013 to 2023',
     journal: 'Journal of Vascular and Interventional Radiology',
     authors: ['Arsalan Nadeem', 'Talha Iqbal', 'Dawood Javed', 'et al.'],
     type: 'Article',
     date: '2026-04',
     link: 'https://doi.org/10.1016/j.jvir.2026.108483',
+  },
+  {
+    title:
+      'Abstract No. 563 Trends in the Utilization of Transarterial Radioembolization in Medicare Part B Beneficiaries from 2007 to 2023',
+    journal: 'Journal of Vascular and Interventional Radiology',
+    authors: ['Arsalan Nadeem', 'Talha Iqbal', 'S. Ayaz', 'et al.'],
+    type: 'Article',
+    date: '2026-04',
+    link: 'https://doi.org/10.1016/j.jvir.2026.108471',
   },
   {
     title:
@@ -174,12 +165,12 @@ const data = [
   },
   {
     title:
-      'Abstract No. 293 Augmented and Virtual Reality for Preprocedural Planning in Vascular Interventional Radiology: A Prospective Pilot Study',
+      'Abstract No. 343 Insights from the FDA MAUDE Database on Device- and Patient-Related Adverse Events in the Use of the AngioDynamics NanoKnife System for Irreversible Electroporation',
     journal: 'Journal of Vascular and Interventional Radiology',
-    authors: ['Andrew Gordon', 'Saad Abuzahra', 'Arsalan Nadeem', 'et al.'],
+    authors: ['Arsalan Nadeem', 'Talha Iqbal', 'Ayefa Naveed Klair', 'et al.'],
     type: 'Conference Paper',
     date: '2026-03',
-    link: 'https://doi.org/10.1016/j.jvir.2026.108320',
+    link: 'https://doi.org/10.1016/j.jvir.2026.108373',
   },
   {
     title:
@@ -192,12 +183,12 @@ const data = [
   },
   {
     title:
-      'Abstract No. 157 Adverse Events and Device Failure Modes in Basivertebral Nerve Ablation Devices: A MAUDE Database Study',
+      'Abstract No. 225 Insights from the FDA MAUDE Database on Adverse Events Related to the Use of Stent Retriever Mechanical Thrombectomy Devices for Acute Ischemic Stroke',
     journal: 'Journal of Vascular and Interventional Radiology',
-    authors: ['Arsalan Nadeem', 'Talha Iqbal', 'Ayefa Naveed Klair', 'et al.'],
+    authors: ['Talha Iqbal', 'Arsalan Nadeem', 'Ayefa Naveed Klair', 'et al.'],
     type: 'Conference Paper',
     date: '2026-03',
-    link: 'https://doi.org/10.1016/j.jvir.2026.108173',
+    link: 'https://doi.org/10.1016/j.jvir.2026.108245',
   },
   {
     title:
@@ -210,30 +201,21 @@ const data = [
   },
   {
     title:
-      'Abstract No. 255 Baseline Hemoglobin Predicts Oncologic Outcomes in Intrahepatic Cholangiocarcinoma Treated with Yttrium-90 Radioembolization',
-    journal: 'Journal of Vascular and Interventional Radiology',
-    authors: ['Andrew Gordon', 'Saad Abuzahra', 'Muhamad Serhal', 'et al.'],
-    type: 'Conference Paper',
-    date: '2026-03',
-    link: 'https://doi.org/10.1016/j.jvir.2026.108278',
-  },
-  {
-    title:
-      'Abstract No. 225 Insights from the FDA MAUDE Database on Adverse Events Related to the Use of Stent Retriever Mechanical Thrombectomy Devices for Acute Ischemic Stroke',
-    journal: 'Journal of Vascular and Interventional Radiology',
-    authors: ['Talha Iqbal', 'Arsalan Nadeem', 'Ayefa Naveed Klair', 'et al.'],
-    type: 'Conference Paper',
-    date: '2026-03',
-    link: 'https://doi.org/10.1016/j.jvir.2026.108245',
-  },
-  {
-    title:
-      'Abstract No. 343 Insights from the FDA MAUDE Database on Device- and Patient-Related Adverse Events in the Use of the AngioDynamics NanoKnife System for Irreversible Electroporation',
+      'Abstract No. 157 Adverse Events and Device Failure Modes in Basivertebral Nerve Ablation Devices: A MAUDE Database Study',
     journal: 'Journal of Vascular and Interventional Radiology',
     authors: ['Arsalan Nadeem', 'Talha Iqbal', 'Ayefa Naveed Klair', 'et al.'],
     type: 'Conference Paper',
     date: '2026-03',
-    link: 'https://doi.org/10.1016/j.jvir.2026.108373',
+    link: 'https://doi.org/10.1016/j.jvir.2026.108173',
+  },
+  {
+    title:
+      'Abstract No. 133 Insights from the FDA MAUDE Database on the Adverse Events Related to the Use of Histotripsy Device for Liver Cancer',
+    journal: 'Journal of Vascular and Interventional Radiology',
+    authors: ['Talha Iqbal', 'Arsalan Nadeem', 'Shawal Ayaz', 'et al.'],
+    type: 'Conference Paper',
+    date: '2026-03',
+    link: 'https://doi.org/10.1016/j.jvir.2026.108147',
   },
   {
     title:
@@ -246,12 +228,39 @@ const data = [
   },
   {
     title:
-      'Abstract No. 133 Insights from the FDA MAUDE Database on the Adverse Events Related to the Use of Histotripsy Device for Liver Cancer',
+      'Abstract No. 44 Oncologic and Functional Outcomes Following MRI-Guided Transurethral Ultrasound Ablation for Localized Prostate Cancer: A Systematic Review and Meta-Analysis',
     journal: 'Journal of Vascular and Interventional Radiology',
-    authors: ['Talha Iqbal', 'Arsalan Nadeem', 'Shawal Ayaz', 'et al.'],
-    type: 'Conference Paper',
-    date: '2026-03',
-    link: 'https://doi.org/10.1016/j.jvir.2026.108147',
+    authors: ['A. Nadeem', 'D. Javed', 'T. Iqbal', 'et al.'],
+    type: 'Conference Abstract',
+    date: '2026-04',
+    link: 'https://doi.org/10.1016/j.jvir.2026.108051',
+  },
+  {
+    title:
+      'Abstract No. 32 Microwave Ablation Versus Laparoscopic Partial Nephrectomy for Localized Renal Cell Carcinoma: A Systematic Review and Meta-Analysis',
+    journal: 'Journal of Vascular and Interventional Radiology',
+    authors: ['A. Nadeem', 'D. Javed', 'T. Iqbal', 'et al.'],
+    type: 'Conference Abstract',
+    date: '2026-04',
+    link: 'https://doi.org/10.1016/j.jvir.2026.108038',
+  },
+  {
+    title:
+      'Abstract No. 31 FEATURED ABSTRACT Thermal Ablation Versus Partial Nephrectomy for Localized Malignant Renal Cell Carcinoma in Older Adults: A SEER Database Propensity Score-Matched Analysis',
+    journal: 'Journal of Vascular and Interventional Radiology',
+    authors: ['A. Nadeem', 'T. Iqbal', 'A. Husnain', 'et al.'],
+    type: 'Featured Conference Abstract',
+    date: '2026-04',
+    link: 'https://doi.org/10.1016/j.jvir.2026.108037',
+  },
+  {
+    title:
+      'Abstract No. 18 Comparative Survival Outcomes of Radioisotopes Plus Chemotherapy, Radiofrequency Ablation Plus Chemotherapy, and Resection in Localized Intrahepatic Cholangiocarcinoma: A SEER Database Study',
+    journal: 'Journal of Vascular and Interventional Radiology',
+    authors: ['A. Nadeem', 'T. Iqbal', 'S. Abu Zahra', 'et al.'],
+    type: 'Conference Abstract',
+    date: '2026-04',
+    link: 'https://doi.org/10.1016/j.jvir.2026.108022',
   },
   {
     title:

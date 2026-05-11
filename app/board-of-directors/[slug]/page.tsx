@@ -1,63 +1,72 @@
-import { bod } from "@/utils/constants";
-import { createMetadata } from "@/utils/create-metadata";
-import { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { bod } from '@/utils/constants'
+import { createMetadata } from '@/utils/create-metadata'
+import { Metadata } from 'next'
+import { notFound } from 'next/navigation'
 
 export default function BoardOfDirector({
   params,
 }: {
   params: {
-    slug: string;
-  };
+    slug: string
+  }
 }) {
-  const bodMember = bod.find((member) => member.slug === params.slug);
+  const bodMember = bod.find((member) => member.slug === params.slug)
   if (!bodMember) {
-    notFound();
+    notFound()
   }
   return (
-    <div className=" py-20 container-x flex flex-col-reverse md:flex-row gap-8 justify-between items-center md:items-start">
+    <div className=' py-20 container-x flex flex-col-reverse md:flex-row gap-8 justify-between items-center md:items-start'>
       <div>
-        <h1 className="text-3xl font-bold">{bodMember.name}</h1>
-        <p className="mt-1 font-medium">{bodMember.position}</p>
-        <p className="mt-1 text-muted-foreground text-sm">
+        <h1 className='text-3xl font-bold'>{bodMember.name}</h1>
+        <p className='mt-1 font-medium'>{bodMember.position}</p>
+        <p className='mt-1 text-muted-foreground text-sm'>
           {bodMember.description.map((item, index) => (
-            <span key={index} className="block">
+            <span key={index} className='block'>
               {item}
             </span>
           ))}
         </p>
-        <div className="mt-10 prose dark:prose-invert prose-zinc">
-          {bodMember.bio.map((item, index) => (
-            <p key={index}>{item}</p>
-          ))}
-        </div>
+        {bodMember.bio && (
+          <div className='mt-10 prose dark:prose-invert prose-zinc'>
+            {bodMember.bio.map((item, index) => (
+              <p key={index}>{item}</p>
+            ))}
+          </div>
+        )}
       </div>
       <img
-        className=" max-w-md rounded-xl shadow-lg flex-shrink-0 object-cover size-96 ring-4 ring-muted"
+        className=' max-w-md rounded-xl shadow-lg flex-shrink-0 object-cover size-96 ring-4 ring-muted'
         src={bodMember.image}
         alt={bodMember.name}
       />
     </div>
-  );
+  )
 }
 
 export function generateMetadata({ params }: { params: Param }): Metadata {
-  const page = bod.find((member) => member.slug === params.slug);
+  const page = bod.find((member) => member.slug === params.slug)
 
-  if (!page) notFound();
+  if (!page) notFound()
 
   return createMetadata({
     title: `${page.name} - Board of Directors`,
     description: `Member of the Board of Directors of Radiological Students’ Association of Pakistan`,
-  });
+  })
 }
 
 interface Param {
-  slug: string;
+  slug: string
+}
+
+interface BodMember extends Omit<(typeof bod)[number], 'slug'> {
+  slug: string
 }
 
 export function generateStaticParams(): Param[] {
-  return bod.map((member) => ({
+  const bodWithSlug: BodMember[] = bod.filter(
+    (member) => member.slug !== undefined,
+  )
+  return bodWithSlug.map((member) => ({
     slug: member.slug,
-  }));
+  }))
 }
